@@ -40604,5 +40604,1780 @@
     "author": "Wyclef Jean",
     "authorId": "UC0YEe09RyRkDPpEwkGbuHaA",
     "thumbnailId": "QPso0kgOtjW5HXEvOs7o52Noa95-zzsStj-6_sIsN1PC7cqFQwECCM8scRPlpx4NUHWlGXVNmjc1_BBp"
+  },
+  "o36k8upu3Ks": {
+    "id": "o36k8upu3Ks",
+    "title": "What's This? (From \"The Nightmare Before Christmas\")",
+    "isSong": true,
+    "duration": 0,
+    "durationStr": "",
+    "thumbnailId": "o36k8upu3Ks",
+    "author": "",
+    "authorId": null
+  },
+  "o0bC__O3zsQ": {
+    "id": "o0bC__O3zsQ",
+    "title": "BABY GANGSTA - From THE FIRST TAKE (feat. Yu Seki & Kazuki Arai)",
+    "isSong": true,
+    "duration": 183,
+    "durationStr": "3:03",
+    "author": "CA7RIEL, Paco Amoroso",
+    "authorId": "UCHIfHsrbJ77FaQWx-oLAI1Q",
+    "thumbnailId": "MAFUfAfVuwjFK1nvrF6dcCBUAvpUunGwKOAnKUBo_R4fg6Zn-Gg7DKhMqmbpxD5Wj38-tWsLz93IDrdl"
+  },
+  "oSvZUbAziOc": {
+    "id": "oSvZUbAziOc",
+    "title": "Little Feet",
+    "isSong": true,
+    "duration": 514,
+    "durationStr": "8:34",
+    "author": "Apparat",
+    "authorId": "UCCcw3knHXYtjMLrJ0V_KHKA",
+    "thumbnailId": "eNiAsG8NyzqOI25EtwVp3VYoQmLWxKr0zCv1vffmJBuswDZkDQuLuk0HgkFFywZu2LfN2ObR3yyN-Z4"
+  },
+  "oMB82GnyiuQ": {
+    "id": "oMB82GnyiuQ",
+    "title": "Energy",
+    "isSong": false,
+    "duration": 274,
+    "durationStr": "4:34",
+    "author": "Sara Landry, Ali James",
+    "authorId": "UC4c7e7nx3A50HCXwcVG-9VQ"
+  },
+  "omApz_V4JEU": {
+    "id": "omApz_V4JEU",
+    "title": "Mechatok & Robyn - Expression On Your Face (feat. Ecco2k & Bladee) (Robyn Remix)",
+    "isSong": false,
+    "duration": 218,
+    "durationStr": "3:38",
+    "author": "mechatok",
+    "authorId": "UCAYxtcwqI6P7h22rA49Mzaw"
+  },
+  "o7zX1YZ-4yA": {
+    "id": "o7zX1YZ-4yA",
+    "title": "Asmahan",
+    "isSong": true,
+    "duration": 201,
+    "durationStr": "3:21",
+    "author": "Francis Mercier",
+    "authorId": "UCitWOpLO-xKhp5d_i2qQsug",
+    "thumbnailId": "66JXOeemMeAGacAzY5acUxzBccICWUVRPSZc6gWweYS2YRKmD-0UtYXtW2oXlfVzye47R17rwn4nAcU"
+  },
+  "oKrl-c7NurM": {
+    "id": "oKrl-c7NurM",
+    "title": "Foxtrot Oscar (Silencer Remix)",
+    "isSong": true,
+    "duration": 168,
+    "durationStr": "2:48",
+    "author": "Dizzee Rascal, Silencer",
+    "authorId": "UCGl5-H63jcdUPVL7g-4agAg",
+    "thumbnailId": "Lcf3SU_WCh1aZgaQk-ppGJzweHtCZtgvFpkweWwd4vrRltegCoxtqnCop9g8jjjGqtDjta-y2OZ6FOc"
+  },
+  "ox2XQlP21V0": {
+    "id": "ox2XQlP21V0",
+    "title": "Trust (Laidlaw Remix)",
+    "isSong": true,
+    "duration": 286,
+    "durationStr": "4:46",
+    "author": "Clementine Douglas",
+    "authorId": "UCjVKSHMHSKPkjz7XWrMVR2w",
+    "thumbnailId": "FXuDt2zp7zNsPpT81ci6Lraew3pip3lBeh9M53r1rrn3rTMEVKLZqaiJpK2QpM8bDzWUmRq6CONqS0K8xA"
+  },
+  "o9nQw6ws0w8": {
+    "id": "o9nQw6ws0w8",
+    "title": "Kingdom Come",
+    "isSong": true,
+    "duration": 159,
+    "durationStr": "2:39",
+    "author": "Madism, Cuebrick, Manuals, Jaimes",
+    "authorId": "UCfXTOu7lQ45kP76ZSrPwbtg",
+    "thumbnailId": "braa887Mvy_Xj4CnL4Jwu_HlLMiBL1mZC2nmMVWUSWVl1MrcSGeteXUQLetJQ_ZZJXRlKbpXzJ_czb55"
+  },
+  "oBvWCWTyC8M": {
+    "id": "oBvWCWTyC8M",
+    "title": "A Picture Diary",
+    "isSong": true,
+    "duration": 141,
+    "durationStr": "2:21",
+    "author": "정지은",
+    "authorId": "UCsHrWkpqMJ6rQo9KQtgVdjg",
+    "thumbnailId": "-OUTfC-hKyPIfe0wPJ4SeEToYW8Vr3sVQWoOGytb5wTu6XUcfe-F09Hunk0LYxVL35VyupUbjn6mF_pOaw"
+  },
+  "o0UnEeQl7ZQ": {
+    "id": "o0UnEeQl7ZQ",
+    "title": "Still Bright",
+    "isSong": true,
+    "duration": 310,
+    "durationStr": "5:10",
+    "author": "WIZ",
+    "authorId": "UCTSEXZbctTGYR6P-3jVgJvg",
+    "thumbnailId": "tQRXES1kU__68M852nT2-cvkja_x8fG4vU16fSLQDZJnmfCYJoS4CnK9DMdb-yWeBWLxwkpvRmyZZNA"
+  },
+  "ok9QDOgq_g8": {
+    "id": "ok9QDOgq_g8",
+    "title": "Juste un peu (Remix)",
+    "isSong": true,
+    "duration": 170,
+    "durationStr": "2:50",
+    "author": "Jungeli, EMMA, Calema",
+    "authorId": "UCJ7ZdTmXe9iyPNmyxGtPX9Q",
+    "thumbnailId": "oWJ_EryZjczO1orFEdOoh_z5mt38So-6IjWhgf_fJdQSuuE-G-SfJ64rphxvNatX76cdbTCQ51uI5SgW2A"
+  },
+  "otAZ3ZwR008": {
+    "id": "otAZ3ZwR008",
+    "title": "Bad Intentions",
+    "isSong": true,
+    "duration": 254,
+    "durationStr": "4:14",
+    "author": "Document One",
+    "authorId": "UCjgRcjpyfots-QO5rWlSVsQ",
+    "thumbnailId": "S5gxP4M7oe45YBWbH6pwBhJGsn-nCsqyt2NZ2nJ-h3RtsLpeTO7pAoKvqivnKetkXRrHh42uZuqE2LxL"
+  },
+  "o76SbuJBwNY": {
+    "id": "o76SbuJBwNY",
+    "title": "体温 - Taion",
+    "isSong": false,
+    "duration": 266,
+    "durationStr": "4:26",
+    "author": "HINONABE",
+    "authorId": "UC3edUstO-b8rqPptdl0d7vA"
+  },
+  "oeUhCv03dD4": {
+    "id": "oeUhCv03dD4",
+    "title": "Nelangsa",
+    "isSong": true,
+    "duration": 347,
+    "durationStr": "5:47",
+    "author": "Skastra, Adya Nadira",
+    "authorId": "UCputtgzklBIYF-Z3Hy4rRNg",
+    "thumbnailId": "q1pTb75h3jLmQOf1tS_RkfPobOqNqVZTcFu7MI2kwEoTvQJi28dsCxSQfVUs3KJMm9-J_X123sk44pyJ"
+  },
+  "ojN3uIQJR0Y": {
+    "id": "ojN3uIQJR0Y",
+    "title": "Romeo",
+    "isSong": true,
+    "duration": 395,
+    "durationStr": "6:35",
+    "author": "Lucky Dube",
+    "authorId": "UC95Aux-yTr5KxOk5G0ELpxA",
+    "thumbnailId": "zOrP2MLFsauGH_vtMiqotLMJa_2OxV-zjha4w4ZBx-9UtOrYuMBe-kdUuhFO0k7T3axDejYzyIkvrSKe"
+  },
+  "os9uI5kl0II": {
+    "id": "os9uI5kl0II",
+    "title": "Groovin My Girl",
+    "isSong": true,
+    "duration": 230,
+    "durationStr": "3:50",
+    "author": "Richie Spice",
+    "authorId": "UCA4DpUL-ZPLaGm80g401WiQ",
+    "thumbnailId": "lnwg4vQCwk97f17X9TSXT5xpdigq-UGkQ3w8zUhGdXOfG3uJanxPNHL4FwiGSlNrcg2v-aNw_b76pHfzrQ"
+  },
+  "o4MYox2peAA": {
+    "id": "o4MYox2peAA",
+    "title": "1234 1234",
+    "isSong": true,
+    "duration": 430,
+    "durationStr": "7:10",
+    "author": "Catch 22",
+    "authorId": "UC68nP5xDVCcXpp6EwijQ88Q",
+    "thumbnailId": "jhURy0zgiDABCpo-Y3BPEvYinF7M_lfxfZ-zRfp2BZ_cqAndWrf3RZQDf21cPI1mjFJGtbbkEw57-pmg"
+  },
+  "oWhUA8lF6Qs": {
+    "id": "oWhUA8lF6Qs",
+    "title": "The Rest of My Life",
+    "isSong": true,
+    "duration": 214,
+    "durationStr": "3:34",
+    "author": "Less Than Jake",
+    "authorId": "UCEbDEIgU9q5kzhE3rZtnFNQ",
+    "thumbnailId": "UNcuifvV1IHdltFAKAHUTowyzqBnUq6umxFjVJu2UAIHcLTTHzPyh06k73P2Ix8EOxHcn_lcx7Id_I_Z"
+  },
+  "oPQ0fRhvUlo": {
+    "id": "oPQ0fRhvUlo",
+    "title": "Let Me In",
+    "isSong": true,
+    "duration": 153,
+    "durationStr": "2:33",
+    "author": "Tarrus Riley",
+    "authorId": "UCKn7aLwLWy-f53Db-puHVcg",
+    "thumbnailId": "ekcDs5FgkAycJdUWTCv6pf-5WuSIXCf8rg_Ci8zNYubCI4D8nTC1UDHS5XdPFXk5AW9oYSLIcplRybASRg"
+  },
+  "o87VpcLaS-0": {
+    "id": "o87VpcLaS-0",
+    "title": "Limitless!【テレ東系列「おはスタ」2026 テーマソング】 (2026年度おはキッズver.)",
+    "isSong": true,
+    "duration": 251,
+    "durationStr": "4:11",
+    "author": "おはキッズ",
+    "authorId": "UCCKlWt5xssLYcthHercALQg",
+    "thumbnailId": "2JZw8mypRZW6AeH1_m6Q0oHydDRE3oM6mr82wlR4SH0zxJWIKgQ-jDLFq8gqXwEMjnqI_-8yY9yrIATA"
+  },
+  "o3cirdEqGB8": {
+    "id": "o3cirdEqGB8",
+    "title": "Happy",
+    "isSong": true,
+    "duration": 124,
+    "durationStr": "2:04",
+    "author": "Imagination Movers",
+    "authorId": "UC3v0dNz5uZjPOBjyLhuStaw",
+    "thumbnailId": "pqzMSb8a1YS0Z8YkMyQlo-gSmee0XLb_gu0vcI27boYPdh1Kn61E-LRMx8PVE7osTWrfGaGnWzKmgrk"
+  },
+  "oIixtneEkfY": {
+    "id": "oIixtneEkfY",
+    "title": "Bath Time Music for Babies",
+    "isSong": true,
+    "duration": 226,
+    "durationStr": "3:46",
+    "author": "Relaxing Music for Bath Time",
+    "authorId": "UCw7hHqf4HdndoNB6U-73dMw",
+    "thumbnailId": "0zztExAUwKBCaYYdvyw22-RFnB6yDucwRTs9h2Jq-b1EGo-JtoEt1aj32gL4ii20VjXicEPrnvN6LLq-"
+  },
+  "okAy9kfU11w": {
+    "id": "okAy9kfU11w",
+    "title": "Make New Friends",
+    "isSong": true,
+    "duration": 185,
+    "durationStr": "3:05",
+    "author": "The Learning Station",
+    "authorId": "UCbUNNBbS-lO_fjMxcZUS5zQ",
+    "thumbnailId": "cuSmYRrry8GzEdE-T4W2FTX6-6bssqIJO_tlEWQ8swg8CvXnx5_QeF6INvuNiOcjp0GRrNkqaOr87ug"
+  },
+  "o0vUppC58V8": {
+    "id": "o0vUppC58V8",
+    "title": "And She Was (2005 Remaster)",
+    "isSong": true,
+    "duration": 219,
+    "durationStr": "3:39",
+    "author": "Talking Heads",
+    "authorId": "UCCmr_pJ7az1JfWUiujsiHWg",
+    "thumbnailId": "DOqs_HneS42lFJnCqGxCIElXm9pCCbtjNgWt9eu5cW_C365lJ69t7--xpfln3-v2Y-CrRoobHsdLb7qoUA"
+  },
+  "oPIfoHt2nCY": {
+    "id": "oPIfoHt2nCY",
+    "title": "Hot Potato",
+    "isSong": true,
+    "duration": 75,
+    "durationStr": "1:15",
+    "author": "ABC Kids",
+    "authorId": "UCKebM2pmFJsOINMOY-Cnquw",
+    "thumbnailId": "tCHrUVU328l0HV7csFeKYjkKC5MimnL9cFw-F3dcJ-AruBgBqrXygC1HvGxxNp6LHlDjyikkErXkLpqmjw"
+  },
+  "oWnq9HEMarw": {
+    "id": "oWnq9HEMarw",
+    "title": "날 찾아서 (Far)",
+    "isSong": true,
+    "duration": 208,
+    "durationStr": "3:28",
+    "author": "YooA",
+    "authorId": "UCYDSvrBPI2CPpFJjn4CSWGA",
+    "thumbnailId": "Y2TOkJAFUrw1sJB8Hk01Q-Yhm5T2Jy9ekQHYsREVtiUjLFD46M5cx0EEI8bPR-AA5ZRjuOcdhL_NJg4"
+  },
+  "oFyGPanFIKc": {
+    "id": "oFyGPanFIKc",
+    "title": "잠깐만 Hold On",
+    "isSong": true,
+    "duration": 186,
+    "durationStr": "3:06",
+    "author": "아이오아이 (I.O.I)",
+    "authorId": "UCXYVQ1uTq-KQbPk6IQlXHnA",
+    "thumbnailId": "G1kgxtu2CY7CesZZq5r1wmggptBpc5E06IqxxZOY40UEDIMS8DP9_cEs205dc5ZQ_RFEanCMcbQ0m_8X"
+  },
+  "ojw97P9dzUE": {
+    "id": "ojw97P9dzUE",
+    "title": "It's you again",
+    "isSong": true,
+    "duration": 190,
+    "durationStr": "3:10",
+    "author": "laonpill",
+    "authorId": "UC1KYFBudNFAXakRYjQ-iCGg",
+    "thumbnailId": "DPit6IjlX5bEWUoGdqD6Y8BFmCbwP4qfx-BKY5T0cFIF6wf9wNd9izu-niYuMllyZcOsoNJ5CurkofpL"
+  },
+  "omgmCiMjNug": {
+    "id": "omgmCiMjNug",
+    "title": "Change",
+    "isSong": true,
+    "duration": 205,
+    "durationStr": "3:25",
+    "author": "i-dle",
+    "authorId": "UCWT2ZfW7d8YI-HinHEVhyCA",
+    "thumbnailId": "mv2cTT-W75n3P_cx41TiVQ0hXDrs-3MC84f4CdjTeKtSQBFs94f5aeN0RKPEjoSYoUbjjMc1nlI8dfPT"
+  },
+  "o-oSiTyysqI": {
+    "id": "o-oSiTyysqI",
+    "title": "Magic Island",
+    "isSong": true,
+    "duration": 194,
+    "durationStr": "3:14",
+    "author": "TOMORROW X TOGETHER",
+    "authorId": "UCdeb5b3bAxn1OXXFFeuCaHg",
+    "thumbnailId": "hRGaD7v5Wo6lofhOAc6y2R7bm_OO9zR2sZs0L4sl2-Gg_YTDsONNC5GK7NQfNq_IBEin1wuS5UVdZQI"
+  },
+  "oNjbLgkVM5A": {
+    "id": "oNjbLgkVM5A",
+    "title": "프락치 Fraktsiya (feat. LEE YOUNG JI)",
+    "isSong": true,
+    "duration": 193,
+    "durationStr": "3:13",
+    "author": "MARK",
+    "authorId": "UCnW0LS_9_YXjyteelz5kWzA",
+    "thumbnailId": "yhUZj3X93WsQ_mlXWZigCPYWiBLT6Cwmu_Zzf7ERX43b25Wf8ei0RfC3h2VMpk5MxVmMqWyVOsWg1cY"
+  },
+  "oCnDZbdKg6k": {
+    "id": "oCnDZbdKg6k",
+    "title": "Don't Say No",
+    "isSong": true,
+    "duration": 194,
+    "durationStr": "3:14",
+    "author": "SEOHYUN",
+    "authorId": "UCod8XS1t8Y9JADHv0AWDMLw",
+    "thumbnailId": "xvR44Xef7e6ny0WS_vNB2cUm2swwvUbzfUU3eBOllHAT5NSw9--SdoGjCmdllFM3e0XmIBKlbdQoVofXBQ"
+  },
+  "obv20COzxYE": {
+    "id": "obv20COzxYE",
+    "title": "The Waves",
+    "isSong": true,
+    "duration": 279,
+    "durationStr": "4:39",
+    "author": "Gabríel Ólafs",
+    "authorId": "UCXTSUGIdwVI8TIYaiQUuPMA",
+    "thumbnailId": "CK4Aor4ICZMJLdMzXPVPFVLM_MiTn-T0PeshQTr5rxTejkjveviBWFZgJburoUTIKifDH57lJRYWiNZ_"
+  },
+  "oc3Cq89P97Y": {
+    "id": "oc3Cq89P97Y",
+    "title": "Lux Aeterna",
+    "isSong": true,
+    "duration": 235,
+    "durationStr": "3:55",
+    "author": "Clint Mansell, Kronos Quartet",
+    "authorId": "UCCsmpP0cJ7euj0Cxlo20UbA",
+    "thumbnailId": "IxdzspiqxEDcejPph1LLp7d-bipgRvihajRKM3NB2NINNb-voDDtTGFs7p4R7_YAvbgMHZrFGBnBnfw"
+  },
+  "o0kmeLN3Vys": {
+    "id": "o0kmeLN3Vys",
+    "title": "First Class",
+    "isSong": true,
+    "duration": 201,
+    "durationStr": "3:21",
+    "author": "Henry Jackman",
+    "authorId": "UCxMOKDt-gy82u92NOaAxcaw",
+    "thumbnailId": "OP9p0zcHakNWdo8B3oMVtUikO77iEaD_1UE7fw7hSIKQpoKKqaoALSnzNlwPzDIMqZnhWBxs0sZE5se3"
+  },
+  "oz1-BmibsuA": {
+    "id": "oz1-BmibsuA",
+    "title": "聽海 - Ting Hai",
+    "isSong": true,
+    "duration": 319,
+    "durationStr": "5:19",
+    "author": "aMEI",
+    "authorId": "UC5M7vIbPTCOMVF3lTtbeO6g",
+    "thumbnailId": "RulSmlpm-vwA1Oj9cJO_NtUfHQvdrTyLkWHAmUsIcpBYZeeWPoeeFTS5pxvD83GktrImuYd-05ZAKqHG"
+  },
+  "ob2wJOuEYII": {
+    "id": "ob2wJOuEYII",
+    "title": "一起走過的日子 (電影《至尊無上II之永霸天下》歌曲)",
+    "isSong": true,
+    "duration": 236,
+    "durationStr": "3:56",
+    "author": "劉德華",
+    "authorId": "UCoyRETheGZlMXL-Jx83UsHQ",
+    "thumbnailId": "gd11cuL2_GnRDGaVMtsF5Fu93Xhi2HUjlDYNaK2S3XpdB81X6CoKkGoMdpwF_lRl0kRTqAOiO46-Tj4WJQ"
+  },
+  "oxypGbTP8JE": {
+    "id": "oxypGbTP8JE",
+    "title": "Su",
+    "isSong": false,
+    "duration": 257,
+    "durationStr": "4:17",
+    "author": "Miao Hua Teng",
+    "authorId": null
+  },
+  "opEHSGn6DW8": {
+    "id": "opEHSGn6DW8",
+    "title": "Waltz in E-Flat Major, Op. 18",
+    "isSong": true,
+    "duration": 326,
+    "durationStr": "5:26",
+    "author": "Tianyao Lyu, Frédéric Chopin",
+    "authorId": "UCQcquAeeZzGG82o6ZZQtrgw",
+    "thumbnailId": "1SAS4C5Humk30IXGZIuWfbBnl0Q-o9V3pz_M22lSd9L1KqflM0D6HCK45bVwkICe3-J-eNtiOGl7_Izs"
+  },
+  "o3_-sRy3yrs": {
+    "id": "o3_-sRy3yrs",
+    "title": "La capricciosa (feat. José Gallardo)",
+    "isSong": true,
+    "duration": 174,
+    "durationStr": "2:54",
+    "author": "Vilde Frang",
+    "authorId": "UCYQWuVNCaCMKYuxi4kIUOLw",
+    "thumbnailId": "IU5p7F7ZQPNPanRGN_DAX92B2EnfmxQeubO_ai-JwwOqRPMufUBMS3Xf69wLcp9SHIiiyXZjkuDzEJ_Q"
+  },
+  "o3SzSp6pCAU": {
+    "id": "o3SzSp6pCAU",
+    "title": "The Gadfly Suite, Op. 97a: No. 8 Romance",
+    "isSong": true,
+    "duration": 389,
+    "durationStr": "6:29",
+    "author": "Charlie Siem, Münchner Rundfunkorchester, Paul Goodwin, Dmitri Shostakovich",
+    "authorId": "UCEyNOFkAiBNJBZpoxOshB0w",
+    "thumbnailId": "BbbsOcRe2bFeU-qO9os0Zd6oEQXv28XjXVpifZWwbXgsArbS5VijyffCCp8b5HlXBKY7FyBjilLFuT7BCw"
+  },
+  "os8vU97sO3A": {
+    "id": "os8vU97sO3A",
+    "title": "24 Caprices, Op. 1: No. 11 in C Major",
+    "isSong": true,
+    "duration": 277,
+    "durationStr": "4:37",
+    "author": "Alexander Markov, Niccolò Paganini",
+    "authorId": "UCod2041wGvLhVStp6aAXBDw",
+    "thumbnailId": "ejC09_GnZui_LvieFbZmz7jA-k9Ut88oKzfP2ALMU8kG0vwpUHM8Mox0VoSPfDaKufH_IsmM6BTIK-SL"
+  },
+  "ot8rBlKVyAE": {
+    "id": "ot8rBlKVyAE",
+    "title": "Cello Sonata in A Major, Op. 69 No. 3: II. Scherzo. Allegro molto",
+    "isSong": true,
+    "duration": 320,
+    "durationStr": "5:20",
+    "author": "Matt Haimovitz, Christopher O'Riley, Ludwig van Beethoven",
+    "authorId": "UCGJGIcwjLqK31YGyBvP0uoQ",
+    "thumbnailId": "sHkq8htdRrlRjWEgiO1S45ZyvEesQ0CgmRBE6oLvlX7-qvyyUZddtZU0odhMywmkeJN2RR1a-9VJsAPDgQ"
+  },
+  "ozP_17gs1Ak": {
+    "id": "ozP_17gs1Ak",
+    "title": "Reverend",
+    "isSong": true,
+    "duration": 205,
+    "durationStr": "3:25",
+    "author": "Hunter Root",
+    "authorId": "UCw6zQPw0TbNTzmOS5Cp0Apw",
+    "thumbnailId": "z6vftG9exzewd2XfFHETubisACpbmd_52GLtAcWVJCuorTpfPmv4ADRRoDKHByLTORYV6WFb5lRzJKC1FA"
+  },
+  "oEveDPzPiHM": {
+    "id": "oEveDPzPiHM",
+    "title": "Your Love Is Creeping Away From Me (Live)",
+    "isSong": true,
+    "duration": 298,
+    "durationStr": "4:58",
+    "author": "Howlin' Wolf",
+    "authorId": "UCq7KYdlYIAjlt2NbSEZD7bg",
+    "thumbnailId": "VZrvWZkVF30YV4dopt3Fq2S4zg9vtD-C_DIYOQ8quBijIAfIEAW408yYMSdD6xhQoaOZg4pKF7lgczK_6Q"
+  },
+  "oqpMGUEHvYw": {
+    "id": "oqpMGUEHvYw",
+    "title": "I Got a Woman",
+    "isSong": true,
+    "duration": 170,
+    "durationStr": "2:50",
+    "author": "Ray Charles",
+    "authorId": "UClapQBGYNOoLYmCct6e3B5Q",
+    "thumbnailId": "oahfi05rBlT4gFHzDX7HjaNUGvY_39Ytvp29pbnzq7XAl6Mm278S42XOkMUgYfUaklpfxTNX2INU5FaieA"
+  },
+  "o3WwCnbEE2c": {
+    "id": "o3WwCnbEE2c",
+    "title": "Days Of Wine And Roses",
+    "isSong": true,
+    "duration": 235,
+    "durationStr": "3:55",
+    "author": "Johnny Smith",
+    "authorId": "UCOQ5iX2y8S1mVAM-oVDvc8Q",
+    "thumbnailId": "KAfnz5lHyJ8PnzRpuhRDvFt8kppkuT8FnE-2nyHYK7-ruma2cX_hj5iQBMMe2WYMrTqzUXBetgsw3u2b"
+  },
+  "o5FPPoLqkCk": {
+    "id": "o5FPPoLqkCk",
+    "title": "Synchronicity II Video",
+    "isSong": false,
+    "duration": 273,
+    "durationStr": "4:33",
+    "author": "The Police",
+    "authorId": "UCbsRGw640UF_F7AIwHW-zmg"
+  },
+  "otXjnH5iFQ4": {
+    "id": "otXjnH5iFQ4",
+    "title": "I Can't Go for That (No Can Do) (Extended Club Mix)",
+    "isSong": true,
+    "duration": 365,
+    "durationStr": "6:05",
+    "author": "Daryl Hall & John Oates",
+    "authorId": "UC8zbYR5i0gecEZ3iPgm-i9g",
+    "thumbnailId": "QPB3gNdKIbUeMNt1t0lA934Jg4LGWJz7wRSh7miz830pzLGZugOxhRjO1sPaiql4RGhQn9sAw2A1t1-88g"
+  },
+  "o_1m7ZFK60I": {
+    "id": "o_1m7ZFK60I",
+    "title": "Come on over Baby (All I Want Is You) (Radio Version)",
+    "isSong": true,
+    "duration": 204,
+    "durationStr": "3:24",
+    "author": "Christina Aguilera",
+    "authorId": "UCuRNYM6vrIAL-e4RUX26cPg",
+    "thumbnailId": "2ntXRwoKqKVWuuD6J5gSGq6WmObrhDhpy0qTfOzEYMrTKZyv3Qpum7VpJ80IsUrvoGS7aQx4kKnpiCY"
+  },
+  "oOSgZ6cB2Cw": {
+    "id": "oOSgZ6cB2Cw",
+    "title": "All About You",
+    "isSong": true,
+    "duration": 163,
+    "durationStr": "2:43",
+    "author": "Hilary Duff",
+    "authorId": "UCrgEnDFVFzogd5a6IGzKjNw",
+    "thumbnailId": "5iUfufEktWyaLuEquuwusYX3K5rROkWtGKjIs-MvPg2uC-qhspIMIorqGEIcfS14Hl7AjCqf3kwi3eQT"
+  },
+  "oHPdz9EkDkU": {
+    "id": "oHPdz9EkDkU",
+    "title": "Leak It",
+    "isSong": true,
+    "duration": 184,
+    "durationStr": "3:04",
+    "author": "FLO",
+    "authorId": "UCflId5ruH2tDxaCCeWl7RsQ",
+    "thumbnailId": "GH6YkuWdxxMr-YEkj-ePUKhMmft1x_I42AoYnlI1VSepzo4fP9SxP6CJhzCAhP0D7iMJR8S4qJX3N3Y"
+  },
+  "oKf31ZLq7vk": {
+    "id": "oKf31ZLq7vk",
+    "title": "Sex, Hennessy & R&B / Talking About You",
+    "isSong": true,
+    "duration": 330,
+    "durationStr": "5:30",
+    "author": "Jacquees",
+    "authorId": "UC40NxtlPa4IHmawzLU0edRQ",
+    "thumbnailId": "VpWNtaUX6fAHd_YVPpi0m9O2pCUStxHVTKfzRbMTn16BaAe9Ll4rSu1rSY4rW-_BTe-F-no0Hk-7mpYE4Q"
+  },
+  "oJxtlpmIS50": {
+    "id": "oJxtlpmIS50",
+    "title": "Angel Of My Dreams (FOR THE CLUB)",
+    "isSong": true,
+    "duration": 175,
+    "durationStr": "2:55",
+    "author": "JADE",
+    "authorId": "UC51g1eDI-B6xrPnmVLFS1ww",
+    "thumbnailId": "rM-InOA6qkLv3yeo0Sgm36XDSWlaWavXgbEZWdMVIAwZi-Q4qR7m_kMp2_PlPqG3WhE6l8VocwWcFPE"
+  },
+  "oK52HxjwKts": {
+    "id": "oK52HxjwKts",
+    "title": "Ultimamente",
+    "isSong": false,
+    "duration": 209,
+    "durationStr": "3:29",
+    "author": "Angel Alvarado",
+    "authorId": "UCjy9fX567CdNc8I8al19DTQ"
+  },
+  "oh_aCp_XLoE": {
+    "id": "oh_aCp_XLoE",
+    "title": "Porque te vas",
+    "isSong": true,
+    "duration": 202,
+    "durationStr": "3:22",
+    "author": "Jeanette",
+    "authorId": "UCac2nS68J7voeJeTA6mr4rQ",
+    "thumbnailId": "P_TGfL-x_h1Oo85afNrNs9RpGxvh02FClW-NlOZMBhYvGPDOjLPaJ_SOLyyaR-fFDcxyBGYajs7MNj4I_w"
+  },
+  "o2YYsxQhFrU": {
+    "id": "o2YYsxQhFrU",
+    "title": "Motivos",
+    "isSong": false,
+    "duration": 250,
+    "durationStr": "4:10",
+    "author": "Grupo Mojado",
+    "authorId": "UCqq1MaOqiX4KnYMazSpeJTA"
+  },
+  "oZmXYET4qQU": {
+    "id": "oZmXYET4qQU",
+    "title": "Te Fallé",
+    "isSong": false,
+    "duration": 263,
+    "durationStr": "4:23",
+    "author": "Christian Nodal",
+    "authorId": "UC_nxbep6wWeIEVb1UKn4euw"
+  },
+  "oc4HcKuuz5Y": {
+    "id": "oc4HcKuuz5Y",
+    "title": "DOLCE",
+    "isSong": true,
+    "duration": 202,
+    "durationStr": "3:22",
+    "author": "Cazzu",
+    "authorId": "UCXxxmrUKXeL095S9o9e5TDw",
+    "thumbnailId": "teIU1dkxbo7Zf8BtaaT0vTI7g00u7R55UgDmTt6dOjVxrfMTDRxWttEJvhe3lOZWpZGBkO84LkH2hRM6Dg"
+  },
+  "oFckxAEA3T0": {
+    "id": "oFckxAEA3T0",
+    "title": "Serenata",
+    "isSong": true,
+    "duration": 207,
+    "durationStr": "3:27",
+    "author": "Mike Bahía",
+    "authorId": "UCxtkKds8LZ0InGT7qqxAcPA",
+    "thumbnailId": "muB0RH-qG7cYlbc4bf-7Q9haLSryvQzpO-faOtybP5jUQeWW1IbX2-uRpEfOPcR40NERAhztVfypPIE"
+  },
+  "o4lNxj8h6ZY": {
+    "id": "o4lNxj8h6ZY",
+    "title": "La Estrategia",
+    "isSong": false,
+    "duration": 181,
+    "durationStr": "3:01",
+    "author": "The La Planta, DesaKTa2, Fede Mestre",
+    "authorId": "UCZtvub6gFp7fdfrq-_Un6sA"
+  },
+  "okVVWsYDVp4": {
+    "id": "okVVWsYDVp4",
+    "title": "Goca Dünya",
+    "isSong": true,
+    "duration": 238,
+    "durationStr": "3:58",
+    "author": "Altin Gün",
+    "authorId": "UC-uYVIegOyawSkbcxroXjxw",
+    "thumbnailId": "DCsW7ok1yo4K6bgkyvmMlWh_Of0pvR0l2c16Tq92BST02FlOwH6NmhWQ4LpMrpN0Iovfl6s8qJ9SIuZx"
+  },
+  "oPGtAA2HaS8": {
+    "id": "oPGtAA2HaS8",
+    "title": "閃光 - Senkou",
+    "isSong": true,
+    "duration": 266,
+    "durationStr": "4:26",
+    "author": "[Alexandros]",
+    "authorId": "UCbzcUjXa4yX3k5CD8bioDmg",
+    "thumbnailId": "6fmK9PFKvqUaacrlMifcNXd_WAkSRYvsHq3zy3Ckv5-fJl7lOGp6KBs0Ti8CNee4JJUCYN3MtNbwfItU"
+  },
+  "oLLenpWpfcw": {
+    "id": "oLLenpWpfcw",
+    "title": "Son Arzum",
+    "isSong": true,
+    "duration": 204,
+    "durationStr": "3:24",
+    "author": "Skapova",
+    "authorId": "UCA3VN_gRttC3-qfOmExN7uA",
+    "thumbnailId": "fWM5VXmrQVNYCIOQzQCRwrGNS7EPD2EJKgEba-H8Guwgntv1GHT6GFyfTU3juiDVDTpXmLuLJArD2Tr1"
+  },
+  "o0s_xIEDnAw": {
+    "id": "o0s_xIEDnAw",
+    "title": "Dying To Believe (Lyric Video)",
+    "isSong": false,
+    "duration": 182,
+    "durationStr": "3:02",
+    "author": "Papa Roach",
+    "authorId": "UCRiFekze9Yx5zDDjAVrYvbg"
+  },
+  "oDfPlIPc-Kk": {
+    "id": "oDfPlIPc-Kk",
+    "title": "Sweet Emotion",
+    "isSong": true,
+    "duration": 193,
+    "durationStr": "3:13",
+    "author": "Aerosmith",
+    "authorId": "UCYuinPfuhK_rSlrJXvZQrng",
+    "thumbnailId": "mF-zU1bI1M_nBeq7mCRksSq4LctUXgr6wQVLtVGGZ35oQzsN47nORj2EoA6704LFMBqDGo8FmWxQOXY"
+  },
+  "oJ6gRW2Cx4g": {
+    "id": "oJ6gRW2Cx4g",
+    "title": "The House That Heaven Built",
+    "isSong": true,
+    "duration": 290,
+    "durationStr": "4:50",
+    "author": "Japandroids",
+    "authorId": "UCbnxmLRnjRTdMIUy0AlGI3Q",
+    "thumbnailId": "sEHsxOmQJeRw2u-hSvQEmZsM-REPhWvE55XbK2ubyyBfIHmgMdmeWI_53npSLbxhvF-Hh491402pFeI"
+  },
+  "o27PdjBhkMI": {
+    "id": "o27PdjBhkMI",
+    "title": "Yentehi Al Alam - ينتهى العالم",
+    "isSong": false,
+    "duration": 255,
+    "durationStr": "4:15",
+    "author": "Khalid Alhanen",
+    "authorId": "UC5NI5ZuOwALEi8d_PLqH0Lg"
+  },
+  "oMKUa-iXZbY": {
+    "id": "oMKUa-iXZbY",
+    "title": "Law Daret El Ayam",
+    "isSong": true,
+    "duration": 378,
+    "durationStr": "6:18",
+    "author": "Ragheb Alama",
+    "authorId": "UC2GhlxEXVYJW8uTvZJSUOew",
+    "thumbnailId": "gJcm8Ok8tnan29kElTC9g-UZagkSvcKJz5uPQXZFCDn9tQVjTNC_5F3vr0wIrGJhdSffbDjjY4cLVG74"
+  },
+  "oJQScqTGey8": {
+    "id": "oJQScqTGey8",
+    "title": "Ablak Yama",
+    "isSong": true,
+    "duration": 352,
+    "durationStr": "5:52",
+    "author": "Najwa Karam",
+    "authorId": "UC9gNwn2vjsYey6GESao-3Bw",
+    "thumbnailId": "rHg1F1Q7khsDnNHYFALXMaCD2Yw20l3wML8blyC3nhoWeLVts0pP0waSFO9wPPf4p7qA_1z5JU6S0ORt"
+  },
+  "o6nrlFswvlE": {
+    "id": "o6nrlFswvlE",
+    "title": "Balaki",
+    "isSong": true,
+    "duration": 223,
+    "durationStr": "3:43",
+    "author": "Al Shami",
+    "authorId": "UCxm29pQhOlG7psdRYizgvsA",
+    "thumbnailId": "CapPpzdkeF4nhyWYA939HTreTEKSUrx2Xz63DjAWK9CRmqdUNGXwaxBYTuyBYulAx0ZxkxzJ7TN3QOHrHQ"
+  },
+  "oWvcyhAIcc0": {
+    "id": "oWvcyhAIcc0",
+    "title": "طير الحمامي",
+    "isSong": true,
+    "duration": 170,
+    "durationStr": "2:50",
+    "author": "محمد بن غرمان العمري",
+    "authorId": "UCOjH7Dyku6kvfS7KGc1QcoQ",
+    "thumbnailId": "g-bgYmiTLjPLIZsGu7uJjWUTVh1GaquUTOYhZmjh9HEFJRjGJ4FzUdh5kXA30SXfmK8t8ZBLy63WSXA"
+  },
+  "oWCK5j_XNbQ": {
+    "id": "oWCK5j_XNbQ",
+    "title": "Ma Byetkarar",
+    "isSong": false,
+    "duration": 271,
+    "durationStr": "4:31",
+    "author": "Wadih El Cheikh",
+    "authorId": "UCagu59uLRQ2-VWslt9P4qGQ"
+  },
+  "o8_g1hD7R7E": {
+    "id": "o8_g1hD7R7E",
+    "title": "موالى",
+    "isSong": true,
+    "duration": 248,
+    "durationStr": "4:08",
+    "author": "تيم مادو الفظيع",
+    "authorId": null,
+    "thumbnailId": "JyiTA9m2BLZ2JR_mW9veGoZ81E8-pvM0yXDl9q92vZpO2ZfYnTQCuMdOzGTBnIlPbTuu8FFoWJB8blE"
+  },
+  "owJ1aruYSB4": {
+    "id": "owJ1aruYSB4",
+    "title": "أفوق لكرامتي",
+    "isSong": true,
+    "duration": 227,
+    "durationStr": "3:47",
+    "author": "Maha Ftouni",
+    "authorId": "UCO2A5RKTd7cYFI_11RwF_wg",
+    "thumbnailId": "C5IfzRGVVjeqLCDAIf3rPegNlvPu9wN5uUZ8r_uJy6s6YxPI0EsZCFX0MU6fIqIly5V1YW195EuXZ4V2"
+  },
+  "oEE-dLU6K28": {
+    "id": "oEE-dLU6K28",
+    "title": "كله اتساوس واتكالب ( انا عندي حاسه سابعه )",
+    "isSong": true,
+    "duration": 258,
+    "durationStr": "4:18",
+    "author": "عصام صاصا - Essam Saasa",
+    "authorId": "UCnfgYhSuRHtyWDA62hlIG8g",
+    "thumbnailId": "Hh2I01Tk2iZCxMWC50wftULrIG-FL_x8Pj6iq4p2TpArGS_jiiaVB6c9zwJzto97lapmAlDV7Ll7wOrm"
+  },
+  "oDwV8jv9cZo": {
+    "id": "oDwV8jv9cZo",
+    "title": "Ya Segara Fakra Awel Mokabla",
+    "isSong": true,
+    "duration": 175,
+    "durationStr": "2:55",
+    "author": "Ahmed Moza",
+    "authorId": "UCpMPd5v5qLxZ411xZSw9LWQ",
+    "thumbnailId": "LsmTivOBjnDWEk2MeZhDxCATvi199yVrBUfrh_xkmPhaliIcVzQ4_G2xVuZ5s-dyiAQuqeWkAfeVdikY"
+  },
+  "oEMLa_aayvc": {
+    "id": "oEMLa_aayvc",
+    "title": "Say OK",
+    "isSong": true,
+    "duration": 222,
+    "durationStr": "3:42",
+    "author": "Vanessa Hudgens",
+    "authorId": "UCPtJE_u_tpmewtt-_Tqnr4A",
+    "thumbnailId": "R276B4QZAvhB4UOaflux7mXfb4DOP-z--ZjgTb024fKEDiTLdNGLw6yFmByIMR6lJBT53K1winm_-VSN"
+  },
+  "opn9RVi5F-w": {
+    "id": "opn9RVi5F-w",
+    "title": "QADR (LOCKED UP)",
+    "isSong": false,
+    "duration": 126,
+    "durationStr": "2:06",
+    "author": "BANGWHITE, X WAVE",
+    "authorId": "UC_LhFHOMB4Yko5iPSaeLEMg"
+  },
+  "oEd1bDKWX7c": {
+    "id": "oEd1bDKWX7c",
+    "title": "Mad Izm",
+    "isSong": true,
+    "duration": 256,
+    "durationStr": "4:16",
+    "author": "Channel Live",
+    "authorId": "UCdQ0CigaRXUaKvFwe_8E1yA",
+    "thumbnailId": "O-gJlNa2hJI1akw1IVolSExLm1a9IPWXoBpEULm3jCQhuw8va1UMzj1XZSG0rNbduvgAsy_YbIplqIkY"
+  },
+  "o6icJUCGK7U": {
+    "id": "o6icJUCGK7U",
+    "title": "Epílogo",
+    "isSong": false,
+    "duration": 186,
+    "durationStr": "3:06",
+    "author": "Carla Sol, Enzo Cello, Mvt, NAVII",
+    "authorId": "UCrxoqJY19SD7Zg7_S7EkZoQ"
+  },
+  "ogdpk0WF4D8": {
+    "id": "ogdpk0WF4D8",
+    "title": "Don't Fight Da Pimpin'",
+    "isSong": true,
+    "duration": 199,
+    "durationStr": "3:19",
+    "author": "Suga Free",
+    "authorId": "UC_Xc7jJbh2b61ZYQ7rsANZw",
+    "thumbnailId": "NChlmZ8DY_ebPsC65tFSUZQj-aRcraQ44RNTrh8dl9zzSLfF2FlGuO6bNqe4dtzIPGKbNm8PlD-YSVvL"
+  },
+  "o-XvEEWeNQw": {
+    "id": "o-XvEEWeNQw",
+    "title": "Del Año",
+    "isSong": false,
+    "duration": 134,
+    "durationStr": "2:14",
+    "author": "EL NOBA",
+    "authorId": null
+  },
+  "oZqRNMZ1Wsg": {
+    "id": "oZqRNMZ1Wsg",
+    "title": "Pal Cache",
+    "isSong": true,
+    "duration": 146,
+    "durationStr": "2:26",
+    "author": "Kaleb Di Masi, Omar Varela",
+    "authorId": "UC8LkF3zbZeA_y0tI6olf0zw",
+    "thumbnailId": "Uyf5zSufnSO-3S1nzdKZjNOJvCYVrHoNTE1J-lAuil65CcjPZPkRoVe_Cp_EMO74W2dd0NHV7dUUIXpvfQ"
+  },
+  "oDzu5l9CoK0": {
+    "id": "oDzu5l9CoK0",
+    "title": "Glasses & A Wig",
+    "isSong": true,
+    "duration": 143,
+    "durationStr": "2:23",
+    "author": "Lil 50",
+    "authorId": "UCtRrtdzGqWEbALUUf-01RTw",
+    "thumbnailId": "Dcp5noAVGvchdhvlanxZJomWDqjI1Oz91YkUgdEdpkBoyJ4-gD_Q31Wg0yMVvnYHLrnMIJETB7EtAV0QQw"
+  },
+  "ozalM5GGITQ": {
+    "id": "ozalM5GGITQ",
+    "title": "600 PS FLOW",
+    "isSong": true,
+    "duration": 112,
+    "durationStr": "1:52",
+    "author": "SHABAB, giuzzybeatz",
+    "authorId": "UCw6bGxPUhcJr4EPgicWaokg",
+    "thumbnailId": "VSSGm_mzufe1_7E0wouoea70gHsFNfB60dkzrngrJD6-B0fUmvVvvhrtkLSIjrmank98RpUMjI9hNkHf"
+  },
+  "omny5ubQugw": {
+    "id": "omny5ubQugw",
+    "title": "Beat Box",
+    "isSong": true,
+    "duration": 292,
+    "durationStr": "4:52",
+    "author": "The Art Of Noise",
+    "authorId": "UClyaVdvS3c1V5SHTJgkXzVg",
+    "thumbnailId": "a-eZIDAja3Wp_eeQaeQmQzMcim6oOJ-fXoaWC8KSKBvSYdqTGuv00GEHHKjZyQFQOvkaXK8_VvBR8YSvMQ"
+  },
+  "oB8bZ1SxlKQ": {
+    "id": "oB8bZ1SxlKQ",
+    "title": "I Know What I'm Doing (feat. E SENS)",
+    "isSong": true,
+    "duration": 162,
+    "durationStr": "2:42",
+    "author": "DBO",
+    "authorId": "UC3WMXaoZIR0TO8cXVSSb9tQ",
+    "thumbnailId": "aV8OJS-qnD77W2525mKB6DmH3_qx_foQGvG1o8x0CGkwfpkDp4w3MVnyLAhiQFux2vBcCVBdyIvGGXv8"
+  },
+  "o_N_Zu87smk": {
+    "id": "o_N_Zu87smk",
+    "title": "Maradona",
+    "isSong": true,
+    "duration": 214,
+    "durationStr": "3:34",
+    "author": "Alemán",
+    "authorId": "UC9qH_PzG3TpfJpsRt9VfKcA",
+    "thumbnailId": "OMUxZ8XvXbgv0UBl1H9Pt7f_1gdfVOWOGwvmGi1WKeiwSAVOWFiwA7oKoIqX0XL44nHYJaQzNZdN7DU"
+  },
+  "oUzUHEquj_Q": {
+    "id": "oUzUHEquj_Q",
+    "title": "King Of The Jungle",
+    "isSong": false,
+    "duration": 149,
+    "durationStr": "2:29",
+    "author": "BabyChiefDoit",
+    "authorId": "UCjaInVtJM1q7njj5_3Ncpdg"
+  },
+  "oc3GZuiJZqY": {
+    "id": "oc3GZuiJZqY",
+    "title": "Emotions",
+    "isSong": true,
+    "duration": 147,
+    "durationStr": "2:27",
+    "author": "Ufo361",
+    "authorId": "UCuA6k6g0Xzf6-JlgMXSSA0g",
+    "thumbnailId": "4wz9U6iUqAXiq383GHwzjSvc2iZ4tr2VztHcPBdCgeO_SvbzAdVZzEvH6kyQkFAvk8dVe_tqc6fwdOg0"
+  },
+  "oEkYZuJgMG8": {
+    "id": "oEkYZuJgMG8",
+    "title": "Foolin' Me",
+    "isSong": true,
+    "duration": 190,
+    "durationStr": "3:10",
+    "author": "Navos",
+    "authorId": "UCkt4lgCS08tUr8HdY8n-mlw",
+    "thumbnailId": "MkNtip06TtB-aNHDdEYpDrJH--JeRfKscVqOPyCHfFGtIMCZr85YRgpIVqUz-ICic5wywgeA-HZ4Ffuc"
+  },
+  "oXK7mHNfgV4": {
+    "id": "oXK7mHNfgV4",
+    "title": "Didn't Know You",
+    "isSong": true,
+    "duration": 189,
+    "durationStr": "3:09",
+    "author": "Karmin",
+    "authorId": "UChXKP9h6MLhxZ_EF5_rGbsg",
+    "thumbnailId": "hfHfwZdClMi_DmLGb-GGhGKObbRQFLCuFknbIy43XSkXFX0-TI5n9IkYO6UX2RzeH9oAF69W4lyMysZp"
+  },
+  "o0vr3sRngvo": {
+    "id": "o0vr3sRngvo",
+    "title": "Remind Me",
+    "isSong": true,
+    "duration": 201,
+    "durationStr": "3:21",
+    "author": "Meghan Trainor",
+    "authorId": "UC_VCJd8skzwcPktsMLqTz1g",
+    "thumbnailId": "p5wqBWFTn8gg5t4a8QNMHZMG4SjE7lWKr8ZiOE7mSSszYu0Zuf1X6ybTacOXXclXS1HqTiUq-5lTQKA1"
+  },
+  "ooysVqxA2bE": {
+    "id": "ooysVqxA2bE",
+    "title": "Zero",
+    "isSong": true,
+    "duration": 214,
+    "durationStr": "3:34",
+    "author": "Chris Brown",
+    "authorId": "UCMXDyVR2tclKWhbqNforSyA",
+    "thumbnailId": "Ot5t5FIBrpCLWpkcDh5Fvo6xaLmyZfwB2bwKRng2x-VV_ubWVsS3otkKnp1oLNOq___mzapDff_jcfjJ0Q"
+  },
+  "oJOXt5Lfw_o": {
+    "id": "oJOXt5Lfw_o",
+    "title": "Miss Me?",
+    "isSong": true,
+    "duration": 220,
+    "durationStr": "3:40",
+    "author": "dvsn",
+    "authorId": "UCaq-reJb4tTbCH54ZTSOCOw",
+    "thumbnailId": "NLXisccvi5tzUX5o4k62-CRdhxYJH3a0XM4rtZYZFHHRa7Zp3makXp8BexGHA_rBXhpxcJGgQtBXcPnj"
+  },
+  "ovMLsPukv0k": {
+    "id": "ovMLsPukv0k",
+    "title": "White Trash",
+    "isSong": true,
+    "duration": 191,
+    "durationStr": "3:11",
+    "author": "Miranda Lambert",
+    "authorId": "UCGFTsgFIv10i0u--5rl8C9A",
+    "thumbnailId": "0GC-VyICkF_hKqQVB2XarbOqwO-KQTQoGZZBGQdqs4SUU3GJmwUZ5JMQ7cBHPpQbI-Fptim-Cf95E6s"
+  },
+  "oqxSPiPIaNg": {
+    "id": "oqxSPiPIaNg",
+    "title": "Sodom & Gomorrah",
+    "isSong": true,
+    "duration": 190,
+    "durationStr": "3:10",
+    "author": "Dorian Electra",
+    "authorId": "UC3sNWTfEGBBPvgn6XFX2HSQ",
+    "thumbnailId": "3C9rRLbWccUAv_iSZEQtZMPJ0Sd1YpYIKCkjBqVhSWhcJmtGLghIJu48-TmptIHCCD0alpMerVmpnsA"
+  },
+  "og6WPWA0ldQ": {
+    "id": "og6WPWA0ldQ",
+    "title": "Black Eye",
+    "isSong": true,
+    "duration": 273,
+    "durationStr": "4:33",
+    "author": "Allie X",
+    "authorId": "UCAillCahnZd961jaWwpt4Xw",
+    "thumbnailId": "mxqVNUzN0gcv55fupbtF1uznEtbGvXVqou46eu8tdvWK8hzkJz3k-dFleENwuNLUm-cIsAKkpF7X6iOm"
+  },
+  "oi4MlLx__bQ": {
+    "id": "oi4MlLx__bQ",
+    "title": "Rebota (Remix)",
+    "isSong": false,
+    "duration": 262,
+    "durationStr": "4:22",
+    "author": "Guaynaa",
+    "authorId": null
+  },
+  "oFfcj-uGM4I": {
+    "id": "oFfcj-uGM4I",
+    "title": "Derroche",
+    "isSong": true,
+    "duration": 225,
+    "durationStr": "3:45",
+    "author": "Ana Belén",
+    "authorId": "UCIbghfR6TYMvvncB1OcglDg",
+    "thumbnailId": "W0wqLi4dFN4e6s4AaawbsLOzMEpdHE2bsZkadxQdU1_o5Kf5YMEGyvOwV3DzjqUOfZdr6StGodsVgFwQ"
+  },
+  "o-7-SyjOIwI": {
+    "id": "o-7-SyjOIwI",
+    "title": "Trust My Lonely",
+    "isSong": true,
+    "duration": 200,
+    "durationStr": "3:20",
+    "author": "Alessia Cara",
+    "authorId": "UCrqLG11GjSzO5bVYzXIF8CA",
+    "thumbnailId": "RRDVAUdjRbI1VZUiIchp868_aNMPzpiXsEa82EAUi-D8jaYGjaoy1WflMqm8zcALGkvob9sxUdI6Id5a"
+  },
+  "opZgY6wOYDY": {
+    "id": "opZgY6wOYDY",
+    "title": "This Woman's Work",
+    "isSong": true,
+    "duration": 193,
+    "durationStr": "3:13",
+    "author": "Greg Laswell",
+    "authorId": "UCppcwNQhtyfegHgZmxPnheA",
+    "thumbnailId": "aJoKVmlCOc5nFo1XUnUfhyuBgS6ita-gWOtTb-cDfmMH0R2rrumKFHQnkxCHjlcCJcjzC03eUZEVd5Se9w"
+  },
+  "o_ZBzGlYS6g": {
+    "id": "o_ZBzGlYS6g",
+    "title": "Played-A-Live (The Bongo Song) (Radio Edit)",
+    "isSong": true,
+    "duration": 201,
+    "durationStr": "3:21",
+    "author": "Safri Duo",
+    "authorId": "UCNWqts1f6DTMZav6Z9REj9w",
+    "thumbnailId": "E31tBcucoGB65zODNB0jEjx-pu9JHXI5uXrHsz9ARSBvCB5ZP_dx-iUrDOA2NE2jexvZ_nRGhq9ToVY"
+  },
+  "olkhMTXy7PU": {
+    "id": "olkhMTXy7PU",
+    "title": "Forever (Stay Like This) (Extended Mix)",
+    "isSong": true,
+    "duration": 252,
+    "durationStr": "4:12",
+    "author": "Armin van Buuren, Goodboys",
+    "authorId": "UCAeLFBCQS7FvI8PvBrWvSBg",
+    "thumbnailId": "Ujj6pPWQl8CReZCaXiBurmaZdGPfJNkC4tklxbqcGh3vOsVXj1I2929p08pWWScwDeME9bdP5snWLA8"
+  },
+  "oUO0EJXJllM": {
+    "id": "oUO0EJXJllM",
+    "title": "Like You",
+    "isSong": true,
+    "duration": 242,
+    "durationStr": "4:02",
+    "author": "Mr_B_Hype",
+    "authorId": "UCuSPQvke7sPqLb8gzfB5NjA",
+    "thumbnailId": "y-DKv_QPZyfjSr8kNiHXipqsUzGHhMQitr7HmyAlDKV0_VO9QSlnpvdAbN9sdiB8m-TYX_y7jvarcUNq"
+  },
+  "oTtSsLbGxog": {
+    "id": "oTtSsLbGxog",
+    "title": "No Place Like Home",
+    "isSong": true,
+    "duration": 156,
+    "durationStr": "2:36",
+    "author": "Nelly Furtado",
+    "authorId": "UCWV94Z763GSdhLQ8WIb2JRQ",
+    "thumbnailId": "Tamq2veXpq6vC_EQyo2aHqsqFYvWWe19mm_Gx8BbMkIO5jDUa-m3dLD3ME_RuuHKBrx4dwFiXcvaNUA2"
+  },
+  "oz7-7ouXUJU": {
+    "id": "oz7-7ouXUJU",
+    "title": "Ghosts 'n' Stuff",
+    "isSong": true,
+    "duration": 195,
+    "durationStr": "3:15",
+    "author": "deadmau5",
+    "authorId": "UCL44WZGVf-BU5N0ymCXrpBg",
+    "thumbnailId": "Vwlkrvkvvt1sLzJ-I89g9lfIMVHOYYh0OPuL_b9oIwjvaZuNe_-LHchnZR4wtBlIn3ZzHedgw3zfGtaX"
+  },
+  "oaGdata2VK8": {
+    "id": "oaGdata2VK8",
+    "title": "Black & White",
+    "isSong": true,
+    "duration": 204,
+    "durationStr": "3:24",
+    "author": "LSR/CITY",
+    "authorId": "UCV4O9Mqs85Bg4Rart8xkC1w",
+    "thumbnailId": "tMwSnaAlyCzvVtFJ36J4n0k7-CiUsjx-8RKWz6BzBAaI_IbQS3mwcp-qev1cN7QaDbwD797fUMMWlBc"
+  },
+  "oamUaXGU1Z4": {
+    "id": "oamUaXGU1Z4",
+    "title": "Mystica",
+    "isSong": true,
+    "duration": 281,
+    "durationStr": "4:41",
+    "author": "Push",
+    "authorId": "UCI4br-7mdVLbXQVwgRKrcxg",
+    "thumbnailId": "KdHWczsVysIg4SLlr9-McGVV-xAgWlcJVzye1mEczRPRwQRml0tsZ_HUNnLqFHm_gq4xEz_EaAqYmFs"
+  },
+  "oxQkJpur83w": {
+    "id": "oxQkJpur83w",
+    "title": "Alibi [The Other Girl Version] (feat. Rudimental)",
+    "isSong": true,
+    "duration": 185,
+    "durationStr": "3:05",
+    "author": "Ella Henderson, Natasha Bedingfield",
+    "authorId": "UCWN8EUD00PTyo5QQ5ueRr-A",
+    "thumbnailId": "bUllCogp9CizBJ6OOx-ZQ0EpJXfcYvUCoLUKyWCXkqgGlDQxT97wCcMc1ZPKnxO0xs1qXme4gtiDJdb9"
+  },
+  "oy-N6gfgyl0": {
+    "id": "oy-N6gfgyl0",
+    "title": "Feel It [Radio Version] (feat. Maya)",
+    "isSong": true,
+    "duration": 179,
+    "durationStr": "2:59",
+    "author": "The Tamperer",
+    "authorId": "UCk_gTaiN98j0MRJMCV71y9Q",
+    "thumbnailId": "DmzAp6xmc-vDHyjnVZ7sDwEPNyRV1198yL6dsGYxytklcKtIP2Rq2SRflpuBOPFnoEYzxWsyibsm20af"
+  },
+  "oknFfFIeLyM": {
+    "id": "oknFfFIeLyM",
+    "title": "Aftermath",
+    "isSong": true,
+    "duration": 459,
+    "durationStr": "7:39",
+    "author": "Tricky, Martina Topley-Bird",
+    "authorId": "UCSuP436X3nxcLjeJQOnlOPg",
+    "thumbnailId": "LAJ5W7aEGVX7scDo_8j6CNRCDq7VgiG3XrGLc_dc6FTy8roL_MYavcoQ6-wu46QuCgaB_3zSO-tPc9M"
+  },
+  "oCnUloufSDk": {
+    "id": "oCnUloufSDk",
+    "title": "I'm Alive",
+    "isSong": true,
+    "duration": 186,
+    "durationStr": "3:06",
+    "author": "Curbi",
+    "authorId": "UC9SMOcsghOvSOOE2HvnCREw",
+    "thumbnailId": "MbF0euspKKrPQXmHXled27E4KKfmU8dnCDXwLpyp50y5AhxLK0_1O6fTbICXjjFkIpJJcIuYNaZm7ew"
+  },
+  "o4CmshNNF0Q": {
+    "id": "o4CmshNNF0Q",
+    "title": "MONTAGEM BATCHI",
+    "isSong": true,
+    "duration": 80,
+    "durationStr": "1:20",
+    "author": "MXZI, Rushex, Montagem",
+    "authorId": "UCXSYGVPdqu40oQtq8g580yA",
+    "thumbnailId": "Lm-QpT4fsBGyWLNCWRJLr-K2JSesSF5dlZTvu6aTLK34nfxLDJlE5R7CKq-K_716siVEuhDV1h1OwoB-6w"
+  },
+  "oL4A98XSwy0": {
+    "id": "oL4A98XSwy0",
+    "title": "いっそ セレナーデ - Isso Serenade",
+    "isSong": false,
+    "duration": 196,
+    "durationStr": "3:16",
+    "author": "Yosui Inoue",
+    "authorId": null
+  },
+  "oi8ArKYLwBY": {
+    "id": "oi8ArKYLwBY",
+    "title": "かくれんぼ",
+    "isSong": false,
+    "duration": 305,
+    "durationStr": "5:05",
+    "author": "AliA",
+    "authorId": "UCDXET_2K5_4ZMCTO-0G82kA"
+  },
+  "o1GkEEadeYI": {
+    "id": "o1GkEEadeYI",
+    "title": "Spring Of Life (Level3-mix)",
+    "isSong": false,
+    "duration": 360,
+    "durationStr": "6:00",
+    "author": "Perfume",
+    "authorId": null
+  },
+  "o3_-nZe4Cv4": {
+    "id": "o3_-nZe4Cv4",
+    "title": "Crab",
+    "isSong": true,
+    "duration": 166,
+    "durationStr": "2:46",
+    "author": "TVOD",
+    "authorId": "UCEnrYLybyEh3efc3jFyEzrA",
+    "thumbnailId": "Cbgl-Dkt6MItAZj1QS_9bnY_qFdMwZwWPJX-OGDO5MeLTwyiN42DruT9NTcoqCzgy4LxWeDcYMnhxyke"
+  },
+  "oSGQc5RCm6c": {
+    "id": "oSGQc5RCm6c",
+    "title": "Födweg",
+    "isSong": true,
+    "duration": 223,
+    "durationStr": "3:43",
+    "author": "Brånd",
+    "authorId": "UCTOE4ZASzpSwNRHww2k-evg",
+    "thumbnailId": "Zy9cID81dgWBg5Ikb8CgBcSFF8LnAB0pfZQZHw-khsI_TDDuhlVO8-tmRxzCGrDPYdk0lmvqMi71eLmH"
+  },
+  "oDv6OIGrxOI": {
+    "id": "oDv6OIGrxOI",
+    "title": "Vetry Zlye",
+    "isSong": true,
+    "duration": 195,
+    "durationStr": "3:15",
+    "author": "Rotting Christ",
+    "authorId": "UC9RTKE9DYc6YwVYH2uCtekg",
+    "thumbnailId": "ArK_Llf2ayTbRFM0hBZoAeZhO6YU79uHDk9XFvJK68QLnksT8f_5qKKbwmmEm63V_tG9RVkYIhlzuV_7"
+  },
+  "oDYvayI_ZbY": {
+    "id": "oDYvayI_ZbY",
+    "title": "Convince Me to Bleed",
+    "isSong": true,
+    "duration": 221,
+    "durationStr": "3:41",
+    "author": "Ghost Bath",
+    "authorId": "UC8kl0zy_SvSctBDdUQ-QehA",
+    "thumbnailId": "gkh-2_kAvAKb-CEhbM17RNTSCP9CFgbvdBlrbcfg5MljUQTM410TjTBV5ocuWPx5z6Rh84PNLyZQVFkF"
+  },
+  "oLVxpX3LRkE": {
+    "id": "oLVxpX3LRkE",
+    "title": "Chapel of Abhorrence",
+    "isSong": true,
+    "duration": 204,
+    "durationStr": "3:24",
+    "author": "Carnation",
+    "authorId": "UCjuV971m5BWrh2s8z-4NuZQ",
+    "thumbnailId": "aG91bhDPNL5I8PgriTX-_mV0caofAjw8EVM33GkUs8U7s9TVtE-TjtWUMkT79mUV6aX0ZTjchZlcuH9P"
+  },
+  "olJKGBQF2Ls": {
+    "id": "olJKGBQF2Ls",
+    "title": "Constant Cosmic Failure",
+    "isSong": true,
+    "duration": 170,
+    "durationStr": "2:50",
+    "author": "Terra Builder",
+    "authorId": "UCb2hHKSNKYpYsFCNBkXMEWg",
+    "thumbnailId": "iNMsQZ58AP8h_vc5MYeLs3j95kOoqISP-nmBpT5Pp_1N5LkUI1-y93hZxyXTeUvI-JbwF0-wrpeI6DQKmA"
+  },
+  "oZzXzXx-xng": {
+    "id": "oZzXzXx-xng",
+    "title": "Now You've Got Something to Die For (Audio)",
+    "isSong": false,
+    "duration": 222,
+    "durationStr": "3:42",
+    "author": "Lamb of God",
+    "authorId": "UCTaA5rGW1qSMnCTTFyFFKoA"
+  },
+  "o0jiwejabxo": {
+    "id": "o0jiwejabxo",
+    "title": "The Spiritless One",
+    "isSong": true,
+    "duration": 390,
+    "durationStr": "6:30",
+    "author": "Cenotaph",
+    "authorId": "UCIRT9oOpADh3X_3l9LwluJA",
+    "thumbnailId": "D9XRIsfT7o8dP6PorQ_PHKwPJxyaSTENjVbUnEeD8UbqaFl35O2Dysu9e5BcURni_SL6jLIh2UHQkNE"
+  },
+  "o8O4BXin36U": {
+    "id": "o8O4BXin36U",
+    "title": "Manipulation of Faith",
+    "isSong": true,
+    "duration": 191,
+    "durationStr": "3:11",
+    "author": "Disgorge",
+    "authorId": "UCg55ZrDSWPQOEundfGoOvIQ",
+    "thumbnailId": "k0aZYUu7F4tzVa2Qkct9i0gSAxAFoUEMW84hGIyBaqePuULsWtAj5XBMKU2saVavMMSynU-2Z7APExhh"
+  },
+  "oC83TRmId_Y": {
+    "id": "oC83TRmId_Y",
+    "title": "Cat Scratch Fever",
+    "isSong": true,
+    "duration": 220,
+    "durationStr": "3:40",
+    "author": "Ted Nugent",
+    "authorId": "UCNF_aW6W36lVoVV_hRdjq2g",
+    "thumbnailId": "dp2cXghM7LPPxV0ct9K9ScEGR6k0O9C8rKksqa7DMSQoQ2McDanA-nm6yG6wHciQPuw_PH7lXcOQzcw"
+  },
+  "oNcGBJCl0cw": {
+    "id": "oNcGBJCl0cw",
+    "title": "Alagbara (feat. BBO, Pelumi Deborah, Folabi Nuel & Kelvin Nkwoala)",
+    "isSong": true,
+    "duration": 399,
+    "durationStr": "6:39",
+    "author": "Ty Bello, WeAreTheNew, Pastor Shola Okodugha",
+    "authorId": "UCPobOZgMOhgWw9hK35bRXLg",
+    "thumbnailId": "c_c_Y9B7w__ES3uaELBilFzWjpOUG-0lLoGNmGOMfi-8-1U_l8DwieqLwQRuxWER6ftFkQA4LGRoeTDG"
+  },
+  "oE_brFKwldk": {
+    "id": "oE_brFKwldk",
+    "title": "Maravilhado (Ao Vivo)",
+    "isSong": false,
+    "duration": 458,
+    "durationStr": "7:38",
+    "author": "Nívea Soares",
+    "authorId": "UCSAm-SyAHDUFMYUew6Iuw-w"
+  },
+  "of_fThKC0j0": {
+    "id": "of_fThKC0j0",
+    "title": "No Tempo De Deus",
+    "isSong": true,
+    "duration": 249,
+    "durationStr": "4:09",
+    "author": "Som Da Adoração Brasil",
+    "authorId": "UC9WSH-ZKu4NB-xcvy8tPTvA",
+    "thumbnailId": "BrjEkEdbDFXIAGkV3rTRcxCmS3CyYE2JZBbZ3nQaHQBOT2FnkvlFlXTrMHNXdD03r_kNLfmrntavToz3LA"
+  },
+  "oLS1MqU0uCA": {
+    "id": "oLS1MqU0uCA",
+    "title": "Let There Be (Live)",
+    "isSong": true,
+    "duration": 281,
+    "durationStr": "4:41",
+    "author": "Amanda Cook",
+    "authorId": "UCzTKYDDqS-vdS_g_3yDIR3A",
+    "thumbnailId": "4CkaNfFtxgcawTxYrrf6YKiKodQSybFguG6ho1lT9UTfFp0l_qvmq0WjwlNLYZLXpBuN-fNUDvnh_I8_"
+  },
+  "obGkTmTVmfI": {
+    "id": "obGkTmTVmfI",
+    "title": "Fresh Outpouring",
+    "isSong": true,
+    "duration": 291,
+    "durationStr": "4:51",
+    "author": "Southland, Alexander Pappas",
+    "authorId": "UC60y_j209bRa8xwLpc99RdA",
+    "thumbnailId": "SUcOQumsPcJuA-UpbUpKShQXXXJKh5zg4wMNKFAPBN_FLIPNFIZ8GhxchGUBoDa_cwb4ZZQiQ2_MzNWSAw"
+  },
+  "oq69AVDPM60": {
+    "id": "oq69AVDPM60",
+    "title": "THE AUTHOR - IN THE ROOM!",
+    "isSong": true,
+    "duration": 287,
+    "durationStr": "4:47",
+    "author": "Brandon Lake, Nick Jonas",
+    "authorId": "UCZJaE8aA58tLmMBF749F19Q",
+    "thumbnailId": "2Rh5yDrAIybx0KgTo5uH7Bxzv0jEHobJrRyTcMjUVM9tAUwl-6tHZWvAJ6elh89gXXidz4zDP8UMBEkw"
+  },
+  "oIbCpy0CQEo": {
+    "id": "oIbCpy0CQEo",
+    "title": "Forgiveness",
+    "isSong": false,
+    "duration": 229,
+    "durationStr": "3:49",
+    "author": "Matthew West",
+    "authorId": "UCFXxTyUzjZREsuV4Zv0fF-w"
+  },
+  "oJ0XK40JPqo": {
+    "id": "oJ0XK40JPqo",
+    "title": "Precious Lord (Take My Hand)",
+    "isSong": true,
+    "duration": 204,
+    "durationStr": "3:24",
+    "author": "Aretha Franklin",
+    "authorId": "UCW02f_MjH8n1uMZhSds4mQQ",
+    "thumbnailId": "sT8YVBixKufAkpsjyRyykc2uw03l078qpU2Zy5J4FhvSurUqQWYt9qzFWfQZQzSupu1wiCJ6iSF2n2E"
+  },
+  "o6n03CiVOj4": {
+    "id": "o6n03CiVOj4",
+    "title": "Daur",
+    "isSong": true,
+    "duration": 111,
+    "durationStr": "1:51",
+    "author": "Rebel 7, Huzur",
+    "authorId": "UCI7528rvZCdiIsQ3uxx1rpw",
+    "thumbnailId": "bo_RzRF0c7l7CHqQzCE47JF3OiGEHgV4srDJhY_dgttiUpYOdHPgzCIXA2X_eu5U3KY1fqP4tozrISLHaA"
+  },
+  "onu8oLLCK2E": {
+    "id": "onu8oLLCK2E",
+    "title": "Nankhatai Flow",
+    "isSong": true,
+    "duration": 118,
+    "durationStr": "1:58",
+    "author": "Roshhh",
+    "authorId": "UChWZY-MLLxK5JWzPW6vm4vg",
+    "thumbnailId": "dE3Od-WncfsOUFGHu4uCn64tROGkbiQAm7eWIHJ3YVUqqeQ1ygW6uliemtfPIF2X451E7pjziLXTkyg"
+  },
+  "onDT_f8IbIY": {
+    "id": "onDT_f8IbIY",
+    "title": "De-Luxe",
+    "isSong": true,
+    "duration": 215,
+    "durationStr": "3:35",
+    "author": "Lush",
+    "authorId": "UC0A9VTrciD8Pod31BTBXZ7Q",
+    "thumbnailId": "mFedM6bNKmtgHWSMwVHLGNTYwSus8rddGTdJGurSJPHxIO78gYKpKrAC4a7cmz0xf7V1OTBl-CbBCrY"
+  },
+  "onC_GPm3rnY": {
+    "id": "onC_GPm3rnY",
+    "title": "The Question",
+    "isSong": true,
+    "duration": 197,
+    "durationStr": "3:17",
+    "author": "Balu Brigada",
+    "authorId": "UCtRKPfhl_kDQhLrqO2sp4TA",
+    "thumbnailId": "oAT2fQLIAKCV2QNiBph0M1ik3Vhq2L62Nlf8OxRA-qlZe8EZ5HjVjkkdUS19m2B9V-xjIe5B3_0uhY6W"
+  },
+  "osCw1NF_Owg": {
+    "id": "osCw1NF_Owg",
+    "title": "Know Who You Are At Every Age",
+    "isSong": true,
+    "duration": 221,
+    "durationStr": "3:41",
+    "author": "Cocteau Twins",
+    "authorId": "UCle3lHYlHgugefCCr78N1Gw",
+    "thumbnailId": "IMYr6A5eGgZdVa9bGuPiZ706JYyt5tFuNBdscvFkQgcXk8FR0SAonlDAxT2-VhSPszf3P4264oZ07q_wDA"
+  },
+  "o5mbA04h658": {
+    "id": "o5mbA04h658",
+    "title": "The Sun The Sea",
+    "isSong": true,
+    "duration": 317,
+    "durationStr": "5:17",
+    "author": "The Verve",
+    "authorId": "UCt2KxZpY5D__kapeQ8cauQw",
+    "thumbnailId": "OJXo7g5wf2d_8ZSRfWdDmvQ9i2OzPpyAEzcHhuqC0tQQAPESfXFbbzXt27vdE1hWQHsLRsYLqx2OiZ0"
+  },
+  "ogPMogs_alI": {
+    "id": "ogPMogs_alI",
+    "title": "Taboo",
+    "isSong": true,
+    "duration": 195,
+    "durationStr": "3:15",
+    "author": "Fridayy",
+    "authorId": "UC-pCz-F2dI9k6V6pT7huMJg",
+    "thumbnailId": "WmCIrdlZdwTIdR8y20ActYbweEIGSu_icjU3Jw1eK_6Yi45_QWK6lxvFz50CjaV31dK1Y4lQcgNKZls"
+  },
+  "o8d90lZiI-M": {
+    "id": "o8d90lZiI-M",
+    "title": "Cabaret",
+    "isSong": true,
+    "duration": 245,
+    "durationStr": "4:05",
+    "author": "The Hails",
+    "authorId": "UCzSRf4VYjBEq5-ADdP7MOyw",
+    "thumbnailId": "KCTwyyTtaid6XRH2_AnfK0Ax0YNOk-IF3Yk7eQsQ8P09IYqmZeThsczruossFvPUxyyRQZpXJqwlyMqr"
+  },
+  "o6e5cgCsmtg": {
+    "id": "o6e5cgCsmtg",
+    "title": "There's No Other Way (Single Version)",
+    "isSong": true,
+    "duration": 194,
+    "durationStr": "3:14",
+    "author": "Blur",
+    "authorId": "UCI3EFb2lvZyBMykNd64JDhg",
+    "thumbnailId": "BX2qpZYVXvvJYO_SQSdwAi0ZLMhXstBBBJXoj3uqHWucEn7gDIUY-y7lJNB_48NWHD9Mc_EXI_mnEqdCaA"
+  },
+  "oK3J7LUxjaI": {
+    "id": "oK3J7LUxjaI",
+    "title": "Stop Crying Your Heart Out",
+    "isSong": true,
+    "duration": 304,
+    "durationStr": "5:04",
+    "author": "Oasis",
+    "authorId": "UCmMUZbaYdNH0bEd1PAlAqsA",
+    "thumbnailId": "K6HS46C0A96XqaJ0LUHGOaWVSWcK04kPTlw07mWJx630BaQaodSZ5RsHt9Z9n-Es0f1b_v1Ap5BrTboZ"
+  },
+  "ogyshKjTItY": {
+    "id": "ogyshKjTItY",
+    "title": "SWEETEST THING",
+    "isSong": true,
+    "duration": 219,
+    "durationStr": "3:39",
+    "author": "세븐틴",
+    "authorId": "UC0gpUnoyhu44aS3-NxYs7rg",
+    "thumbnailId": "hlI93XobH1ZmOS5ht_qtCfRmZG6QpTLqTy9aVZkSBguMg8S5qZ4snpfG0_2Zf_g8LwNjgCl-pfdVrQ3-"
+  },
+  "o8cXc33IGE8": {
+    "id": "o8cXc33IGE8",
+    "title": "Boustan El Achar",
+    "isSong": true,
+    "duration": 333,
+    "durationStr": "5:33",
+    "author": "Yassine Nana",
+    "authorId": "UCb7pLHY36ndX6PQ-jNirhZw",
+    "thumbnailId": "782rV9qtKsLiZhFfiB8kU0gaazLkVK2l6ZkJ6n_B_oHZqWMupdE9wOhuGHO7h-dfExpC63MXsdgqIaD2"
+  },
+  "oyvBejjiaE8": {
+    "id": "oyvBejjiaE8",
+    "title": "Baile Diferente",
+    "isSong": true,
+    "duration": 171,
+    "durationStr": "2:51",
+    "author": "Ron Puma",
+    "authorId": "UCDOVd7hwLHX1bHMb4BedfQg",
+    "thumbnailId": "kcNYiV-eiaxaZIMmEAl41B7Vnhyi8bocBpFH9Q98PSs_afghXcJHIJ-KgDtNZ1syX8OnBXfXp2q8geFN"
+  },
+  "oAocyexjZ40": {
+    "id": "oAocyexjZ40",
+    "title": "Good",
+    "isSong": true,
+    "duration": 244,
+    "durationStr": "4:04",
+    "author": "Choker",
+    "authorId": "UC7TSIdV28aLfXZ5_qrHreUw",
+    "thumbnailId": "-PteVIUK5jJW0bpzF3txQ7knk04VpOu2SwlaggdLRm3RyzEZ1z1qXJfucYRzlBAd3OkVU6LPL99Oxns"
+  },
+  "opmaiBIGDaE": {
+    "id": "opmaiBIGDaE",
+    "title": "Ivoire Feeling",
+    "isSong": true,
+    "duration": 182,
+    "durationStr": "3:02",
+    "author": "Jeune Morty",
+    "authorId": "UCeTHSVqajE73C23VfFZe2Vg",
+    "thumbnailId": "gPV34jQO_c6KmTVGlKvHcG_KmyUpJvsOqd6Hc9p2PsQWL-tpNryLwkZLsEZqyxv7lucPqPM7LscpZpBJUg"
+  },
+  "oEr1fgTV4ek": {
+    "id": "oEr1fgTV4ek",
+    "title": "Angel",
+    "isSong": true,
+    "duration": 226,
+    "durationStr": "3:46",
+    "author": "Terrace Martin",
+    "authorId": "UCN5vXTdu4G2NyDoWS5MnRSA",
+    "thumbnailId": "bFQGDXSXk89PBCMp93_2-lZ1MoZQYYk9ljKY0Jc77_skJXJLNIa27lnsZg_-oAd41L_NcVXQXflIDobF"
+  },
+  "ozjtsbmT8ns": {
+    "id": "ozjtsbmT8ns",
+    "title": "Solitude (feat. Chris Potter)",
+    "isSong": true,
+    "duration": 300,
+    "durationStr": "5:00",
+    "author": "Kandace Springs",
+    "authorId": "UCnAreBjn0a3npwuBgjYvnMg",
+    "thumbnailId": "H6xycGMErQkDhG07zTpjhacJy9iq4ofnMoinoQf35owjCVZjB5OL7rqdCcCXaP30upCivRKYVA7PO9Oa"
+  },
+  "ooQlAWARJVw": {
+    "id": "ooQlAWARJVw",
+    "title": "Gimme Some",
+    "isSong": true,
+    "duration": 241,
+    "durationStr": "4:01",
+    "author": "Vincent Ingala",
+    "authorId": "UCnzeA7V7teGF8jEy095jn2g",
+    "thumbnailId": "eCUNqJ_96JI8OnmzYsc_jECyZF7qEzU3na18t2hFGB-VkzIbDrbb5U4s-VAUWMj89p8amlLrDWqK7DpV"
+  },
+  "oFr6_hNYBmM": {
+    "id": "oFr6_hNYBmM",
+    "title": "I Like You, You're Nice",
+    "isSong": true,
+    "duration": 353,
+    "durationStr": "5:53",
+    "author": "June Cavlan",
+    "authorId": "UCB7zw915CWIMNcicHlkIA1g",
+    "thumbnailId": "MTqKjXW7FOwj5t7djqozHgs5XhZ3aSZSX1xaIszymG1JPso5rPDTxnJwk4k75oMfEPlkQx1iL_IrUWwDZA"
+  },
+  "otpEQjJF_MQ": {
+    "id": "otpEQjJF_MQ",
+    "title": "marten",
+    "isSong": true,
+    "duration": 268,
+    "durationStr": "4:28",
+    "author": "jizue",
+    "authorId": "UCIfx99mxqbJnlU96A-sCXTg",
+    "thumbnailId": "3FleTIsdRRMj3Ki0gBYFKZL92Ktly0RaY0uc68p_d1mWp0z8D4VV_bU4LAuow5k8P09kdJzfOdICvM7-KA"
+  },
+  "oG1KZArwb4Y": {
+    "id": "oG1KZArwb4Y",
+    "title": "SPYRO SKANK",
+    "isSong": true,
+    "duration": 245,
+    "durationStr": "4:05",
+    "author": "Zeñel",
+    "authorId": "UCfhDQy1Qe94YNKvk_Rn0leg",
+    "thumbnailId": "2lh2r6utfAVHorTvVtyHMyzPVlGpXhQ5HnVinLdA1pjbDAKUSrlfHIEfsw3cYafKjI27g7IMpGS_W1sP"
+  },
+  "oPcQ2ugn26o": {
+    "id": "oPcQ2ugn26o",
+    "title": "Message to You",
+    "isSong": true,
+    "duration": 218,
+    "durationStr": "3:38",
+    "author": "Ty Myers",
+    "authorId": "UCDx_wMrwPS4NWhogsYdY22w",
+    "thumbnailId": "VKT0v8o49STEAUf50Stc31M6FLh9KrZii0uyfTskKzXLEPEvINA4GlEZCCDPlBZ1TC2-jRR7eGL8M_Y"
+  },
+  "oeVCMqOtpMM": {
+    "id": "oeVCMqOtpMM",
+    "title": "Love In Letting Go",
+    "isSong": true,
+    "duration": 200,
+    "durationStr": "3:20",
+    "author": "Warren Zeiders",
+    "authorId": "UC_OYOA33hDcR39a89P4SqQQ",
+    "thumbnailId": "_0tzJds_eOPzfy6NRLC28r4byYYPQeioVIS9j2gDM19cWYLwqhGyDG0GbMf-3ceBbSb8UhhN5jnSOfyb"
+  },
+  "oMQRJVKOyBs": {
+    "id": "oMQRJVKOyBs",
+    "title": "Game I Like To Play",
+    "isSong": true,
+    "duration": 214,
+    "durationStr": "3:34",
+    "author": "William Beckmann",
+    "authorId": "UCQqOGaVMy67su56UGMJ4rbQ",
+    "thumbnailId": "usm3WJNmm9w-COikY9McaQsdxkA6xUWgKTfdMq898igqd-5UtFu73wxIZETBFyUeQE3DwmGseW_xDc-P1Q"
+  },
+  "oPO8gzl64qM": {
+    "id": "oPO8gzl64qM",
+    "title": "Tucson Too Late (Live Acoustic)",
+    "isSong": true,
+    "duration": 187,
+    "durationStr": "3:07",
+    "author": "Jordan Davis",
+    "authorId": "UC2M7yC05jo3pHYAKu8xlewQ",
+    "thumbnailId": "nHsHdFATCBD-Anrim7gAGjg76uTtgI4LX2Sp-AyesjfIFvcw6pvsoXDomiOEoAYPDEHrrRsWkC3xAaw-"
+  },
+  "oxKdryW3cPY": {
+    "id": "oxKdryW3cPY",
+    "title": "Você passa eu acho graça",
+    "isSong": true,
+    "duration": 247,
+    "durationStr": "4:07",
+    "author": "Karinah",
+    "authorId": "UCi1_qLCdr3QsAvSdhn-Sy1A",
+    "thumbnailId": "EsEgomLaPxAzpmUwKuagnSv92q_ZuoDrIh7zTywHpQTEeep6r61_TSJKWkJrj5HxIGnFG0MERGeRc51K"
+  },
+  "o44-ibQ0sPA": {
+    "id": "o44-ibQ0sPA",
+    "title": "It's A Long Way",
+    "isSong": true,
+    "duration": 367,
+    "durationStr": "6:07",
+    "author": "Caetano Veloso",
+    "authorId": "UCo7VN5w1PpeBOapTqtal75Q",
+    "thumbnailId": "EwmgfpjifqAWIYUDM8BsDk4chsSVzTp_pksFP6BYWTKawKap0B-K2TpDv7m1hSHs_TnzEG02N8PV7zR9mw"
+  },
+  "oOR5_ZW9vqk": {
+    "id": "oOR5_ZW9vqk",
+    "title": "Aguei",
+    "isSong": true,
+    "duration": 0,
+    "durationStr": "",
+    "author": "ANAVITÓRIA, Jovem Dionisio",
+    "authorId": "UCDARE-4OotSQ2uHFla-zNvA",
+    "thumbnailId": "jFJYAcLLY9OcRMDhghTRWVCFE2hh2VA-IgsE1NOZeVo0s3bNlnToLpxNxO_x4e-R4sLnKAMPYiFGrMk"
+  },
+  "ozhktEpFgcc": {
+    "id": "ozhktEpFgcc",
+    "title": "Everybody is Fake",
+    "isSong": true,
+    "duration": 221,
+    "durationStr": "3:41",
+    "author": "ConeCrewDiretoria, Pedro Qualy",
+    "authorId": "UCUJdJcFKRrkWuGw4Soq16uw",
+    "thumbnailId": "oP4mDn2Fg6Zwm8zM5HXtmnDf8339GUDy-20ECyJFQ8Nr847M9qhcctfwdBE3z6saBcK-0ON7_U5B9wDBqg"
+  },
+  "oe20yy0AS7U": {
+    "id": "oe20yy0AS7U",
+    "title": "Mesa de Bar",
+    "isSong": true,
+    "duration": 178,
+    "durationStr": "2:58",
+    "author": "Conde Do Forró",
+    "authorId": "UCXBaeUNfFbVkSTACicvhTwg",
+    "thumbnailId": "GdrnVr1uTgXtFuljekg1HOXqS2GDWnnDIqdR120aBWmIc4SYwVYOAjS6KSntKv-HV6FFpoqGdz8aA5wNGg"
+  },
+  "oE_WSPuG9Zc": {
+    "id": "oE_WSPuG9Zc",
+    "title": "CHINEZAH (REMIX)",
+    "isSong": true,
+    "duration": 0,
+    "durationStr": "",
+    "author": "VANDAL",
+    "authorId": "UCvBK3rQjzk0f6sisIoh0K_A",
+    "thumbnailId": "N93CtGFIvkKDFI03ZNsCDpQjOgqQLWrjEAucjeVjEr-SjgjM_C5cKn_6kMSAzyY8x8qFO8IO4C-xbQ-r"
+  },
+  "o4HyBL_rxFc": {
+    "id": "o4HyBL_rxFc",
+    "title": "Зорепад",
+    "isSong": true,
+    "duration": 182,
+    "durationStr": "3:02",
+    "author": "MAX BARSKIH",
+    "authorId": "UCnOzVdQAn0KQ3aBxc9yoIpg",
+    "thumbnailId": "pNqGmF2aQrHiZDkOnGDxLnjhjF85mLZIlxkD0s_i_WiRXEhOC1sD0F30vbCWZ1OEE2VG2n_Q-Na7vUXFUQ"
+  },
+  "oVmgVY_XTx8": {
+    "id": "oVmgVY_XTx8",
+    "title": "Naa Soodana Mogini",
+    "isSong": false,
+    "duration": 284,
+    "durationStr": "4:44",
+    "author": "D. Imman",
+    "authorId": null
+  },
+  "o2iF1fBaUzU": {
+    "id": "o2iF1fBaUzU",
+    "title": "Runaway",
+    "isSong": true,
+    "duration": 273,
+    "durationStr": "4:33",
+    "author": "Ziggy Alberts",
+    "authorId": "UCZMfjUemnAIN8h9a5RUDYjQ",
+    "thumbnailId": "wKGcOFLr06RrFX1mXgme-10MCLEjjAv3gL2wo_ENltdCRazyhGPq3GKq3tdEcFrbg5RkOjQafvtRqB1Q"
+  },
+  "o70wlNu1l6A": {
+    "id": "o70wlNu1l6A",
+    "title": "All the Ways (feat. Ray LaMontagne)",
+    "isSong": true,
+    "duration": 219,
+    "durationStr": "3:39",
+    "author": "The Secret Sisters, Ray LaMontagne",
+    "authorId": "UC5hTOp8szabRYgqQSZ9RuSw",
+    "thumbnailId": "L1MGv-vZdsZpqtq2s_IyYidS7Soi137GGFg6F5JAF22EnMWPJrEWm8mloIL_E8klUdP6EdW7ZnGmxS3C"
+  },
+  "orcpxQuFZjI": {
+    "id": "orcpxQuFZjI",
+    "title": "Розмова з тобою",
+    "isSong": true,
+    "duration": 219,
+    "durationStr": "3:39",
+    "author": "Іво Бобул",
+    "authorId": "UC5xi1SAKoGM058ofXsxE8nw",
+    "thumbnailId": "-i9NNa8nchUq9VXOS-Jgd0EpIVUIcXeUyVAhmdAu7l2QS1Gb67vly_zl0L9qEBNalMtOaBPYwJ9notkL"
+  },
+  "o6znMTFWVpE": {
+    "id": "o6znMTFWVpE",
+    "title": "2am",
+    "isSong": true,
+    "duration": 180,
+    "durationStr": "3:00",
+    "author": "Lio Kalebic",
+    "authorId": "UCdklILRPUC5LL2xPeymbWoQ",
+    "thumbnailId": "RKQBHTKiU6rFWz1TbiK7bcQzngXu7O58vVVcd7CIiQcop6AdhrFG2qEB9Mi0YcFaaIe_qDs4fB6yDpA"
+  },
+  "ojwmeKspAgc": {
+    "id": "ojwmeKspAgc",
+    "title": "Lovers To Strangers",
+    "isSong": true,
+    "duration": 171,
+    "durationStr": "2:51",
+    "author": "Matt Schuster",
+    "authorId": "UC3Z6UP8SaJ-jCOOvjKiwfmg",
+    "thumbnailId": "kI6IVq1vWNxzNf0BjqiXvP7DhnwrGeUbsYSoooysWfQAAD7YnMU5vlijtIIsYjvdAZhjC-9WwoflXi96"
+  },
+  "oBXNCUfz2nk": {
+    "id": "oBXNCUfz2nk",
+    "title": "Пори року",
+    "isSong": true,
+    "duration": 152,
+    "durationStr": "2:32",
+    "author": "ЮРКЕШ",
+    "authorId": "UCm1eemXUWOFDjntI1ULazpQ",
+    "thumbnailId": "xwU6GUNppxTEKttton4-_NeyMJL86adQvIPDuk8Tdm4Pk1thFR43ggH9BKOlkp6LGbMrbR0xtgRIgHZA"
+  },
+  "oRJ2a-z5SI4": {
+    "id": "oRJ2a-z5SI4",
+    "title": "Penny Lane",
+    "isSong": true,
+    "duration": 183,
+    "durationStr": "3:03",
+    "author": "The Beatles",
+    "authorId": "UC2XdaAVUannpujzv32jcouQ",
+    "thumbnailId": "r7FUIs4CwI2tr7vFGnvIo8-EgGLBC7LOh5V3OJOIKEneTOAIhgEbUwHeAPizEa2roidqNYaAK-Su48fP1A"
+  },
+  "oJAzJR0AiSI": {
+    "id": "oJAzJR0AiSI",
+    "title": "Butchie's Tune",
+    "isSong": true,
+    "duration": 156,
+    "durationStr": "2:36",
+    "author": "The Lovin' Spoonful",
+    "authorId": "UCgTe55AB4dqeMMVgVZ-qQnQ",
+    "thumbnailId": "Kk05oLZw0rEtrurKp5gofeNaCladkULFGzQ0RHPFX55_OJFw_AWhME6RkTXC9Kc3XZCCt_IJ6GtGoxzN"
+  },
+  "oWMTCaszVQY": {
+    "id": "oWMTCaszVQY",
+    "title": "Boy - Oh - Boy",
+    "isSong": true,
+    "duration": 274,
+    "durationStr": "4:34",
+    "author": "Sweet Breeze",
+    "authorId": "UCVTEoZxT9rnQtHY1P13HRjQ",
+    "thumbnailId": "oOrQpJyZJzMbR-y4UbMX6fczfKU_SyxCDSMg4Yc_EZeoIyie4AJbfOthRbeZsN6IHCkWvypGv4HbVrQy"
+  },
+  "opd-BQNn8oM": {
+    "id": "opd-BQNn8oM",
+    "title": "Lalala (feat. Jnr Spragga & Calvin Mangena)",
+    "isSong": false,
+    "duration": 184,
+    "durationStr": "3:04",
+    "author": "Xiba",
+    "authorId": "UCXoFY14NivXHMJBoUf8OJZw"
   }
 }
