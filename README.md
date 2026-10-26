@@ -1,360 +1,233 @@
 # Moods & Genres Dataset
 
-A comprehensive open-source dataset, scraping pipeline, interactive Web Explorer, and Vercel Functions Recommendation API for moods, genres, sections, playlists, and tracks extracted directly from [YouTube Music Moods & Genres](https://music.youtube.com/moods_and_genres).
+A comprehensive, deterministic dataset and automated scraping pipeline for moods, genres, sections, curated playlists, albums, and tracks extracted directly from [YouTube Music Moods & Genres](https://music.youtube.com/moods_and_genres) to power catalog synchronization and the `/featured` recommendation API in **ytify**.
 
-Built with [Bun](https://bun.sh) and TypeScript.
+Built with [Bun](https://bun.sh) and TypeScript. Zero external dependencies.
 
 ---
 
 ## Table of Contents
 
 - [Overview & Architecture](#overview--architecture)
-- [Playlist Recommendation API (`/` & `/api`)](#playlist-recommendation-api---api)
-- [Dataset Schemas & Storage Format](#dataset-schemas--storage-format)
-  - [1. Normalized Track Partitions (`normalized/<hex>.json`)](#1-normalized-track-partitions-normalizedhexjson)
-  - [2. Category Files (`moods/*.json` & `genres/*.json`)](#2-category-files-moodsjson--genresjson)
-  - [3. Primary Index (`data.json`)](#3-primary-index-datajson)
-- [Interactive Web Explorer (`index.html`)](#interactive-web-explorer-indexhtml)
-- [Vercel Serverless Bun Deployment](#vercel-serverless-bun-deployment)
+- [Consumer Integration: ytify `/featured` API](#consumer-integration-ytify-featured-api)
+- [Dataset Specifications (`data/`)](#dataset-specifications-data)
+  - [`categories.json`](#categoriesjson)
+  - [`playlists.json`](#playlistsjson)
+  - [`albums.json`](#albumsjson)
+  - [`songs.json`](#songsjson)
+  - [`videos.json`](#videosjson)
+  - [`trackIndex.json`](#trackindexjson)
+  - [`counterparts.json` (Planned Addition)](#counterpartsjson-planned-addition)
 - [Automated Scheduled Updates (GitHub Actions)](#automated-scheduled-updates-github-actions)
-- [Repository & File Structure](#repository--file-structure)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the Scraper](#running-the-scraper)
+- [Repository Structure](#repository-structure)
+- [Running the Scraper](#running-the-scraper)
 - [License](#license)
 
 ---
 
 ## Overview & Architecture
 
-YouTube Music categorizes music into distinct **Moods & Moments** (e.g. Chill, Energize, Focus, Workout) and **Genres** (e.g. Rock, Hip-Hop, Classical, Pop). Each category contains multiple curated sections (e.g. _"Coffee shop blends"_, _"Muted jazz"_), and each section houses featured playlists, albums, and singles.
+YouTube Music categorizes music into distinct **Moods & Moments** (e.g. Chill, Energize, Focus, Workout) and **Genres** (e.g. Rock, Hip-Hop, Classical, Pop). Each category contains multiple curated sections (e.g. _"Coffee shop blends"_, _"Muted jazz"_), which house featured playlists, albums, and singles.
 
 This repository provides:
 
-1. **Automated Scraping**: Reverse-engineers YouTube Music's InnerTube Web Remix API to scrape and normalize all moods, genres, playlists, and tracks.
-2. **Deterministic Hex Partitioning**: Over 170,000 unique tracks are normalized and split across 64 individual partition files named after the 2-digit ASCII hex code of each track ID's first character (`normalized/<hex>.json`). This eliminates filesystem case-insensitivity bugs on Windows/macOS and provides $O(1)$ disk lookups.
-3. **Pure Song vs. Video Entity Differentiation**: Accurately differentiates between official Audio Track Videos (`MUSIC_VIDEO_TYPE_ATV`, where `isSong: true` with album art `thumbnailId`) and generic YouTube videos (music videos, UGC, live performances, where `isSong: false` with `thumbnailId` omitted).
-4. **Single-File Vercel Function (`api/index.ts`)**: Self-contained recommendation engine running on Bun (`bunVersion: "latest"`) using native Bun APIs (`Bun.file`, `Bun.Glob`, `path`), accessible directly without an `/api/` prefix.
-5. **Interactive Web Explorer**: A standalone, zero-dependency `index.html` frontend designed for GitHub Pages with instant client-side search, filtering, clipboard actions, and external links.
+1. **Automated Scraping**: Reverse-engineers YouTube Music's InnerTube Web Remix API to scrape and normalize all moods, genres, playlists, and tracks without external libraries or authentication.
+2. **Deterministic Sorting**: Every JSON file in `data/` is strictly sorted alphabetically by key and formatted with 2 spaces for minimal git diffs and reproducible builds.
+3. **Pure Entity Separation**: Accurately distinguishes between official Audio Track Videos (ATVs / `songs.json`), Music Videos (OMVs / `videos.json`), Curated Playlists (`playlists.json`), and Albums (`albums.json`).
+4. **Clean ID Normalization**: Strips YouTube Music internal prefixes (`MPED`, `VL`) ensuring consistent 11-character video IDs and canonical browse IDs.
+5. **Zero-Dependency Bun Pipeline**: Natively runs TypeScript using Bun with no `node_modules` or `package.json`.
 
 ---
 
-## Playlist Recommendation API (`/` & `/api`)
+## Consumer Integration: ytify `/featured` API
 
-Runs directly at the root (`/`) or `/api`, powered by the single-file serverless handler [`api/index.ts`](./api/index.ts) on Vercel with Bun.
+The dataset powers the **`/featured`** endpoint in ytify (`/featured?ids=...&limit=...`):
 
-### Endpoint
-
-```http
-GET /?ids={id1},{id2},...&limit={limit}
-```
-
-_(Also accessible at `GET /api?ids=...` or `GET /recommend?ids=...`)_
-
-### Query Parameters
-
-| Parameter    | Type     | Required | Default | Description                                                                                                        |
-| :----------- | :------- | :------- | :------ | :----------------------------------------------------------------------------------------------------------------- |
-| `ids` / `id` | `string` | **Yes**  | —       | Comma-separated list of YouTube track/video IDs from user listening history (e.g. `?ids=yNa8jP4zoJo,f9fqe_VvWtU`). |
-| `limit`      | `number` | No       | `10`    | Maximum number of playlists to return (capped at `50`).                                                            |
-
-### How Recommendation Scoring Works
-
-The engine evaluates all 11,600+ playlist entries across moods and genres:
-
-1. **Exact Track Overlap (+10 pts / track)**: Playlists containing one or more of the user's input tracks receive primary weighting.
-2. **Partition Lookup**: The engine resolves track and artist metadata using instant $O(1)$ lookups into only the necessary `normalized/<hex>.json` partition files via `Bun.file`.
-3. **Ranking & Deduplication**: Playlists are ranked by score descending, deduplicated across duplicate category appearances, and returned with direct YouTube Music links.
-
-### Example Request
-
-```http
-GET /?ids=yNa8jP4zoJo,f9fqe_VvWtU&limit=5
-```
-
-### Example Response (`200 OK`)
-
-```json
-{
-  "success": true,
-  "count": 1,
-  "totalInputTracks": 2,
-  "recognizedInputTracks": 2,
-  "playlists": [
-    {
-      "id": "RDCLAK5uy_nBE4bLuBHUXWZrF59ZrkPEToKt8M_I3Vc",
-      "name": "Coffee Shop Blend",
-      "thumbnailId": "CDt4RjHDGr0YiX6WxARTBFkdb9k9VsAIm88sJXZ7B3O1yMoS53kLS_dy8ZIKRrFRHHCB6OJePWU1GbY",
-      "categoryType": "mood",
-      "categorySlug": "chill",
-      "section": "Coffee shop blends",
-      "score": 20,
-      "matchedTrackIds": ["yNa8jP4zoJo", "f9fqe_VvWtU"],
-      "matchedArtists": ["Laufey", "Haruomi Hosono"],
-      "url": "https://music.youtube.com/playlist?list=RDCLAK5uy_nBE4bLuBHUXWZrF59ZrkPEToKt8M_I3Vc"
-    }
-  ]
-}
-```
-
-### Error Responses
-
-- **`400 Bad Request`**: When `ids` is missing or empty.
-  ```json
-  {
-    "error": "No valid track IDs provided. Use ?ids=id1,id2 query parameter."
-  }
-  ```
-- **`404 Not Found`**: When no matching or relevant playlists are found for the provided history.
-  ```json
-  {
-    "error": "No relevant playlists found for the provided listening history.",
-    "totalInputTracks": 2,
-    "recognizedInputTracks": 0
-  }
-  ```
-- **`405 Method Not Allowed`**: When a non-`GET` HTTP method is called.
-  ```json
-  {
-    "error": "Method POST not allowed. Only GET is supported."
-  }
-  ```
+- **Input**: User listening history (array of track IDs).
+- **Matching & Scoring**:
+  - Uses `data/trackIndex.json` for instant $O(1)$ inverted index lookup mapping each input `trackId` to the curated official playlists that contain it.
+  - Computes track overlap and artist affinity scores.
+- **Output**: Ranked, curated YouTube Music playlists (`RDCLAK...`) complete with localized titles, mood contexts, and cover art.
 
 ---
 
-## Dataset Schemas & Storage Format
+## Dataset Specifications (`data/`)
 
-### 1. Normalized Track Partitions (`normalized/<hex>.json`)
+### `categories.json`
 
-To prevent monolithic multi-hundred-megabyte JSON files and eliminate case-sensitivity collisions on Windows and macOS (e.g. `a.json` vs `A.json`), all tracks are partitioned directly into **64 JSON files** named after the 2-digit lowercase ASCII hex code of the track ID's first character:
-
-$$\text{hex} = \text{trackId.charCodeAt}(0)\text{.toString}(16)\text{.padStart}(2, \text{'0'})$$
-
-- `41.json` – `5a.json`: Tracks starting with uppercase letters `'A'` (hex `41`) through `'Z'` (hex `5a`)
-- `61.json` – `7a.json`: Tracks starting with lowercase letters `'a'` (hex `61`) through `'z'` (hex `7a`)
-- `30.json` – `39.json`: Tracks starting with digits `'0'` (hex `30`) through `'9'` (hex `39`)
-- `2d.json`: Tracks starting with hyphen `'-'` (hex `2d`)
-- `5f.json`: Tracks starting with underscore `'_'` (hex `5f`)
-
-Each partition file contains a dictionary keyed by track ID: `{ [trackId: string]: TrackItem }`:
+Taxonomy chips for all moods and genres extracted from the landing page:
 
 ```json
 {
-  "yNa8jP4zoJo": {
-    "id": "yNa8jP4zoJo",
-    "title": "Madwoman",
-    "isSong": false,
-    "duration": 285,
-    "durationStr": "4:45",
-    "author": "Laufey",
-    "authorId": "UCJtROTPxo3qnEzww8JyDxuA"
-  },
-  "f9fqe_VvWtU": {
-    "id": "f9fqe_VvWtU",
-    "title": "Sincerely",
-    "isSong": true,
-    "duration": 113,
-    "durationStr": "1:53",
-    "thumbnailId": "_lAR-xYR8HP_AX-OUpd00ZbI3p_GZuK7d7g9bHvOM_dFBVwkYmbDQsRWBT3Os1IH6a9QBh-vuquPcfhVZA",
-    "author": "Haruomi Hosono",
-    "authorId": "UCNWPRMK0ciGFGLAuwyR_dgg"
-  }
-}
-```
-
-#### Track Item Fields
-
-| Field         | Type             | Description                                                                                                                                                  |
-| :------------ | :--------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `id`          | `string`         | YouTube video / track identifier (e.g. `"f9fqe_VvWtU"`).                                                                                                     |
-| `title`       | `string`         | Track or song title.                                                                                                                                         |
-| `isSong`      | `boolean`        | `true` strictly for pure YouTube Music Audio Track Videos (`MUSIC_VIDEO_TYPE_ATV`), `false` for YouTube video entities (Official Music Videos, UGC uploads). |
-| `duration`    | `number`         | Total duration in integer seconds (e.g. `113`).                                                                                                              |
-| `durationStr` | `string`         | Formatted duration string (e.g. `"1:53"`).                                                                                                                   |
-| `thumbnailId` | `string?`        | _(Optional)_ Unique ID for square release artwork. Retained **only** when `isSong` is `true`; omitted when `isSong` is `false`.                              |
-| `author`      | `string`         | Primary artist or creator name (e.g. `"Haruomi Hosono"`).                                                                                                    |
-| `authorId`    | `string \| null` | Artist's YouTube channel identifier (e.g. `"UCNWPRMK0ciGFGLAuwyR_dgg"`), or `null`.                                                                          |
-
----
-
-### 2. Category Files (`moods/*.json` & `genres/*.json`)
-
-Each mood and genre has a dedicated JSON file located in `./moods/<slug>.json` and `./genres/<slug>.json`. Sections within each category map to lists of playlists. Each playlist entry holds a `contents` array containing the ordered track IDs:
-
-```json
-{
-  "Coffee shop blends": [
-    {
-      "id": "RDCLAK5uy_nBE4bLuBHUXWZrF59ZrkPEToKt8M_I3Vc",
-      "name": "Coffee Shop Blend",
-      "thumbnailId": "CDt4RjHDGr0YiX6WxARTBFkdb9k9VsAIm88sJXZ7B3O1yMoS53kLS_dy8ZIKRrFRHHCB6OJePWU1GbY",
-      "contents": ["yNa8jP4zoJo", "ekAsG_p2jM4", "f9fqe_VvWtU", "PmSwUCdQQC4"]
-    }
-  ]
-}
-```
-
----
-
-### 3. Primary Index (`data.json`)
-
-Maps all category slugs to their corresponding YouTube Music browse `params` identifier:
-
-```json
-{
-  "moods": {
-    "chill": "ggMPOg1uX1JOQWZFeDByc2Jm",
-    "commute": "ggMPOg1uX044Z2o5WERLckpU",
-    "energize": "ggMPOg1uXzVpNmJjSDRoQ3F2"
-  },
   "genres": {
-    "african": "ggMPOg1uX0UzWGxlRE5jMDVk",
-    "rock": "ggMPOg1uXzJKTm5jUEZ5Uzlu",
-    "hip_hop": "ggMPOg1uXzFRQ2Z2d2k5N2pS"
+    "dance_and_electronic": {
+      "id": "ggMPOg11c2ljX2djX2RhbmNlX2FuZF9lbGVjdHJvbmlj",
+      "title": "Dance & Electronic",
+      "featuredSongs": ["9SwSO46wx-A", "Vy7IWiY3kNY"],
+      "featuredVideos": ["-0VjdIZhVK0", "-j7UONRegz4"]
+    }
+  },
+  "moods": {
+    "chill": {
+      "id": "ggMPOg11c2ljX2djX2NoaWxs",
+      "title": "Chill"
+    }
   }
 }
 ```
 
----
+### `playlists.json`
 
-## Interactive Web Explorer (`index.html`)
-
-The repository includes a single, zero-dependency [`index.html`](./index.html) file ready for GitHub Pages hosting (Source: `Deploy from a branch` &rarr; `/ (root)`):
-
-- **Zero External Dependencies**: Pure HTML, CSS, and Vanilla JavaScript bundled into a single file.
-- **On-Demand Fetching**: Loads `data.json` on launch, then lazily loads category JSON files only when selected.
-- **Fast Search & Filter**: Real-time client-side search across playlists, sections, and IDs.
-- **YouTube Music Dark Theme**: Responsive card grid with automatic cover art rendering via Google Image CDN, click-to-copy IDs, and direct playback links.
-
----
-
-## Vercel Serverless Bun Deployment
-
-Configured with `bunVersion: "latest"` and direct root rewrites in [`vercel.json`](./vercel.json):
+Official Curated Playlists ONLY (no user community playlists, no albums, and no single video items):
 
 ```json
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "bunVersion": "latest",
-  "functions": {
-    "api/index.ts": {
-      "includeFiles": "{moods,genres,normalized}/**"
-    }
-  },
-  "rewrites": [
-    { "source": "/", "destination": "/api/index" },
-    { "source": "/recommend", "destination": "/api/index" },
-    { "source": "/api", "destination": "/api/index" },
-    { "source": "/api/recommend", "destination": "/api/index" },
-    { "source": "/api/(.*)", "destination": "/api/index" }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "Access-Control-Allow-Origin", "value": "*" },
-        { "key": "Access-Control-Allow-Methods", "value": "GET, OPTIONS" },
-        { "key": "Access-Control-Allow-Headers", "value": "Content-Type" },
-        { "key": "Content-Type", "value": "application/json" }
-      ]
-    }
-  ]
+  "RDCLAK5uy_k-1GcJ3HBnA0AnqKZNXCqP573RMFL9AFU": {
+    "title": "Dance club beats",
+    "moods": [
+      {
+        "slug": "energize",
+        "section": "Dance club beats"
+      }
+    ],
+    "genres": ["dance_and_electronic"],
+    "thumbnailId": "wKhRnZZ0cJI",
+    "trackIds": ["N8NcQzMQN_U", "TFsZy9t-qDc"]
+  }
 }
 ```
 
-Deploy directly:
+### `albums.json`
 
-```bash
-bunx vercel deploy --prod
+Curated albums discovered from category Albums / New Releases shelves with verified tracklists:
+
+```json
+{
+  "OLAK5uy_nBE4bLuBHUXWZrF59ZrkPEToKt8M_I3Vc": {
+    "title": "Album Title",
+    "author": "Artist Name",
+    "authorId": "UC...",
+    "thumbnailId": "...",
+    "year": "2024",
+    "trackIds": ["..."]
+  }
+}
 ```
+
+### `songs.json`
+
+Canonical Audio Track Videos (ATVs / `MUSIC_VIDEO_TYPE_ATV`):
+
+```json
+{
+  "-0oagW-YqMk": {
+    "id": "-0oagW-YqMk",
+    "title": "Kurai Onrum Illai - Ragamalika",
+    "author": "M. S. Subbulakshmi, Radha Vishwanathan",
+    "authorId": "UCfpe3O4lacV3Xe2krEARAdg",
+    "albumId": "MPREb_HgIRjxZbCNR",
+    "duration": 298,
+    "durationStr": "4:58",
+    "thumbnailId": "AKYBqGl-DiHOSFxeVRuWo4hXVyvxc5XrsoEiChTX91s_kT-fckFiBJ_rMhFxKldkVY7VHc_nvzvGilM"
+  }
+}
+```
+
+### `videos.json`
+
+Canonical Official Music Videos (OMVs / `MUSIC_VIDEO_TYPE_OMV` / UGC):
+
+```json
+{
+  "-j7UONRegz4": {
+    "id": "-j7UONRegz4",
+    "title": "Dhak Dhak Dhadke Dil",
+    "author": "Vikram Thakor",
+    "authorId": "UC...",
+    "duration": 245,
+    "durationStr": "4:05"
+  }
+}
+```
+
+### `trackIndex.json`
+
+Inverted index for $O(1)$ playlist recommendation lookup:
+
+```json
+{
+  "N8NcQzMQN_U": ["RDCLAK5uy_k-1GcJ3HBnA0AnqKZNXCqP573RMFL9AFU"]
+}
+```
+
+### `counterparts.json` (Planned Addition)
+
+- Bidirectional mapping between official songs (ATVs) and their music video counterparts (OMVs).
+- **Planned Addition**: YouTube Music exposes official counterpart mappings via `songVideoSwitchRenderer` on the `/next` endpoint. To avoid rate limits during bulk scraping, counterparts are planned to be resolved on-demand during active playback in ytify or built incrementally over time. Currently maintained as `{}`.
 
 ---
 
 ## Automated Scheduled Updates (GitHub Actions)
 
-The repository workflow ([`.github/workflows/update-data.yml`](./.github/workflows/update-data.yml)) automatically refreshes the dataset on a weekly schedule:
+A GitHub Actions workflow [`.github/workflows/update-data.yml`](./.github/workflows/update-data.yml) automatically runs weekly:
 
-- **Schedule**: Every Sunday at 00:00 UTC (`0 0 * * 0`) or manually triggered via `workflow_dispatch`.
-- **Environment**: Ubuntu runner with Bun runtime (`oven-sh/setup-bun@v2`).
-- **Process**: Executes `bun run scrape` to query the latest YouTube Music browse hierarchies.
-- **Auto-Commit**: If new tracks, playlists, or categories are discovered, changes in `data.json`, `moods/`, `genres/`, and `normalized/` are committed and pushed back to `main`.
+1. Checks out the repository.
+2. Installs Bun via `oven-sh/setup-bun@v2`.
+3. Runs `bun run src/scraper.ts`.
+4. Commits and pushes any updated catalog data back to `main`.
 
 ---
 
-## Repository & File Structure
+## Repository Structure
 
 ```
-├── .github/workflows/
-│   └── update-data.yml    # Weekly dataset updater GitHub Actions workflow
-├── api/
-│   └── index.ts           # Single self-contained recommendation function (Bun)
-├── normalized/            # 64 normalized track partition files (<hex>.json)
-│   ├── 2d.json            # Tracks starting with '-'
-│   ├── 30.json            # Tracks starting with '0'
-│   ├── 41.json            # Tracks starting with 'A'
-│   ├── 5f.json            # Tracks starting with '_'
-│   ├── 61.json            # Tracks starting with 'a'
-│   └── ...
-├── moods/                 # Mood category files (11 files, with contents: id[])
-│   ├── chill.json
-│   ├── commute.json
-│   ├── energize.json
-│   └── ...
-├── genres/                # Genre category files (38+ files, with contents: id[])
-│   ├── african.json
-│   ├── classical.json
-│   ├── rock.json
-│   └── ...
+Moods-And-Genres-Dataset/
+├── .github/
+│   └── workflows/
+│       └── update-data.yml    # Weekly automated scraper CI workflow
+├── data/
+│   ├── categories.json        # Mood and genre category taxonomy
+│   ├── playlists.json         # Curated official playlists
+│   ├── albums.json            # Albums with complete tracklists
+│   ├── songs.json             # Normalized song tracks (ATVs)
+│   ├── videos.json            # Normalized music videos (OMVs)
+│   ├── trackIndex.json        # Inverted index (trackId -> playlistIds)
+│   └── counterparts.json      # Planned counterpart mapping
 ├── src/
-│   ├── scraper.ts         # YouTube Music InnerTube scraping pipeline
-│   └── types.ts           # TypeScript definitions & data models
-├── data.json              # Primary index mapping slugs to InnerTube params
-├── index.html             # Zero-dependency Web Explorer for GitHub Pages
-├── index.ts               # CLI scraper entrypoint
-├── package.json
-├── tsconfig.json
-├── vercel.json            # Vercel configuration (bunVersion: latest, direct rewrites)
-└── README.md
+│   ├── innertube.ts           # InnerTube API client & data fetchers
+│   ├── parsers.ts             # Renderer parsing & metadata extraction
+│   ├── pipeline.ts            # Main scraping orchestration pipeline
+│   ├── scraper.ts             # CLI entrypoint
+│   ├── storage.ts             # File I/O & deterministic serialization
+│   ├── types.ts               # Core TypeScript interface definitions
+│   └── utils.ts               # Helpers (slugify, cleanId, sorting, durations)
+├── AGENTS.md                  # Specification & agent invariants
+├── LICENSE                    # MIT License
+└── README.md                  # Project documentation
 ```
 
 ---
 
-## Getting Started
+## Running the Scraper
 
-### Prerequisites
-
-- [Bun](https://bun.sh) (v1.0 or higher)
-
-### Installation
+Run the scraper directly with Bun:
 
 ```bash
-# Clone the repository
-git clone https://github.com/n-ce/Moods-And-Genres-Dataset.git
-cd Moods-And-Genres-Dataset
+# Scrape the entire catalog
+bun run src/scraper.ts
 
-# Install dependencies
-bun install
-```
+# Test with a playlist fetch limit
+bun run src/scraper.ts --limit=10
 
-### Running the Scraper
+# Adjust concurrency (default: 5)
+bun run src/scraper.ts --concurrency=3
 
-```bash
-# Full scrape: index -> categories -> playlist tracks -> normalized partitions
-bun run scrape
-
-# Scrape only categories and update data.json, moods/, and genres/
-bun run scrape:categories
-
-# Scrape tracks for all playlists and save to normalized/<hex>.json partitions
-bun run scrape:tracks
-
-# Limit playlist scraping for quick testing (e.g. first 20 playlists)
-bun run src/scraper.ts --limit=20
+# Clean scrape (disregards baseline data/)
+bun run src/scraper.ts --clean
 ```
 
 ---
 
 ## License
 
-This project is open-source under the [MIT License](LICENSE).
+[MIT](LICENSE)
