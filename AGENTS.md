@@ -64,7 +64,7 @@ Category scraping is unified into a single pipeline with deterministic logical f
 
 ### 4. `Community Playlists` Shelf
 
-- **Detection**: Shelf title matches `/community playlists/i`.
+- **Detection**: Shelf title matches `/community playlists/i``.
 - **Entities**: User-curated playlists (`PL...`).
 - **Routing**:
   - **STRICTLY EXCLUDED from `data/playlists.json`**.
@@ -93,8 +93,10 @@ Moods-And-Genres-Dataset/
     ├── categories.json      # Taxonomy chips: moods { id, title } and genres { id, title, featuredSongs, featuredVideos }
     ├── playlists.json       # Official Curated Playlists ONLY: { title, moods, genres, thumbnailId, trackIds }
     ├── albums.json          # Albums Master: albumId -> { title, author, authorId, thumbnailId, year, trackIds }
-    ├── songs.json           # Canonical ATVs: { id, title, author, authorId, albumId, duration, durationStr, thumbnailId }
-    ├── videos.json          # Canonical OMVs: { id, title, author, authorId, duration, durationStr }
+    ├── songs.json           # Consolidated ATVs: { id, title, author, authorId, albumId, duration, durationStr, thumbnailId }
+    ├── videos.json          # Consolidated OMVs: { id, title, author, authorId, duration, durationStr }
+    ├── songs/               # 64 hex shards: {shard}.json (e.g. 2d.json, 30.json, 61.json)
+    ├── videos/              # 64 hex shards: {shard}.json
     ├── trackIndex.json      # Inverted index: trackId -> [officialPlaylistIds]
     └── counterparts.json    # Planned addition (currently {})
 ```

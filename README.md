@@ -14,8 +14,8 @@ Built with [Bun](https://bun.sh) and TypeScript. Zero external dependencies.
   - [`categories.json`](#categoriesjson)
   - [`playlists.json`](#playlistsjson)
   - [`albums.json`](#albumsjson)
-  - [`songs.json`](#songsjson)
-  - [`videos.json`](#videosjson)
+  - [`songs.json` and `songs/{shard}.json`](#songsjson-and-songsshardjson)
+  - [`videos.json` and `videos/{shard}.json`](#videosjson-and-videosshardjson)
   - [`trackIndex.json`](#trackindexjson)
   - [`counterparts.json` (Planned Addition)](#counterpartsjson-planned-addition)
 - [Automated Scheduled Updates (GitHub Actions)](#automated-scheduled-updates-github-actions)
@@ -34,8 +34,9 @@ This repository provides:
 1. **Automated Scraping**: Reverse-engineers YouTube Music's InnerTube Web Remix API to scrape and normalize all moods, genres, playlists, and tracks without external libraries or authentication.
 2. **Deterministic Sorting**: Every JSON file in `data/` is strictly sorted alphabetically by key and formatted with 2 spaces for minimal git diffs and reproducible builds.
 3. **Pure Entity Separation**: Accurately distinguishes between official Audio Track Videos (ATVs / `songs.json`), Music Videos (OMVs / `videos.json`), Curated Playlists (`playlists.json`), and Albums (`albums.json`).
-4. **Clean ID Normalization**: Strips YouTube Music internal prefixes (`MPED`, `VL`) ensuring consistent 11-character video IDs and canonical browse IDs.
-5. **Zero-Dependency Bun Pipeline**: Natively runs TypeScript using Bun with no `node_modules` or `package.json`.
+4. **Dual Serialization (Consolidated & Shards)**: Maintains both monolithic master files (`songs.json`, `videos.json`) and 64 deterministic hex-partitioned shards (`songs/{shard}.json`, `videos/{shard}.json`) for optimal streaming, memory efficiency, and fast incremental lookups without case-collision issues on Windows.
+5. **Clean ID Normalization**: Strips YouTube Music internal prefixes (`MPED`, `VL`) ensuring consistent 11-character video IDs and canonical browse IDs.
+6. **Zero-Dependency Bun Pipeline**: Natively runs TypeScript using Bun with no `node_modules` or `package.json`.
 
 ---
 
@@ -114,9 +115,11 @@ Curated albums discovered from category Albums / New Releases shelves with verif
 }
 ```
 
-### `songs.json`
+### `songs.json` and `songs/{shard}.json`
 
 Canonical Audio Track Videos (ATVs / `MUSIC_VIDEO_TYPE_ATV`):
+
+Available both as a consolidated file (`data/songs.json`) and partitioned into 64 shards (`data/songs/{shard}.json`) keyed by the 2-digit lowercase hex code of the track ID's first character (`id.charCodeAt(0).toString(16)`), avoiding file-system case collisions (`2d` for `-`, `30`-`39` for digits, `41`-`5a` for uppercase letters, `5f` for `_`, `61`-`7a` for lowercase letters):
 
 ```json
 {
@@ -133,9 +136,11 @@ Canonical Audio Track Videos (ATVs / `MUSIC_VIDEO_TYPE_ATV`):
 }
 ```
 
-### `videos.json`
+### `videos.json` and `videos/{shard}.json`
 
 Canonical Official Music Videos (OMVs / `MUSIC_VIDEO_TYPE_OMV` / UGC):
+
+Available both as a consolidated file (`data/videos.json`) and partitioned into 64 shards (`data/videos/{shard}.json`):
 
 ```json
 {
@@ -174,7 +179,7 @@ A GitHub Actions workflow [`.github/workflows/update-data.yml`](./.github/workfl
 1. Checks out the repository.
 2. Installs Bun via `oven-sh/setup-bun@v2`.
 3. Runs `bun run src/scraper.ts`.
-4. Commits and pushes any updated catalog data back to `main`.
+4. Commits and pushes any updated catalog data (including consolidated files and shards) back to `main`.
 
 ---
 
@@ -189,8 +194,10 @@ Moods-And-Genres-Dataset/
 │   ├── categories.json        # Mood and genre category taxonomy
 │   ├── playlists.json         # Curated official playlists
 │   ├── albums.json            # Albums with complete tracklists
-│   ├── songs.json             # Normalized song tracks (ATVs)
-│   ├── videos.json            # Normalized music videos (OMVs)
+│   ├── songs.json             # Consolidated songs master (ATVs)
+│   ├── videos.json            # Consolidated music videos master (OMVs)
+│   ├── songs/                 # 64 hex shards: {shard}.json (e.g. 2d.json, 30.json, 61.json)
+│   ├── videos/                # 64 hex shards: {shard}.json
 │   ├── trackIndex.json        # Inverted index (trackId -> playlistIds)
 │   └── counterparts.json      # Planned counterpart mapping
 ├── src/
@@ -198,9 +205,9 @@ Moods-And-Genres-Dataset/
 │   ├── parsers.ts             # Renderer parsing & metadata extraction
 │   ├── pipeline.ts            # Main scraping orchestration pipeline
 │   ├── scraper.ts             # CLI entrypoint
-│   ├── storage.ts             # File I/O & deterministic serialization
+│   ├── storage.ts             # File I/O & deterministic serialization (consolidated + shards)
 │   ├── types.ts               # Core TypeScript interface definitions
-│   └── utils.ts               # Helpers (slugify, cleanId, sorting, durations)
+│   └── utils.ts               # Helpers (slugify, cleanId, getShardName, sorting, durations)
 ├── AGENTS.md                  # Specification & agent invariants
 ├── LICENSE                    # MIT License
 └── README.md                  # Project documentation
@@ -213,7 +220,7 @@ Moods-And-Genres-Dataset/
 Run the scraper directly with Bun:
 
 ```bash
-# Scrape the entire catalog
+# Scrape the entire catalog (updates consolidated files and shards)
 bun run src/scraper.ts
 
 # Test with a playlist fetch limit

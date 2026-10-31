@@ -95,4 +95,6 @@ export interface ScrapeDatasetStats {
   videosCount: number;
   counterpartsCount: number;
   trackIndexCount: number;
+  songShardsCount?: number;
+  videoShardsCount?: number;
 }

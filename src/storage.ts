@@ -1,4 +1,10 @@
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import {
+  existsSync,
+  mkdirSync,
+  readFileSync,
+  readdirSync,
+  writeFileSync,
+} from "node:fs";
 import { join } from "node:path";
 import type {
   CategoriesDataset,
@@ -9,7 +15,7 @@ import type {
   ScrapeDatasetStats,
   MoodAppearance,
 } from "./types";
-import { cleanId, sortKeys } from "./utils";
+import { cleanId, getShardName, sortKeys } from "./utils";
 
 export interface DatasetState {
   categories: CategoriesDataset;
@@ -26,6 +32,7 @@ export type BaselineData = Omit<DatasetState, "categories">;
 /**
  * Loads baseline data from dataDir if files exist.
  * Sanitizes legacy anomalies (converts categories to moods/genres, removes single videos/MPED, filters out empty albums).
+ * Supports loading tracks from either consolidated songs.json / videos.json or sharded songs/ / videos/ directories.
  */
 export function loadBaselineData(dataDir: string): BaselineData {
   const playlists: Record<string, PlaylistEntry> = {};
@@ -137,6 +144,7 @@ export function loadBaselineData(dataDir: string): BaselineData {
       }
     }
 
+    // Load songs: try consolidated songs.json first, fall back to sharded songs/ directory
     const sPath = join(dataDir, "songs.json");
     if (existsSync(sPath)) {
       const rawS = JSON.parse(readFileSync(sPath, "utf-8"));
@@ -155,8 +163,35 @@ export function loadBaselineData(dataDir: string): BaselineData {
           ...(song.thumbnailId ? { thumbnailId: song.thumbnailId } : {}),
         };
       }
+    } else {
+      const songsDir = join(dataDir, "songs");
+      if (existsSync(songsDir)) {
+        for (const file of readdirSync(songsDir)) {
+          if (!file.endsWith(".json")) continue;
+          const rawS = JSON.parse(readFileSync(join(songsDir, file), "utf-8"));
+          for (const [rawId, s] of Object.entries(rawS)) {
+            const id = cleanId(rawId);
+            const song = s as any;
+            songs[id] = {
+              id,
+              title: song.title || "",
+              author: (song.author || "").replace(/\s+-\s+Topic$/, "").trim(),
+              authorId: song.authorId || "",
+              ...(song.albumId ? { albumId: cleanId(song.albumId) } : {}),
+              ...(song.duration && song.duration > 0
+                ? {
+                    duration: song.duration,
+                    durationStr: song.durationStr || "",
+                  }
+                : {}),
+              ...(song.thumbnailId ? { thumbnailId: song.thumbnailId } : {}),
+            };
+          }
+        }
+      }
     }
 
+    // Load videos: try consolidated videos.json first, fall back to sharded videos/ directory
     const vPath = join(dataDir, "videos.json");
     if (existsSync(vPath)) {
       const rawV = JSON.parse(readFileSync(vPath, "utf-8"));
@@ -172,6 +207,30 @@ export function loadBaselineData(dataDir: string): BaselineData {
             ? { duration: video.duration, durationStr: video.durationStr || "" }
             : {}),
         };
+      }
+    } else {
+      const videosDir = join(dataDir, "videos");
+      if (existsSync(videosDir)) {
+        for (const file of readdirSync(videosDir)) {
+          if (!file.endsWith(".json")) continue;
+          const rawV = JSON.parse(readFileSync(join(videosDir, file), "utf-8"));
+          for (const [rawId, v] of Object.entries(rawV)) {
+            const id = cleanId(rawId);
+            const video = v as any;
+            videos[id] = {
+              id,
+              title: video.title || "",
+              author: (video.author || "").replace(/\s+-\s+Topic$/, "").trim(),
+              authorId: video.authorId || "",
+              ...(video.duration && video.duration > 0
+                ? {
+                    duration: video.duration,
+                    durationStr: video.durationStr || "",
+                  }
+                : {}),
+            };
+          }
+        }
       }
     }
 
@@ -204,6 +263,7 @@ export function loadBaselineData(dataDir: string): BaselineData {
 
 /**
  * Saves all dataset files to dataDir with deterministic alphabetical key sorting.
+ * Generates both consolidated JSON files and sharded songs/{shard}.json & videos/{shard}.json.
  */
 export function saveDataset(
   dataDir: string,
@@ -244,6 +304,7 @@ export function saveDataset(
   const sortedCounterparts = sortKeys(data.counterparts);
   const sortedTrackIndex = sortKeys(data.trackIndex);
 
+  // Write consolidated files
   writeFileSync(
     join(dataDir, "categories.json"),
     JSON.stringify(sortedCategories, null, 2) + "\n",
@@ -273,6 +334,38 @@ export function saveDataset(
     JSON.stringify(sortedTrackIndex, null, 2) + "\n",
   );
 
+  // Partition and write sharded songs/
+  const songsDir = join(dataDir, "songs");
+  mkdirSync(songsDir, { recursive: true });
+  const songShards: Record<string, Record<string, SongEntry>> = {};
+  for (const [id, song] of Object.entries(sortedSongs)) {
+    const shard = getShardName(id);
+    if (!songShards[shard]) songShards[shard] = {};
+    songShards[shard][id] = song;
+  }
+  for (const [shard, shardItems] of Object.entries(songShards)) {
+    writeFileSync(
+      join(songsDir, `${shard}.json`),
+      JSON.stringify(sortKeys(shardItems), null, 2) + "\n",
+    );
+  }
+
+  // Partition and write sharded videos/
+  const videosDir = join(dataDir, "videos");
+  mkdirSync(videosDir, { recursive: true });
+  const videoShards: Record<string, Record<string, VideoEntry>> = {};
+  for (const [id, video] of Object.entries(sortedVideos)) {
+    const shard = getShardName(id);
+    if (!videoShards[shard]) videoShards[shard] = {};
+    videoShards[shard][id] = video;
+  }
+  for (const [shard, shardItems] of Object.entries(videoShards)) {
+    writeFileSync(
+      join(videosDir, `${shard}.json`),
+      JSON.stringify(sortKeys(shardItems), null, 2) + "\n",
+    );
+  }
+
   return {
     categoriesCount:
       Object.keys(sortedCategories.moods).length +
@@ -283,5 +376,7 @@ export function saveDataset(
     videosCount: Object.keys(sortedVideos).length,
     counterpartsCount: Object.keys(sortedCounterparts).length,
     trackIndexCount: Object.keys(sortedTrackIndex).length,
+    songShardsCount: Object.keys(songShards).length,
+    videoShardsCount: Object.keys(videoShards).length,
   };
 }

@@ -1122,6 +1122,9 @@
         "section": "Feel-good pop"
       }
     ],
+    "genres": [
+      "opm"
+    ],
     "thumbnailId": "clBYlpYW46Py-htSwgK63xE52eHULuBDCtHYMkzsqTQEGMkOLSQu81-jd0-3itasV-TSN5FmUZ4gE-k",
     "trackIds": [
       "ahpmuikko3U",
@@ -1164,9 +1167,6 @@
       "1Wv8dtWrbe4",
       "PY-PaZz4HB0",
       "yEGFkfKwqNU"
-    ],
-    "genres": [
-      "opm"
     ]
   },
   "RDCLAK5uy_k0oJ5JQqsSSQQvYS8xzcAh29CFryqs0mc": {
@@ -3346,6 +3346,9 @@
         "section": "Time to relax"
       }
     ],
+    "genres": [
+      "opm"
+    ],
     "thumbnailId": "L5V2fnbBmVSxCqSN5xpksT6u2QNDGOYOQ07S10nmYLadOaYPtE9V7PgczUEqcxVbKPUk_OQ6cvVdNKAr",
     "trackIds": [
       "omFa4Yk9Fmg",
@@ -3395,9 +3398,6 @@
       "tW73r7sr2lI",
       "Fix-k7VYK-s",
       "NgRxKqr5rVU"
-    ],
-    "genres": [
-      "opm"
     ]
   },
   "RDCLAK5uy_k2mkyoYGhWa6qorv4bIy8DYUGDkG2LDFc": {
@@ -3407,6 +3407,9 @@
         "slug": "feel_good",
         "section": "Fun throwbacks"
       }
+    ],
+    "genres": [
+      "decades"
     ],
     "thumbnailId": "SKIvHPqer9DNWqzH-ULfLoUKrnHCTiaAIhtfQRchwKfF3xLJus9YtiwLcWMi5cWGWYjc4-bWG44mGXI",
     "trackIds": [
@@ -3469,9 +3472,6 @@
       "u9z0bUK-gQk",
       "863xQfp5vZo",
       "xAGZERUXJk4"
-    ],
-    "genres": [
-      "decades"
     ]
   },
   "RDCLAK5uy_k2pS49OPwSZtJeXgWnvAPmlB8gJCphDes": {
@@ -4885,6 +4885,9 @@
         "section": "Pop romance"
       }
     ],
+    "genres": [
+      "arabic"
+    ],
     "thumbnailId": "185F-9LReqKBMHMBK8udgKYmP5RObK_j69IG3vnVEQftu_S0KSUdYGbAE-9OiTTiXpqQ3AsNfVHpmQ",
     "trackIds": [
       "BGkL2Pq-g3A",
@@ -4987,9 +4990,6 @@
       "rOTqRPIMK58",
       "rtdJFRTIuAQ",
       "sCqpr0w6TRQ"
-    ],
-    "genres": [
-      "arabic"
     ]
   },
   "RDCLAK5uy_k4ayZY3wXipmOhFthBkx_tww1whwQxWyM": {
@@ -17155,6 +17155,9 @@
         "section": "Christian drive"
       }
     ],
+    "genres": [
+      "christian_and_gospel"
+    ],
     "thumbnailId": "WlWKWCVEhM2Tn6oZuY69QLCtU6J6rC0r5gWLuRLXeMNqWha9yYJXV9frC3-SSVvBvHr9TdtYIb7HJQ",
     "trackIds": [
       "0mwA2C2hvaE",
@@ -17199,9 +17202,6 @@
       "FQszMX-_0rk",
       "PMZotVwbj-Y",
       "MIpAYkNYiIw"
-    ],
-    "genres": [
-      "christian_and_gospel"
     ]
   },
   "RDCLAK5uy_kMNNt1ow7P1bWNPFXr5P1pBAY_fcDcpA4": {
@@ -17870,6 +17870,9 @@
         "section": "Fun throwbacks"
       }
     ],
+    "genres": [
+      "decades"
+    ],
     "thumbnailId": "MtQSB4T_CRrFzt1IYwiosFYrKMgYqJMye0UrQ1BEI6atj73PZ5WxcUkwowCt7mWHuEYu0-j17KFsZEA",
     "trackIds": [
       "79fzeNUqQbQ",
@@ -17927,9 +17930,6 @@
       "laUKFzTQQ38",
       "rZqd_9sTP3c",
       "uWf2N_z_A9o"
-    ],
-    "genres": [
-      "decades"
     ]
   },
   "RDCLAK5uy_kNLcXpai14qYdMRmcNpIEhWGopkIJIlNg": {
@@ -17939,6 +17939,9 @@
         "slug": "energize",
         "section": "Hip-hop energy"
       }
+    ],
+    "genres": [
+      "hip_hop"
     ],
     "thumbnailId": "EzRRDSt3RE5nTOfqxWI4J7JoXDaxGp8A2bXhszgCDlkBnRNvzLv3bGxSnUYP1vMJ3IwjNo7igFIL_A",
     "trackIds": [
@@ -17990,9 +17993,6 @@
       "DNdLFbEZC2Y",
       "q4IFMQKjFGM",
       "W_1DQ0PaELc"
-    ],
-    "genres": [
-      "hip_hop"
     ]
   },
   "RDCLAK5uy_kNLm1qdHlpv1NOV-G95Di4QSdwDFHwdFU": {
@@ -19184,6 +19184,9 @@
         "section": "R&B party"
       }
     ],
+    "genres": [
+      "randb_and_soul"
+    ],
     "thumbnailId": "iYDetqc7RRv22dhB9URVUPAMGSmlJZA01cmk_jVY5jsZqHtzbSUcmkPbccd_Kw2e3FrAinbC1gqFKLAC",
     "trackIds": [
       "yyr2gEouEMM",
@@ -19262,9 +19265,6 @@
       "taUlxoNQP0k",
       "pV2RvUcRSRI",
       "B9Vhs8Gs8VQ"
-    ],
-    "genres": [
-      "randb_and_soul"
     ]
   },
   "RDCLAK5uy_kOWlAQWWhZXgu9NaiQmzRwYQoIbUWYQus": {
@@ -20435,6 +20435,9 @@
         "section": "Fun throwbacks"
       }
     ],
+    "genres": [
+      "decades"
+    ],
     "thumbnailId": "kHDa7DftxCyRP0UO8ZKG87LR5mZubdPK_jae5DJ_16EcwXlzh4B6EdE9kVPnQwy25usZvMP9MTCRjg",
     "trackIds": [
       "K7l5ZeVVoCA",
@@ -20521,9 +20524,6 @@
       "eS-uePsvegg",
       "VKkAJO_FOx4",
       "K7oCaLFu4Cs"
-    ],
-    "genres": [
-      "decades"
     ]
   },
   "RDCLAK5uy_kPqJ_FiGk-lbXtgM4IF42uokskSJZiVTI": {
@@ -21108,6 +21108,9 @@
         "section": "Korean wave drive"
       }
     ],
+    "genres": [
+      "soundtracks_and_musicals"
+    ],
     "thumbnailId": "cvgQnbmh0c-LPuiQXsLPLb_F-llJXQFa22AU3sFLtvmwg0Xcg3_FQat378Utl1XWC7lmCq2Lo9KplBOK",
     "trackIds": [
       "PauaPkbNRjU",
@@ -21190,9 +21193,6 @@
       "ZwxOv2qkp2Y",
       "qJN9yhCyjgE",
       "AvDZV6ooreo"
-    ],
-    "genres": [
-      "soundtracks_and_musicals"
     ]
   },
   "RDCLAK5uy_kRYY3aonCNC5kO3gRrSZD0xZgYqzM2o0o": {
@@ -26609,6 +26609,9 @@
         "section": "Christian drive"
       }
     ],
+    "genres": [
+      "christian_and_gospel"
+    ],
     "thumbnailId": "AVTgDQtFaMbYbz1IZ7QKwwTUKsB9tQQQFLSbMd6JfB_HI1J_3Cjo6kYxXOWe9YwW7dRb9g7RcZLIrQ",
     "trackIds": [
       "9sE5kEnitqE",
@@ -26664,9 +26667,6 @@
       "fJLusjUw9lw",
       "7Q7SY6iGxAY",
       "6oVcgrbeByo"
-    ],
-    "genres": [
-      "christian_and_gospel"
     ]
   },
   "RDCLAK5uy_kZG5dAGCmtiGTZNT602dwP6_BDfHuyUEc": {
@@ -28706,6 +28706,9 @@
         "section": "Hopeless romantic"
       }
     ],
+    "genres": [
+      "opm"
+    ],
     "thumbnailId": "3q8k8A8Ov5zmJ8Z-5PJbw5o_IS6dNBZit5-IwIBL2Xwxfv_RgasS9fXFQWIdnvq0f9Uiy9sqpTNB2sw",
     "trackIds": [
       "ea3NPjCXPeg",
@@ -28788,9 +28791,6 @@
       "WutfLuG_TqI",
       "vWJJlHOM350",
       "TBZgObJj_vo"
-    ],
-    "genres": [
-      "opm"
     ]
   },
   "RDCLAK5uy_kbqXHXB9aBQaqThDKOimGGcZEPubq3znc": {
@@ -29526,6 +29526,9 @@
         "section": "Power boost"
       }
     ],
+    "genres": [
+      "blues"
+    ],
     "thumbnailId": "pTCIsixR4NOil7keOX9citf2qs3A3w_MNC_QmCZDOsoevdXZdfSce9hBR5SRl-fx_XZYD--MUtd4UNvK",
     "trackIds": [
       "ggGzE5KfCio",
@@ -29576,9 +29579,6 @@
       "-57EM1gajK8",
       "-EqSaIVQWaE",
       "9IfVzRv_hqI"
-    ],
-    "genres": [
-      "blues"
     ]
   },
   "RDCLAK5uy_kdksr6U0N1-Obw-6sv68h4qg_EtKJnx5k": {
@@ -32126,6 +32126,9 @@
         "section": "Fun throwbacks"
       }
     ],
+    "genres": [
+      "decades"
+    ],
     "thumbnailId": "jVz80IwEObhB_G01__iVukizPAwJ0jmScvLTmgERjfUPec_H5fOuYOb1ziF-Ze9XmnCqMqMdjIfvkMo",
     "trackIds": [
       "1lyu1KKwC74",
@@ -32217,9 +32220,6 @@
       "ETaTJo8KTks",
       "XdvcuPfKB3s",
       "KcyiYk9GFrc"
-    ],
-    "genres": [
-      "decades"
     ]
   },
   "RDCLAK5uy_khMA5iC_Hy79mWTECnc3-SNeJSt5SlZGg": {
@@ -37427,6 +37427,9 @@
         "section": "Feel-good dance & electronic"
       }
     ],
+    "genres": [
+      "dance_and_electronic"
+    ],
     "thumbnailId": "hhFF4nhVgYIncx9TOc7WgTJ8I6wXTYFj6JoHk-WcwbPWRr3P6RFH2HfTQzcPkfWMqSRWQE7y9ugQkw",
     "trackIds": [
       "i34pFNr42mc",
@@ -37529,9 +37532,6 @@
       "PNjTTlkTdHk",
       "RLN0s_D2kRc",
       "FgcCkAwm1Kw"
-    ],
-    "genres": [
-      "dance_and_electronic"
     ]
   },
   "RDCLAK5uy_ko11wxi3XS4x7MUKk4SZyxpdTLersPQKk": {
@@ -41249,6 +41249,9 @@
         "section": "Feeling sad"
       }
     ],
+    "genres": [
+      "arabic"
+    ],
     "thumbnailId": "8l2GLPQB9ypxUHjLTEIihKfI24FwbNUeSB3dDQ_PIj4io7B9bfKLB66S3Sy9hGVN4hViiMkfSYrWJH-3",
     "trackIds": [
       "23ruEfLScnM",
@@ -41348,9 +41351,6 @@
       "I7J15uACRI4",
       "4V2F77-zeuQ",
       "yULKeT6YQpo"
-    ],
-    "genres": [
-      "arabic"
     ]
   },
   "RDCLAK5uy_ktoAx1hKvIiYP2jvvrDDZf526xSuMoLVw": {
@@ -43055,6 +43055,9 @@
         "section": "Sweethearts & romance"
       }
     ],
+    "genres": [
+      "bollywood_and_indian"
+    ],
     "thumbnailId": "JZvqQZ645kYttfxNhixVJH7kEyh1jwp3dpBzcaR3tDw_6z3uX7UjsygarET67LX1x_wiQkfZiLLpx_w",
     "trackIds": [
       "7jMzMXpSOjs",
@@ -43157,9 +43160,6 @@
       "5V04DETPF0o",
       "2CXSw1oPj3I",
       "PrGylftXLnw"
-    ],
-    "genres": [
-      "bollywood_and_indian"
     ]
   },
   "RDCLAK5uy_kvcQF_sj-WENB32gQ5sYkA3e0YlNF22ro": {
@@ -45451,6 +45451,12 @@
   },
   "RDCLAK5uy_kymAL5cE4HeekmTy6-3OXYuAucHRpvJ28": {
     "title": "Marathi Party",
+    "moods": [
+      {
+        "slug": "diwali",
+        "section": "Diwali szn 🪔🧨🏵️"
+      }
+    ],
     "genres": [
       "marathi"
     ],
@@ -45511,12 +45517,6 @@
       "xA-WeT3Homk",
       "BROX5ueig3U",
       "oFMN3uTOB7g"
-    ],
-    "moods": [
-      {
-        "slug": "diwali",
-        "section": "Diwali szn 🪔🧨🏵️"
-      }
     ]
   },
   "RDCLAK5uy_kyrZb6bOpTdTXYjKEukHrBQTAmxdKAOZg": {
@@ -49695,6 +49695,9 @@
         "section": "Featured playlists"
       }
     ],
+    "genres": [
+      "soundtracks_and_musicals"
+    ],
     "thumbnailId": "ziccGaD5CzNKlq-KuE2PEpT7Sf1yOtkX-lLikT1qbXXIlZ-DgQQRX5neicvfg2vrlmQ1AvMqocssGkG2",
     "trackIds": [
       "KzRF5ELw8oU",
@@ -49791,9 +49794,6 @@
       "N3qOcWsLUxQ",
       "aySrgezclrk",
       "bOFMm7t5OzE"
-    ],
-    "genres": [
-      "soundtracks_and_musicals"
     ]
   },
   "RDCLAK5uy_l33rnweoz4jR7hsfgDJrpkExUnA-9B45E": {
@@ -54743,6 +54743,9 @@
         "section": "Relaxing R&B & soul"
       }
     ],
+    "genres": [
+      "randb_and_soul"
+    ],
     "thumbnailId": "pPwLNw1_VGKgqwCYSvbr-58lKbZMtuxOBurnh2xCxkATJfupjzEn9GUgGuE4ymyW8yDZh0GKTKg7GQ",
     "trackIds": [
       "dpks7iSMuUQ",
@@ -54833,9 +54836,6 @@
       "rYE5HNIOMMg",
       "ILkFWx2TcQ4",
       "sQw3U56p0OQ"
-    ],
-    "genres": [
-      "randb_and_soul"
     ]
   },
   "RDCLAK5uy_l8jPcXx__5Dsu2D7vTiXPlO8pZhZsjBFk": {
@@ -55160,6 +55160,10 @@
         "section": "Christian drive"
       }
     ],
+    "genres": [
+      "christian_and_gospel",
+      "hip_hop"
+    ],
     "thumbnailId": "HYbDSCvgqltv_L-cbsmO5Zl5bdMpC1QSBI-xdOL-s1gK5gJAAhlgd7xnXQ5LfLqMSCX90sYoGcAV9ebU",
     "trackIds": [
       "zcFajQKAe48",
@@ -55252,10 +55256,6 @@
       "Mlk5n2s254w",
       "DptcY9YdmC4",
       "E8mPMWymIaA"
-    ],
-    "genres": [
-      "christian_and_gospel",
-      "hip_hop"
     ]
   },
   "RDCLAK5uy_l978SYxPKPizMqjLKtWAs-CAeReEqRy5c": {
@@ -56481,6 +56481,9 @@
         "section": "Fun throwbacks"
       }
     ],
+    "genres": [
+      "decades"
+    ],
     "thumbnailId": "HT_mzGppmn_sZ7KVWnGsJND9ojYowJPQdXf4fovy-Cxb_nQ1hb4IJtJI8K1uPY9Yfe9pysdzFLrRQ40",
     "trackIds": [
       "4RFwJ-zZ1F0",
@@ -56583,9 +56586,6 @@
       "qw_UcCwUjMI",
       "jYprikOn130",
       "B7o7RXpIxLs"
-    ],
-    "genres": [
-      "decades"
     ]
   },
   "RDCLAK5uy_lAk3ThIyciBwAQpwOLa4s6m3DhlOUD0bM": {
@@ -58331,6 +58331,9 @@
         "section": "Christian drive"
       }
     ],
+    "genres": [
+      "christian_and_gospel"
+    ],
     "thumbnailId": "dJ7HFO39duQNY3xe1jfe0xTKCH3meqNdmZsaApS3pGS6oArNQowoEmtt6OXKYWXEIbySvdXQRHgJ8lo",
     "trackIds": [
       "JdCkPewFsc8",
@@ -58400,9 +58403,6 @@
       "d7Yx0RR6cN0",
       "l6SiryucFfM",
       "WgdLUZW9Yj8"
-    ],
-    "genres": [
-      "christian_and_gospel"
     ]
   },
   "RDCLAK5uy_lCb0sfVpYLLGIJg8Dqcnh006Wa8Bgqs24": {
@@ -58578,6 +58578,12 @@
   },
   "RDCLAK5uy_lCiFjt1A8f1yPN5XBWJtKuLZrguFE08xU": {
     "title": "Throwback Naija Party",
+    "moods": [
+      {
+        "slug": "party",
+        "section": "Afroparty"
+      }
+    ],
     "genres": [
       "african"
     ],
@@ -58650,12 +58656,6 @@
       "IB9l2S_JToQ",
       "eICASlCCZpI",
       "jKel3CaHTm0"
-    ],
-    "moods": [
-      {
-        "slug": "party",
-        "section": "Afroparty"
-      }
     ]
   },
   "RDCLAK5uy_lCqtBqKkhlmGF07XjPvt1WD8B-v8gurkE": {
@@ -61766,6 +61766,9 @@
         "section": "Sweethearts & romance"
       }
     ],
+    "genres": [
+      "mandopop_and_cantopop"
+    ],
     "thumbnailId": "tBb8nMdKE7g6WTBLQMSHCkmVp-pHnLVkFLKrxlCqXC6MjS2EZaZvTKUSJVEAn9kEQbFsf1ORSmXDTGuV",
     "trackIds": [
       "u14rrcxENDw",
@@ -61818,9 +61821,6 @@
       "kZBAtmeaTBk",
       "VCFc_G-QVcM",
       "Qmo-my_mnrs"
-    ],
-    "genres": [
-      "mandopop_and_cantopop"
     ]
   },
   "RDCLAK5uy_lGgGDpsoD65Xo1oFFcD7Qy7OWI0j3k-GM": {
@@ -63372,6 +63372,9 @@
         "section": "Time to relax"
       }
     ],
+    "genres": [
+      "christian_and_gospel"
+    ],
     "thumbnailId": "b_pJOXkr2cAJtPa5kYFkwLsRii3x5gKiTj-qCFs6uFNfCl3qZ8al9Tz69sJfKhlqKtHx2XwYp1D4LaA",
     "trackIds": [
       "B3vXZcy6Arg",
@@ -63474,9 +63477,6 @@
       "aRm9PoRlPVk",
       "EFJyjq7wXkY",
       "Iuz4ZtGQ3kA"
-    ],
-    "genres": [
-      "christian_and_gospel"
     ]
   },
   "RDCLAK5uy_lJQFtqCcdR-859E0MdywBoBMt8whaDF34": {
@@ -63645,6 +63645,10 @@
         "section": "Fun throwbacks"
       }
     ],
+    "genres": [
+      "decades",
+      "hip_hop"
+    ],
     "thumbnailId": "3mhB1lBmnNquA23fxSvSIzBJbek0uN5YewKDawdMyKd2AEcBk0EF-Ilcp8GGChQxI74oIga_jeEbSw",
     "trackIds": [
       "hCKXOgHmWhQ",
@@ -63699,10 +63703,6 @@
       "JeM3O49SoeQ",
       "E0FDiE5GnDg",
       "cnrvQY_TAkE"
-    ],
-    "genres": [
-      "decades",
-      "hip_hop"
     ]
   },
   "RDCLAK5uy_lK6I-FBRIU2mnyKQJxKEQUa2dJuuQnR6E": {
@@ -65387,6 +65387,9 @@
         "section": "Christian drive"
       }
     ],
+    "genres": [
+      "christian_and_gospel"
+    ],
     "thumbnailId": "URARtXxRh1AlKcQWbC7gIx3lAXstRF5fpSMuGt2XOsSkX-ULHgtBx6K7KPBeWeKqfM7omivvKIwxkWI",
     "trackIds": [
       "sIaT8Jl2zpI",
@@ -65446,9 +65449,6 @@
       "EfAhpX_wIBk",
       "R-JZ9KsI7YI",
       "8GV9pQo4wZo"
-    ],
-    "genres": [
-      "christian_and_gospel"
     ]
   },
   "RDCLAK5uy_lN7cCzqFOTV83PeDYGf_6N0DiMF4Pnl2E": {
@@ -65568,6 +65568,9 @@
         "section": "New music discovery"
       }
     ],
+    "genres": [
+      "soundtracks_and_musicals"
+    ],
     "thumbnailId": "w7Jm86uJJcwjIls8IAEsKKlxGiGX8KrEj0AteK-5gitiz8fVxWwvCooXOKO4SzMZYvGHklojpY92Ug",
     "trackIds": [
       "WwYsAbf2y3s",
@@ -65650,9 +65653,6 @@
       "3dZKrsvNyss",
       "bzmom0WHGKQ",
       "nrKvTLYSkeg"
-    ],
-    "genres": [
-      "soundtracks_and_musicals"
     ]
   },
   "RDCLAK5uy_lNJWTKAQXB9QGN2JwdS_wfvJQq7NLlBo8": {
@@ -65770,6 +65770,9 @@
         "section": "Fun throwbacks"
       }
     ],
+    "genres": [
+      "decades"
+    ],
     "thumbnailId": "TRIR9X_xCbHlgCmVcADPjj8_Fp7E5VIpDe9-ZsaM7c4MOLPnfjr0hQiEhxLrp6D14deF2SNx6q0sJYw",
     "trackIds": [
       "dX3k_QDnzHE",
@@ -65872,9 +65875,6 @@
       "mr_vs9tG6H0",
       "GuPGZZgNFsU",
       "nnHJhy68Q98"
-    ],
-    "genres": [
-      "decades"
     ]
   },
   "RDCLAK5uy_lNUgFmUos4uem_3U2ZRgsh3eU8sqvWnEE": {
@@ -66153,6 +66153,12 @@
   },
   "RDCLAK5uy_lO74S3KkDlWRLJtq3gYY9-FHmxckj7AXU": {
     "title": "Country Tailgate",
+    "moods": [
+      {
+        "slug": "party",
+        "section": "Country party"
+      }
+    ],
     "genres": [
       "country_and_americana"
     ],
@@ -66258,12 +66264,6 @@
       "nqrktVBto4s",
       "12DZ_9x8n0A",
       "S0fMzeo34sA"
-    ],
-    "moods": [
-      {
-        "slug": "party",
-        "section": "Country party"
-      }
     ]
   },
   "RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM": {
@@ -67095,6 +67095,9 @@
         "section": "Rock & Punk anthems"
       }
     ],
+    "genres": [
+      "rock"
+    ],
     "thumbnailId": "zC6csAbzlH0MHR7SHTN_HW5bBCw-yReDTJxwn0gPe2ppKn-v2VF0kArxvYmFg9vr_2KHilyCcVsZCZo",
     "trackIds": [
       "1cQh1ccqu8M",
@@ -67197,9 +67200,6 @@
       "ho2r1PS8QRQ",
       "-PkmMezMiMo",
       "WXh81JTt0ng"
-    ],
-    "genres": [
-      "rock"
     ]
   },
   "RDCLAK5uy_lPlLu-njVgWyoWNYDJbZ9PLdw_agFw1ZM": {
@@ -67888,6 +67888,12 @@
   },
   "RDCLAK5uy_lRBNioWYoqYggiksoVk9YLZypqTgZzJj4": {
     "title": "Ambiente Acústico",
+    "moods": [
+      {
+        "slug": "chill",
+        "section": "Chill Latin"
+      }
+    ],
     "genres": [
       "folk_and_acoustic"
     ],
@@ -67948,12 +67954,6 @@
       "PzCnFlh8KCw",
       "Yo1ureeLf4E",
       "ROp0tQZ0qq0"
-    ],
-    "moods": [
-      {
-        "slug": "chill",
-        "section": "Chill Latin"
-      }
     ]
   },
   "RDCLAK5uy_lRCAiQS6J0QEzkmZJmz9s3PJ1Yz0chQVs": {
@@ -68470,6 +68470,9 @@
         "section": "Country kick back"
       }
     ],
+    "genres": [
+      "country_and_americana"
+    ],
     "thumbnailId": "RWa51rhfKtAUKH42ch-DxT-IwuZRWheUm1YT_ZWtAj7B0DWh8QpDfCKuG5zoXQtv7s1MjpxDglpERA",
     "trackIds": [
       "0NXHMhW5nw8",
@@ -68537,9 +68540,6 @@
       "WeAQ7cdrt94",
       "-GYwz2L9FKA",
       "2tBdkU5Zdy0"
-    ],
-    "genres": [
-      "country_and_americana"
     ]
   },
   "RDCLAK5uy_lRr2S1Nmk-a4qeSFpU0WoLuVETphGyBP8": {
@@ -78216,6 +78216,9 @@
         "section": "Feeling happy"
       }
     ],
+    "genres": [
+      "decades"
+    ],
     "thumbnailId": "b5rEiumMtrHqtDPsT4cPhrnGjAWgWo7uuxtMI05hMKj8VkITPJ1PgKrMr1_-Nk6ihVi3qhy_S5FDmg",
     "trackIds": [
       "bkApuQWCPdM",
@@ -78286,9 +78289,6 @@
       "-R4EoPsUuNA",
       "asSVYmwuwP0",
       "fVsAI2lnQkM"
-    ],
-    "genres": [
-      "decades"
     ]
   },
   "RDCLAK5uy_leoTLrB1K_2VcTWqds82dBcjBSjrRfJxw": {
@@ -80720,6 +80720,9 @@
         "section": "Featured playlists"
       }
     ],
+    "genres": [
+      "soundtracks_and_musicals"
+    ],
     "thumbnailId": "sdTOC0w5vZnwG6E8gL30hwucrappd6YASpPxGphXw8r_VOK56oiGlCq-w7mGJ0oOjQQ_sACs5laTjA",
     "trackIds": [
       "EAkmG-VH_O4",
@@ -80774,9 +80777,6 @@
       "GwpQ_k0i3go",
       "ThTBo31ievs",
       "ZCxIseFIcCs"
-    ],
-    "genres": [
-      "soundtracks_and_musicals"
     ]
   },
   "RDCLAK5uy_lhcDspXbEvEERCz2JLgkd3ZiHzRcbd6b8": {
@@ -85028,6 +85028,9 @@
         "section": "Fun throwbacks"
       }
     ],
+    "genres": [
+      "decades"
+    ],
     "thumbnailId": "MXNkIIJMn9BKdno24ZOkuNT0VXuh61IZZtWy9YLbiN36CKG5r63g4lCHZ4LyfgUSmYB0qdUGvrOQRuI",
     "trackIds": [
       "s1tAYmMjLdY",
@@ -85113,9 +85116,6 @@
       "i_nT6ojWzxo",
       "gNotaBtMORM",
       "JsdDCpQ5fJE"
-    ],
-    "genres": [
-      "decades"
     ]
   },
   "RDCLAK5uy_lnFyVNMZVO3Jgi18hFYliVPUrglgPnDRU": {
@@ -86005,6 +86005,9 @@
         "section": "Classic hits"
       }
     ],
+    "genres": [
+      "opm"
+    ],
     "thumbnailId": "TsbVKncGaPL9dKV16HvJC8CFB0KeYXpU8_ZCTfxu8D6ljW7KmYfwjLdNoZvtoC8JKqJ8HoEWN3GJnA",
     "trackIds": [
       "v2f0bGkc6nw",
@@ -86053,9 +86056,6 @@
       "DwiKy8cieW0",
       "GPhadON2K4c",
       "tOQdSdur9kY"
-    ],
-    "genres": [
-      "opm"
     ]
   },
   "RDCLAK5uy_lp1qodZte2PevNuE1rfRaziXXM72ebxSE": {
@@ -89284,6 +89284,9 @@
         "section": "Feel-good country & roots"
       }
     ],
+    "genres": [
+      "country_and_americana"
+    ],
     "thumbnailId": "O0HuDWXeU9_g5kPao89rFOYgCeq-Uw-dORAITB9c0nVb2fwvbb4KYVcPuCU_t-lYAYM394TuL6W319M",
     "trackIds": [
       "7Lb9dq-JZFI",
@@ -89374,9 +89377,6 @@
       "GTxH2XPnA8E",
       "h8ovtfvdMdU",
       "t82tR6Ulbyo"
-    ],
-    "genres": [
-      "country_and_americana"
     ]
   },
   "RDCLAK5uy_luMG03FJUW4grbl4wJSVQnKiMkAyf_MCU": {
@@ -94842,6 +94842,9 @@
         "section": "Christian drive"
       }
     ],
+    "genres": [
+      "christian_and_gospel"
+    ],
     "thumbnailId": "xtUamDCt8rW0BClls3Wcdl3daPyWXpAI1j69cFDotqz1qSXtSwVrLy0Qh4If8k9aPaHTI9XH3VUNYuE",
     "trackIds": [
       "i5ts5uFsVis",
@@ -94897,9 +94900,6 @@
       "i_BS4naAGcA",
       "lWR7irz-UoI",
       "Llk74D3FWzs"
-    ],
-    "genres": [
-      "christian_and_gospel"
     ]
   },
   "RDCLAK5uy_lzizecyx8V4xQU8CSIzt5qoenYgKLNCk0": {
@@ -95894,6 +95894,9 @@
         "section": "Genre instrumentals"
       }
     ],
+    "genres": [
+      "blues"
+    ],
     "thumbnailId": "9HqlQ6i9yvdpcMmLv11399xAGSlhrU-fpnk1OOkTrAZG1tWTxO5bNYqyuN9OMLWyRrHQzh_WBFyYSJU",
     "trackIds": [
       "29wMp2nnx_0",
@@ -95941,9 +95944,6 @@
       "4U7DxGxP62o",
       "B6K2GaFcdbA",
       "K6gL0QlQiHM"
-    ],
-    "genres": [
-      "blues"
     ]
   },
   "RDCLAK5uy_m-zX0tb_L7rIkp7FDcXaNWO-mAotps_64": {
@@ -96287,6 +96287,12 @@
   },
   "RDCLAK5uy_m0U8h6HP_YFe0riaCUUWx9fMXCVPGxlso": {
     "title": "Bewitching Jazz",
+    "moods": [
+      {
+        "slug": "halloween",
+        "section": "Featured playlists"
+      }
+    ],
     "genres": [
       "jazz"
     ],
@@ -96363,12 +96369,6 @@
       "-gAmpM55mzc",
       "gYe0cBqQF44",
       "TxwQ9yjVzO4"
-    ],
-    "moods": [
-      {
-        "slug": "halloween",
-        "section": "Featured playlists"
-      }
     ]
   },
   "RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY": {
@@ -97418,6 +97418,16 @@
   },
   "RDCLAK5uy_m1oO6GcuiUbkB7zVErype6l8vOHQ_vh4g": {
     "title": "Cuddling Country",
+    "moods": [
+      {
+        "slug": "chill",
+        "section": "Country kick back"
+      },
+      {
+        "slug": "romance",
+        "section": "Country romance"
+      }
+    ],
     "genres": [
       "country_and_americana"
     ],
@@ -97506,16 +97516,6 @@
       "ZsETLlx2TZg",
       "ym1eJ1S7llA",
       "brHqGi30Yr4"
-    ],
-    "moods": [
-      {
-        "slug": "chill",
-        "section": "Country kick back"
-      },
-      {
-        "slug": "romance",
-        "section": "Country romance"
-      }
     ]
   },
   "RDCLAK5uy_m1rnW8EocfghR3qc59YGUFdzWhJe0KHJk": {
@@ -102800,6 +102800,9 @@
         "section": "Throwback party"
       }
     ],
+    "genres": [
+      "decades"
+    ],
     "thumbnailId": "9OQWH1Gg3K21ggsLhtq2f1kDB4DpnnsHe9pWm9a6zyFZF6KDuFYu8FNP_ZOWGJksLk2GWU2G4SZKBe4",
     "trackIds": [
       "xFrGuyw1V8s",
@@ -102902,9 +102905,6 @@
       "UG0K0FsTTDs",
       "Km_W3AKHpAI",
       "lP7mDNWLgF0"
-    ],
-    "genres": [
-      "decades"
     ]
   },
   "RDCLAK5uy_mAURaX3BiQydKi75-h_oqtIU_ZshsHStk": {
@@ -104323,6 +104323,9 @@
         "section": "Christian drive"
       }
     ],
+    "genres": [
+      "christian_and_gospel"
+    ],
     "thumbnailId": "7h-_EyTycopQvgdZ3O8efIQFGN7QQO8pkqn7-Ctq83As34STXHqnj4LB5sIfGgCiBisM6huxOcZQcw0",
     "trackIds": [
       "gOvn4KnTjMg",
@@ -104400,9 +104403,6 @@
       "pjE5XJuCy98",
       "a441xJOBP1o",
       "20XyMDbNZOc"
-    ],
-    "genres": [
-      "christian_and_gospel"
     ]
   },
   "RDCLAK5uy_mDQ7NUGEEtEnCRVZKjFDqqT00mT4N8lbk": {
@@ -104510,6 +104510,12 @@
   },
   "RDCLAK5uy_mDQBWjkxNbiV9e4n49YdIBAFm9azhvrCI": {
     "title": "Indian Indie Party",
+    "moods": [
+      {
+        "slug": "diwali",
+        "section": "Diwali szn 🪔🧨🏵️"
+      }
+    ],
     "genres": [
       "indian_indie"
     ],
@@ -104579,12 +104585,6 @@
       "zK_53YGHrIE",
       "zqoC8lvBEd4",
       "YPLTmRnryKw"
-    ],
-    "moods": [
-      {
-        "slug": "diwali",
-        "section": "Diwali szn 🪔🧨🏵️"
-      }
     ]
   },
   "RDCLAK5uy_mDTfR8UPbTurG-Riq7QDI5mjT4a7H5eoI": {
@@ -105060,6 +105060,12 @@
   },
   "RDCLAK5uy_mDs_bamYu9tIy7Q6-70XRcf-vZHy5Goyw": {
     "title": "Paris Tropical",
+    "moods": [
+      {
+        "slug": "party",
+        "section": "French party"
+      }
+    ],
     "genres": [
       "dance_and_electronic"
     ],
@@ -105165,12 +105171,6 @@
       "C_uYVBlUswE",
       "VZ0WNQ_E-n0",
       "P11ycCwES6Q"
-    ],
-    "moods": [
-      {
-        "slug": "party",
-        "section": "French party"
-      }
     ]
   },
   "RDCLAK5uy_mEXMsobutX4itJVd6YaCodxMgUV-mMtNo": {
@@ -108679,6 +108679,9 @@
         "section": "Motivation"
       }
     ],
+    "genres": [
+      "soundtracks_and_musicals"
+    ],
     "thumbnailId": "aS294NR3Q6Jb9RbXfS15H0NSF865A8MSvduCUDMGoxJpthgM-F0ahDRW60fIH3-B20RNMI-j0CtvcDc",
     "trackIds": [
       "kV7Ak2mJ1nA",
@@ -108730,9 +108733,6 @@
       "IX6GYmFkyfE",
       "dxUXT1rW-0U",
       "4yJiFdeOiwc"
-    ],
-    "genres": [
-      "soundtracks_and_musicals"
     ]
   },
   "RDCLAK5uy_mJGVFXt0gqpyQkEb_Z7qfTYtTKUUsD_YE": {
@@ -108912,6 +108912,12 @@
   },
   "RDCLAK5uy_mJSJOaYBF0PWLpOvvn613RDATgXrrd8pA": {
     "title": "Trap & Chill",
+    "moods": [
+      {
+        "slug": "chill",
+        "section": "Chill Latin"
+      }
+    ],
     "genres": [
       "hip_hop"
     ],
@@ -108971,12 +108977,6 @@
       "vkhxlbJs0sA",
       "RzwtxdSrLHA",
       "ztDpeZf48PQ"
-    ],
-    "moods": [
-      {
-        "slug": "chill",
-        "section": "Chill Latin"
-      }
     ]
   },
   "RDCLAK5uy_mJYuU4vvhUKe2eFm2oJ57gWwZA4KiXZGI": {
@@ -111482,6 +111482,9 @@
         "section": "Pop romance"
       }
     ],
+    "genres": [
+      "opm"
+    ],
     "thumbnailId": "M9ZBE07KqrBejbgrFPfmDufqrQB0MkMgnq92_m6fuxyxPxkSPBjy-k3l-qSKxWWTvRyoj_UOYU04ZX8",
     "trackIds": [
       "ea3NPjCXPeg",
@@ -111543,9 +111546,6 @@
       "LHDXd6f4tMM",
       "eQ7U_pvsZdw",
       "fb4IxMMIF44"
-    ],
-    "genres": [
-      "opm"
     ]
   },
   "RDCLAK5uy_mNTzXyFf3IaaxLmwNrCY97S68PlxBuDJk": {
@@ -115996,6 +115996,9 @@
         "section": "Today's hits"
       }
     ],
+    "genres": [
+      "mandopop_and_cantopop"
+    ],
     "thumbnailId": "Ph_btR9NTxtht_lbCOKCIPsgYxoIhvTDjJzb0U2I54lcgm-qYpxlIbreamCXwiwrWtnSVyLg8awik7Y",
     "trackIds": [
       "H4dBBOBWEOs",
@@ -116068,9 +116071,6 @@
       "cdRAsN4jXXw",
       "aU0-UERkXAI",
       "rqxDiK11doE"
-    ],
-    "genres": [
-      "mandopop_and_cantopop"
     ]
   },
   "RDCLAK5uy_mTDSBgwllmWkoqoXafWZGZvlAAargVfJo": {
@@ -116327,6 +116327,9 @@
         "section": "Christian drive"
       }
     ],
+    "genres": [
+      "christian_and_gospel"
+    ],
     "thumbnailId": "QWrX_StA1NMRQ2GR-rqU0_mI1B4GjgLSRXZ4C-GFGkiEojS-6GXdJo0JHog_OiPEatai9wFKOdUfgA",
     "trackIds": [
       "T1LRsp8qBY0",
@@ -116375,9 +116378,6 @@
       "tS-XtJuWYSQ",
       "h9gePir11ic",
       "3lk_9IbmDQs"
-    ],
-    "genres": [
-      "christian_and_gospel"
     ]
   },
   "RDCLAK5uy_mU1mi2mlNym0yTsQsFnrPRsQdDcS6-y6k": {
@@ -116565,6 +116565,9 @@
         "section": "Fun throwbacks"
       }
     ],
+    "genres": [
+      "hip_hop"
+    ],
     "thumbnailId": "X9-1Dm9Vo1Zb1NLEgGPMxpHMB2Sm40df48pel9tifqifTK8ZmwvYZfKBCwUS5sM47UjS5PWwlqp5hFk",
     "trackIds": [
       "CBJtzEKetBM",
@@ -116667,9 +116670,6 @@
       "tuIAW0BwM9s",
       "2StwI7grSoY",
       "MKIIBWFtpyY"
-    ],
-    "genres": [
-      "hip_hop"
     ]
   },
   "RDCLAK5uy_mUIp1N8FUbTNf-J5pTqpUhzJD_9oJOjpY": {
@@ -120082,6 +120082,12 @@
   },
   "RDCLAK5uy_m_cn307EUnwiDOgAsOMM27CHhuJCX2ygk": {
     "title": "Desi Pop Party",
+    "moods": [
+      {
+        "slug": "diwali",
+        "section": "Diwali szn 🪔🧨🏵️"
+      }
+    ],
     "genres": [
       "indian_pop",
       "pop"
@@ -120188,12 +120194,6 @@
       "io866mRzR7c",
       "LecPiGCsJgM",
       "9bNMVXNYk5s"
-    ],
-    "moods": [
-      {
-        "slug": "diwali",
-        "section": "Diwali szn 🪔🧨🏵️"
-      }
     ]
   },
   "RDCLAK5uy_m_dpGf2z9pm_ipgNyy_0j3vSs28a1BgTo": {
@@ -120299,6 +120299,9 @@
         "section": "Fun throwbacks"
       }
     ],
+    "genres": [
+      "decades"
+    ],
     "thumbnailId": "DJ_3rld29GplW8Zn3R7pinzuSVVvYv6V702JvYnfhW5XKNhL-4qjoFjZj64X86uM8G-vfw2qUm92P70",
     "trackIds": [
       "hTWKbfoikeg",
@@ -120401,9 +120404,6 @@
       "MW6E_TNgCsY",
       "-KT-r2vHeMM",
       "NIGMUAMevH0"
-    ],
-    "genres": [
-      "decades"
     ]
   },
   "RDCLAK5uy_m_hXTIKF2MjTVBpLZMeSRk6Wr81x2BhJQ": {
@@ -120642,6 +120642,9 @@
         "section": "Fun throwbacks"
       }
     ],
+    "genres": [
+      "decades"
+    ],
     "thumbnailId": "iTBYAAOaOZv_LWBbBfoYMc7-BTkT9yOYiH5RuKMBJ0Z9wc_GoMcGo6soXI-jTdEdR6gA2r_3tVLCR7-r",
     "trackIds": [
       "DOO0sYwauBY",
@@ -120744,9 +120747,6 @@
       "LdOhPNnFOJU",
       "rJGPXP7i-RM",
       "GqRnLzPsCOw"
-    ],
-    "genres": [
-      "decades"
     ]
   },
   "RDCLAK5uy_maCVamCosYLtz7MRW_uNPyqCdMwZ1FTLs": {
@@ -121923,6 +121923,12 @@
   },
   "RDCLAK5uy_mbRxww-qQ2IWXuqlWZqWy1h4gQNmB8IPQ": {
     "title": "Witchy Grrrl Pop",
+    "moods": [
+      {
+        "slug": "halloween",
+        "section": "Featured playlists"
+      }
+    ],
     "genres": [
       "pop"
     ],
@@ -122020,12 +122026,6 @@
       "IyBXBFDwhdQ",
       "8kBIBQhALvk",
       "Hcmuv9A2n40"
-    ],
-    "moods": [
-      {
-        "slug": "halloween",
-        "section": "Featured playlists"
-      }
     ]
   },
   "RDCLAK5uy_mbb-lRkG61B8sWYrEDPd7xWNpkeZSUwDo": {
@@ -122797,6 +122797,9 @@
         "section": "Christian drive"
       }
     ],
+    "genres": [
+      "christian_and_gospel"
+    ],
     "thumbnailId": "vndHw-Mip76cMFmY2pvnBxlZ4V2uR_5HrLx5OK75fyYBc3gUZ7nYSym9OSFUV3sb-Wbti6okccmqUw",
     "trackIds": [
       "HZNeoCBLOLw",
@@ -122893,9 +122896,6 @@
       "CmbaNtLgGcE",
       "oiIY6AHoeII",
       "V5fDyFfh8uQ"
-    ],
-    "genres": [
-      "christian_and_gospel"
     ]
   },
   "RDCLAK5uy_mcrooIt_d00xNsIzCNKxxuDkH_GRtjk7g": {
@@ -124783,6 +124783,10 @@
         "section": "Fun throwbacks"
       }
     ],
+    "genres": [
+      "decades",
+      "folk_and_acoustic"
+    ],
     "thumbnailId": "0H88jj0tp0so2eTQsRzTOteNaFvKiMfW56TfEIqJnZa-9n3eg5KjYAo7w7KsYiQU0vSYiBI3PyE29aI",
     "trackIds": [
       "PRpiBpDy7MQ",
@@ -124885,10 +124889,6 @@
       "6N2b14J-5tA",
       "xqe6TF2y8i4",
       "2595abcvh2M"
-    ],
-    "genres": [
-      "decades",
-      "folk_and_acoustic"
     ]
   },
   "RDCLAK5uy_mfdY-wgukpeBhEvTg6BPW_WgcUKX7rXaA": {
@@ -125257,6 +125257,12 @@
   },
   "RDCLAK5uy_mfuAOVrpzolzVSNCU6ekcPE_JrslkppBg": {
     "title": "Naija 2010s Hits",
+    "moods": [
+      {
+        "slug": "party",
+        "section": "Afroparty"
+      }
+    ],
     "genres": [
       "african"
     ],
@@ -125362,12 +125368,6 @@
       "dVDmkCJrptI",
       "N7m2F-vTtX4",
       "Kptz4gbB6Rs"
-    ],
-    "moods": [
-      {
-        "slug": "party",
-        "section": "Afroparty"
-      }
     ]
   },
   "RDCLAK5uy_mfut9V_o1n9nVG_m5yZ3ztCif29AHUffI": {
@@ -125538,6 +125538,9 @@
         "section": "Romantic Bollywood & Indian"
       }
     ],
+    "genres": [
+      "bollywood_and_indian"
+    ],
     "thumbnailId": "FPXzFBDqz2viDjL-yyPFSVLyzc8dv9uLHBVyJIfSc1hTQiGe6Lie2fbVRhMjpYtMD1NLcNo_l3T9Mg",
     "trackIds": [
       "lBvbNxiVmZA",
@@ -125640,9 +125643,6 @@
       "KWWFMW-sAUY",
       "I0NLaONfYog",
       "PrGylftXLnw"
-    ],
-    "genres": [
-      "bollywood_and_indian"
     ]
   },
   "RDCLAK5uy_mgHrXs_5F6wPwPFA47S8yrzCfjCi4AXDE": {
@@ -126148,6 +126148,9 @@
         "section": "Country romance"
       }
     ],
+    "genres": [
+      "country_and_americana"
+    ],
     "thumbnailId": "U06u082GLns4qf5n9uNbg77tCKrMi15yzjUE7SlKeFa9poICbKmyJjta5CmgQ99BONc5_5KuPoRwUUM",
     "trackIds": [
       "wIA-4LeRgsc",
@@ -126244,9 +126247,6 @@
       "xEsUl068uuM",
       "KNBlCE5ec_0",
       "49qvNfHvjLs"
-    ],
-    "genres": [
-      "country_and_americana"
     ]
   },
   "RDCLAK5uy_mhI-UjL9SLtUTF6iUhPqX4JB8L2SaN7xM": {
@@ -127778,6 +127778,9 @@
         "section": "Hip-hop energy"
       }
     ],
+    "genres": [
+      "hip_hop"
+    ],
     "thumbnailId": "nA6gaYmQ2qfL56UHi_HYKjI3X1dRgABsV3fHZXPkl78ZJjtsm2kockpK3e_aFljJkB9bwgSqTyYMSnM",
     "trackIds": [
       "rvgWUeZI00g",
@@ -127831,9 +127834,6 @@
       "H70kf8JtOjY",
       "3hOj1AN7klk",
       "DXzL0f2wu1s"
-    ],
-    "genres": [
-      "hip_hop"
     ]
   },
   "RDCLAK5uy_miaOXTdKX3AxhX2xjqjyBxtIS8H89hX1g": {
@@ -128083,6 +128083,9 @@
         "section": "Feel-good music"
       }
     ],
+    "genres": [
+      "mandopop_and_cantopop"
+    ],
     "thumbnailId": "gJFDdLNJmG913MZcXq8kq8qhZtHo4ZSd2EA2tuwNLkhHXzOmmeK6-qQ7M89MWQzYMtUDlDmEswYAkrc",
     "trackIds": [
       "AeatuvJ2jEQ",
@@ -128145,9 +128148,6 @@
       "7vBW_punexw",
       "xmPpgsOjiTk",
       "XFNiujAdHQU"
-    ],
-    "genres": [
-      "mandopop_and_cantopop"
     ]
   },
   "RDCLAK5uy_mitaX5N_X-HZbGXtn_Y90vAs0HU8JfWhs": {
@@ -132904,6 +132904,9 @@
         "section": "Feel-good pop"
       }
     ],
+    "genres": [
+      "opm"
+    ],
     "thumbnailId": "K-DVCy1yAr-t5J8FT4H0lSs1BwUfb9AmAZoLzWslx2ErT1UeB4um6mvG4u07vNES5UE_MrazznzL68he",
     "trackIds": [
       "lp-EO5I60KA",
@@ -132956,9 +132959,6 @@
       "rvhdCviWVwo",
       "p-imjvBjAYI",
       "yp1y6S2IaAw"
-    ],
-    "genres": [
-      "opm"
     ]
   },
   "RDCLAK5uy_mpdQAw2VFy8xHFHQkIy-y2BgDMpdpH1KE": {
@@ -135194,6 +135194,9 @@
         "section": "Today's hits"
       }
     ],
+    "genres": [
+      "mandopop_and_cantopop"
+    ],
     "thumbnailId": "Xp9PPo_hjeVvolhKKX-0tShBMsFuYYOdZAwIrglQAn9NM0R4Plz1HkwydV5KGhSMOacDcu3rwii98w",
     "trackIds": [
       "VXj8Ddcr7FM",
@@ -135265,9 +135268,6 @@
       "UwSQpYD61H8",
       "9GfjISvA884",
       "1pM7k58z21M"
-    ],
-    "genres": [
-      "mandopop_and_cantopop"
     ]
   },
   "RDCLAK5uy_ms55UKAmQE5XAkphnhV1GPaWnd6fx_5Fc": {
@@ -135552,6 +135552,9 @@
         "section": "Hip-hop and R&B romance"
       }
     ],
+    "genres": [
+      "hip_hop"
+    ],
     "thumbnailId": "YzKQ0AG7qhGMlYnst2QCEehoCQveIrcRxY26fDyw85QcATKRSUK7ta3hdxiiAS0u1LtcPBcGvoYUEw",
     "trackIds": [
       "BouNQ9lREyA",
@@ -135616,9 +135619,6 @@
       "qxQg4yn6w28",
       "hxWN2n00q50",
       "y8sHnxm83Mk"
-    ],
-    "genres": [
-      "hip_hop"
     ]
   },
   "RDCLAK5uy_msV9Vc8q_guumIXgLkzYs58uBZHVVBPtE": {
@@ -137191,6 +137191,9 @@
         "section": "Feeling sad"
       }
     ],
+    "genres": [
+      "arabic"
+    ],
     "thumbnailId": "51VfI7Ee0Vd402mqO0ECWjiyAzBeuWPLD_ZSrNt6ykMGPXRx8pH-Q2bf9cfANyOSl5PkDaU2LUWxHw",
     "trackIds": [
       "m5IWI6xFRms",
@@ -137281,9 +137284,6 @@
       "kzNnCAqMOMg",
       "QvsdV-cEOck",
       "QZ_3UNJfNfg"
-    ],
-    "genres": [
-      "arabic"
     ]
   },
   "RDCLAK5uy_mv4e9SpmcwJQS93U9_CVrmYSjnIDdJbI0": {
@@ -143611,6 +143611,9 @@
         "section": "Time to relax"
       }
     ],
+    "genres": [
+      "brazilian"
+    ],
     "thumbnailId": "YB8A5koB7dRb3Kd9HERmZ63SzoK6-zPb4Jej5Qp1jn1_kg9aGZf-ykyavzxtR3-QPH0IYFP7Pte92gcg",
     "trackIds": [
       "bmzqgVhAYAg",
@@ -143677,9 +143680,6 @@
       "PP2gXM73-Bo",
       "Y2r1TD3dI00",
       "EKEmQooklDw"
-    ],
-    "genres": [
-      "brazilian"
     ]
   },
   "RDCLAK5uy_n3ReXhjzPL8oUuFUb-ZIVJRonSHhk3_Fc": {
@@ -144683,6 +144683,9 @@
         "section": "Flow state"
       }
     ],
+    "genres": [
+      "indie_and_alternative"
+    ],
     "thumbnailId": "B1RmHkfrXiSV8ATBznUBqch-kcvgBknTBszY5Fgz4EEPLq8dY_nI9lXRLqmzlzoaojrKoCn9Fsg_Ig",
     "trackIds": [
       "zHOej6TdvHM",
@@ -144785,9 +144788,6 @@
       "r0zIVuwu1dA",
       "Oi5g84Fv6pQ",
       "-5jFYmm1TXk"
-    ],
-    "genres": [
-      "indie_and_alternative"
     ]
   },
   "RDCLAK5uy_n4X8A7u7IUddZncn0w8heOCfrzNhHHbCY": {
@@ -147075,6 +147075,9 @@
         "section": "Dance club beats"
       }
     ],
+    "genres": [
+      "brazilian"
+    ],
     "thumbnailId": "LfLXrLbhVJC37y1HWnfCBvXwEhUd_av5Te9bYhpwCJt3sK-uMg5rpQDwvJ1OodBxviF2ozEdFMFSxw",
     "trackIds": [
       "dZ5AtreM5Ws",
@@ -147177,9 +147180,6 @@
       "z9LpcXFAmfY",
       "VpC3IlxR9-o",
       "B0v7gY7UdTM"
-    ],
-    "genres": [
-      "brazilian"
     ]
   },
   "RDCLAK5uy_n8fuuCTQnsKCWNWtcPswp8fpxZTJy91LM": {
@@ -148265,6 +148265,9 @@
         "section": "Latin party"
       }
     ],
+    "genres": [
+      "hip_hop"
+    ],
     "thumbnailId": "q_l0PkHcKPtot7cFLTBtSm93qWwV9sr6AWXUTlScin7dsCcmNoY2meSSW_jVFMJn8biqWfb6LML3osA",
     "trackIds": [
       "AtalMwsn7fs",
@@ -148327,9 +148330,6 @@
       "8c1Rnpau5Do",
       "cXoLIWJKZ-M",
       "pkP1yWx_1-s"
-    ],
-    "genres": [
-      "hip_hop"
     ]
   },
   "RDCLAK5uy_nA42_0IX0YmeKb7pLRjm_J8e2ja445Urc": {
@@ -149807,6 +149807,9 @@
         "section": "R&B party"
       }
     ],
+    "genres": [
+      "decades"
+    ],
     "thumbnailId": "uXQvb5T243HJ8f-PA18lMPByVXQMYDq4FzsxyETBT3cPLLNRWxM4vwisNsjKcawo9FJ64mTv5HFdueA",
     "trackIds": [
       "Gs069dndIYk",
@@ -149891,9 +149894,6 @@
       "YWNLSw7j9Xk",
       "0GgL8R49GF0",
       "RFsVLHEEIdY"
-    ],
-    "genres": [
-      "decades"
     ]
   },
   "RDCLAK5uy_nCLf_5bBF7XMyfCuZBaqkE1QZckIoRIjE": {
@@ -152251,6 +152251,9 @@
         "section": "Try something upbeat"
       }
     ],
+    "genres": [
+      "brazilian"
+    ],
     "thumbnailId": "Pv4u5BjQxYz3tisuigdhw2ncNB6KZG6AtFwK3RePqbGVH2ar3FuXCFtsv6aEuaU0CXJ6023-_X-wtw",
     "trackIds": [
       "B_hW6td_dzg",
@@ -152303,9 +152306,6 @@
       "xt_1fp9QNpI",
       "X-QxYM0izkI",
       "LyRJyVCJ2Ek"
-    ],
-    "genres": [
-      "brazilian"
     ]
   },
   "RDCLAK5uy_nGZRi-an-ruqiZlNJSGhCDHucdp2FBNfI": {
@@ -153505,6 +153505,12 @@
   },
   "RDCLAK5uy_nHsxK4J0BN-CLmYuBL3Q-dFLX6pa2DDWA": {
     "title": "Country Wedding",
+    "moods": [
+      {
+        "slug": "romance",
+        "section": "Country romance"
+      }
+    ],
     "genres": [
       "country_and_americana"
     ],
@@ -153588,12 +153594,6 @@
       "cUzYxfc9mkg",
       "dAcTijGDRHc",
       "ameBRmL3fbg"
-    ],
-    "moods": [
-      {
-        "slug": "romance",
-        "section": "Country romance"
-      }
     ]
   },
   "RDCLAK5uy_nHy8cw6a0rx7FosldlxqBf7pnYTiNTQtc": {
@@ -156366,6 +156366,12 @@
   },
   "RDCLAK5uy_nLUMOygwJOsoDb_WlEj8EyihlVJ0d-XNw": {
     "title": "Bashment Party",
+    "moods": [
+      {
+        "slug": "party",
+        "section": "Afroparty"
+      }
+    ],
     "genres": [
       "reggae_and_caribbean"
     ],
@@ -156458,12 +156464,6 @@
       "Vv2y4ZLX9uA",
       "oOWyYIXoPh0",
       "q7KwYOdHxxI"
-    ],
-    "moods": [
-      {
-        "slug": "party",
-        "section": "Afroparty"
-      }
     ]
   },
   "RDCLAK5uy_nLiyfsi--sMOoimdtbTH-4TUKOfsYf91I": {
@@ -159588,6 +159588,9 @@
         "section": "Relaxing commute"
       }
     ],
+    "genres": [
+      "opm"
+    ],
     "thumbnailId": "BhfpQ0IZiH_R-aoar8F4EQoc1ET5kEmfFXRRrAlVMD3PeBFxbR_AiyPwLP7Kfsn5d0dOCO2hQFK4tHo",
     "trackIds": [
       "P1pwbnzbe7g",
@@ -159639,9 +159642,6 @@
       "PxH3skG_UII",
       "XBMEC6OPV5I",
       "2J2_bkJ_UG4"
-    ],
-    "genres": [
-      "opm"
     ]
   },
   "RDCLAK5uy_nQWv_1Zu_YJ48qNPtI2ED3YlJsSOssF5k": {
@@ -159920,6 +159920,12 @@
   },
   "RDCLAK5uy_nQxlZPgHIHqeehQYGFbmuFe4jGUuUJwoc": {
     "title": "Country Love Songs",
+    "moods": [
+      {
+        "slug": "romance",
+        "section": "Country romance"
+      }
+    ],
     "genres": [
       "country_and_americana"
     ],
@@ -160015,12 +160021,6 @@
       "V66ZBr975Vo",
       "J1YA7KloyEI",
       "XUYMHtJG-KU"
-    ],
-    "moods": [
-      {
-        "slug": "romance",
-        "section": "Country romance"
-      }
     ]
   },
   "RDCLAK5uy_nRFKmL13urbE-A89oJfnt1-u1hfiCLriA": {
@@ -162458,6 +162458,9 @@
         "section": "Pop romance"
       }
     ],
+    "genres": [
+      "pop"
+    ],
     "thumbnailId": "kh6vPlS82WLMeLG_Bb79LB-9nUtAk1F1fDQKczEL_TAyzYbuRhwpOcI36dRVNV0TIzA09kDsKYdNNw",
     "trackIds": [
       "FNEoPctNIUE",
@@ -162510,9 +162513,6 @@
       "T1cz67g2mLU",
       "b88c-LoQKsg",
       "frsSAnrKEdI"
-    ],
-    "genres": [
-      "pop"
     ]
   },
   "RDCLAK5uy_nUHgxWLIT8ILUC725860skuxtoTX7nvg0": {
@@ -166843,6 +166843,9 @@
         "section": "Pop romance"
       }
     ],
+    "genres": [
+      "opm"
+    ],
     "thumbnailId": "UNbQY56A16DHelY_FBtXg5eUl2s7u6AbbGarErqczGjvnPrWppRjhQaK9L0J7bp4b4pILFAO3nRhrg",
     "trackIds": [
       "hVusLR-5cKE",
@@ -166895,9 +166898,6 @@
       "YT1SkrhgGjc",
       "WbyUjG4EaAE",
       "ISInQeALZlY"
-    ],
-    "genres": [
-      "opm"
     ]
   },
   "RDCLAK5uy_na2YkS_vWv-4kIh5z4I000Mpay5kvCRPI": {
@@ -173365,6 +173365,9 @@
         "section": "Diwali szn 🪔🧨🏵️"
       }
     ],
+    "genres": [
+      "bollywood_and_indian"
+    ],
     "thumbnailId": "bYqS6PJYXjOy2fW-AQ7zgZ5fp-WSxc_fQ5BnmV-dagOV1cidFcc_LEn3VxK3L3go26ds_snzrFWjlNfk",
     "trackIds": [
       "YwtvQ23_-34",
@@ -173466,9 +173469,6 @@
       "au5uNkCKzaY",
       "j2zxCw3voU8",
       "Y5HIqjf3rek"
-    ],
-    "genres": [
-      "bollywood_and_indian"
     ]
   },
   "RDCLAK5uy_nlUHwf0SaQlGN6n_1ZtWhhplysMPwjP2k": {
@@ -173705,6 +173705,12 @@
   },
   "RDCLAK5uy_nlonSR1akuzJc6aw9Dz76AmHs967PnT4Y": {
     "title": "80's Latin Pop Party",
+    "moods": [
+      {
+        "slug": "party",
+        "section": "Latin party"
+      }
+    ],
     "genres": [
       "latin",
       "decades"
@@ -173756,12 +173762,6 @@
       "jb774cAToLA",
       "OQJcF4nKr_Q",
       "OzGhZjd3Z9w"
-    ],
-    "moods": [
-      {
-        "slug": "party",
-        "section": "Latin party"
-      }
     ]
   },
   "RDCLAK5uy_nlpFrhVYGQPs_Z-bjg7p4x0wzshT1f2GA": {
@@ -175982,6 +175982,12 @@
   },
   "RDCLAK5uy_noRMGNTqHQcRHNpT9hUAQJAk3aXGx-TSU": {
     "title": "Kids' Halloween",
+    "moods": [
+      {
+        "slug": "halloween",
+        "section": "Spotlight"
+      }
+    ],
     "genres": [
       "family"
     ],
@@ -176041,12 +176047,6 @@
       "caxIp7fVMIc",
       "Iir3EPF0zDA",
       "mNmZ7cxF320"
-    ],
-    "moods": [
-      {
-        "slug": "halloween",
-        "section": "Spotlight"
-      }
     ]
   },
   "RDCLAK5uy_noue4s9rsIYdEi4B0SlmW-UAmxLFdExPQ": {
@@ -177630,6 +177630,12 @@
   },
   "RDCLAK5uy_nqUUZaGFNYIcBMiuXqzv4YbRUnpvK5KWY": {
     "title": "Afro-Piano Gbedu",
+    "moods": [
+      {
+        "slug": "party",
+        "section": "Afroparty"
+      }
+    ],
     "genres": [
       "african",
       "reggae_and_caribbean"
@@ -177696,12 +177702,6 @@
       "xFsYUHz2jR4",
       "qScsIn8UCcM",
       "jCNjhdVkJvo"
-    ],
-    "moods": [
-      {
-        "slug": "party",
-        "section": "Afroparty"
-      }
     ]
   },
   "RDCLAK5uy_nqmfME1gwNMEd-b-9rSttKi306K2ogh7Y": {
@@ -181947,6 +181947,9 @@
         "section": "Fun throwbacks"
       }
     ],
+    "genres": [
+      "decades"
+    ],
     "thumbnailId": "mG_TKsa__xpemLwiNibFN8qRFqzNU_iVGQ5pr-JsgJ3CsEl7YPXiOEDRewTYmYokI4LZgvZ_pWyxlDE",
     "trackIds": [
       "oEauWw9ZGrA",
@@ -182049,9 +182052,6 @@
       "BR4yQFZK9YM",
       "uI2cwfluyNo",
       "HKLnmMacEB4"
-    ],
-    "genres": [
-      "decades"
     ]
   },
   "RDCLAK5uy_nwmU7GOH9bo9N3RB566bAfjrMTZHJ6AhY": {
@@ -182349,6 +182349,9 @@
         "section": "Classic hits"
       }
     ],
+    "genres": [
+      "opm"
+    ],
     "thumbnailId": "kqPkjN5otXrlFWiI6HPCN1CJBCyZ3wVAq7QNTnfVB7jxj4q_bQ9fPMjDUtNLQxtagHXHhg9DXHms2a8",
     "trackIds": [
       "iupNhOmslqM",
@@ -182401,9 +182404,6 @@
       "94Zj_0KwSbU",
       "OJqgRYtGEPI",
       "tYiGYpqpoCY"
-    ],
-    "genres": [
-      "opm"
     ]
   },
   "RDCLAK5uy_nxD7pTGgcC3h_8950Pbgc-So8HcuU0rqE": {

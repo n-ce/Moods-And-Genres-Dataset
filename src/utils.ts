@@ -73,3 +73,12 @@ export function parseDuration(durationStr: string): number {
   }
   return 0;
 }
+
+/**
+ * Computes the 2-digit lowercase hex shard name from the first character of an entity ID.
+ * e.g. '-' -> '2d', '0' -> '30', 'A' -> '41', '_' -> '5f', 'a' -> '61'
+ */
+export function getShardName(id: string | undefined): string {
+  if (!id) return "00";
+  return id.charCodeAt(0).toString(16).toLowerCase();
+}
