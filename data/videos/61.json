@@ -455,6 +455,14 @@
     "duration": 232,
     "durationStr": "3:52"
   },
+  "a1aJwgKz5CA": {
+    "id": "a1aJwgKz5CA",
+    "title": "Out of The Fire (Type O Negative)",
+    "author": "MANRRYX",
+    "authorId": "",
+    "duration": 205,
+    "durationStr": "3:25"
+  },
   "a1cWHFy4kKM": {
     "id": "a1cWHFy4kKM",
     "title": "Aprevenido",
@@ -660,6 +668,14 @@
     "authorId": "UCNgGF63d0kiptuScObxbWWA",
     "duration": 196,
     "durationStr": "3:16"
+  },
+  "a3Rrgn1m8C0": {
+    "id": "a3Rrgn1m8C0",
+    "title": "Make It Clap",
+    "author": "Busta Rhymes",
+    "authorId": "UCaSeNTljGkpoj1ijhs72nag",
+    "duration": 284,
+    "durationStr": "4:44"
   },
   "a3SDRKIkc1A": {
     "id": "a3SDRKIkc1A",
@@ -1513,6 +1529,14 @@
     "duration": 335,
     "durationStr": "5:35"
   },
+  "a9CITJ8xdPA": {
+    "id": "a9CITJ8xdPA",
+    "title": "Subete",
+    "author": "Lary Over, Lirico En La Casa",
+    "authorId": "UCWpXkaaNdokKbrfXZw6A3IQ",
+    "duration": 254,
+    "durationStr": "4:14"
+  },
   "a9Gc5vcST7A": {
     "id": "a9Gc5vcST7A",
     "title": "Welcome Home",
@@ -2287,6 +2311,14 @@
     "duration": 200,
     "durationStr": "3:20"
   },
+  "aE63arP4vDY": {
+    "id": "aE63arP4vDY",
+    "title": "Desperate (Official Acoustic Video)",
+    "author": "Jamie MacDonald",
+    "authorId": "UCOyFUZn2FDTSVI3yPrB8d0g",
+    "duration": 213,
+    "durationStr": "3:33"
+  },
   "aE6SccFNcfY": {
     "id": "aE6SccFNcfY",
     "title": "On a pris le temps",
@@ -2430,6 +2462,14 @@
     "authorId": "UCmhABfwtPqVfEcn0aKpMRaw",
     "duration": 129,
     "durationStr": "2:09"
+  },
+  "aEreZrLq1Jc": {
+    "id": "aEreZrLq1Jc",
+    "title": "Mr Sunshine",
+    "author": "Fredi Kayaman Official",
+    "authorId": "",
+    "duration": 395,
+    "durationStr": "6:35"
   },
   "aEuhTtOdTNo": {
     "id": "aEuhTtOdTNo",
@@ -2653,6 +2693,14 @@
     "duration": 172,
     "durationStr": "2:52"
   },
+  "aFx9hw0TPEc": {
+    "id": "aFx9hw0TPEc",
+    "title": "モーツァルト: ヴァイオリン･ソナタ 変ロ長調 K.378：第1楽章［ナクソス・クラシック・キュレーション #ロマンチック］",
+    "author": "Jenő Jandó, Takako Nishizaki",
+    "authorId": "UCHeivSBh8nrGmFmX3T1lTkg",
+    "duration": 571,
+    "durationStr": "9:31"
+  },
   "aG9D-J08X-U": {
     "id": "aG9D-J08X-U",
     "title": "Rotina de Bacana (feat. DJ Gu & Dj Gordinho da VF)",
@@ -2834,6 +2882,14 @@
     "authorId": "UCNgxZ9pk9_pzFhAGL6O1TTQ",
     "duration": 227,
     "durationStr": "3:47"
+  },
+  "aGuN_WuuSzs": {
+    "id": "aGuN_WuuSzs",
+    "title": "Seu Amor Ainda É Tudo",
+    "author": "João Mineiro",
+    "authorId": "",
+    "duration": 221,
+    "durationStr": "3:41"
   },
   "aGvpWyBoy40": {
     "id": "aGvpWyBoy40",
@@ -3717,6 +3773,14 @@
     "duration": 200,
     "durationStr": "3:20"
   },
+  "aNMdkNvRadU": {
+    "id": "aNMdkNvRadU",
+    "title": "Давай не болей",
+    "author": "Adam",
+    "authorId": "UCwF1ferup5s4apRYOS5ndLw",
+    "duration": 166,
+    "durationStr": "2:46"
+  },
   "aNYjOVo5IEw": {
     "id": "aNYjOVo5IEw",
     "title": "Something Good",
@@ -4501,6 +4565,14 @@
     "duration": 223,
     "durationStr": "3:43"
   },
+  "aS7al94FVbk": {
+    "id": "aS7al94FVbk",
+    "title": "like JENNIE (Official Lyric Video)",
+    "author": "JENNIE",
+    "authorId": "UCAl7xQ6q0PEgZMQD7zr4AKQ",
+    "duration": 125,
+    "durationStr": "2:05"
+  },
   "aSEMVTgdbQg": {
     "id": "aSEMVTgdbQg",
     "title": "Vai Descendo (Papazoni Sunset)",
@@ -4686,10 +4758,10 @@
   "aT4N7jn2Eww": {
     "id": "aT4N7jn2Eww",
     "title": "Run Down The City - Monica",
-    "author": "Shashwat Sachdev, Reble, Asha Bhosle, R.D. Burman",
-    "authorId": "UCtIiZrzDsXk_rWeynT1ho4g",
-    "duration": 141,
-    "durationStr": "2:21"
+    "author": "Reble, Shashwat Sachdev, Asha Bhosle, R. D. Burman",
+    "authorId": "UCxb9ixBJKCMww-IqbwOg3Iw",
+    "duration": 148,
+    "durationStr": "2:28"
   },
   "aT6K482YP1Y": {
     "id": "aT6K482YP1Y",
@@ -4738,6 +4810,14 @@
     "authorId": "UCDxiGGtBV3CQiE-NKLEFgUg",
     "duration": 151,
     "durationStr": "2:31"
+  },
+  "aTd7GJXlL2E": {
+    "id": "aTd7GJXlL2E",
+    "title": "ファンキースパイス - Funky Spice",
+    "author": "BREIMEN",
+    "authorId": "",
+    "duration": 230,
+    "durationStr": "3:50"
   },
   "aTdUOSg1Oz0": {
     "id": "aTdUOSg1Oz0",
@@ -4963,6 +5043,14 @@
     "duration": 152,
     "durationStr": "2:32"
   },
+  "aVatpxBTfZs": {
+    "id": "aVatpxBTfZs",
+    "title": "MASCARA",
+    "author": "XG",
+    "authorId": "UCafINmoeAbZbK5M4dtQzBww",
+    "duration": 200,
+    "durationStr": "3:20"
+  },
   "aVcy0aNZyTo": {
     "id": "aVcy0aNZyTo",
     "title": "Shuruwat",
@@ -4970,6 +5058,14 @@
     "authorId": "UCaS9dm0TuR276eO5Y1nZUzA",
     "duration": 189,
     "durationStr": "3:09"
+  },
+  "aVetN-PQbdI": {
+    "id": "aVetN-PQbdI",
+    "title": "AFTERLIFE",
+    "author": "Adriel Favela, Gabito Ballesteros",
+    "authorId": "UCr8GuisRZBe8R2K35whcj6w",
+    "duration": 180,
+    "durationStr": "3:00"
   },
   "aVgbDP8yEz0": {
     "id": "aVgbDP8yEz0",
@@ -6061,6 +6157,14 @@
     "duration": 292,
     "durationStr": "4:52"
   },
+  "acGU8Hwtnok": {
+    "id": "acGU8Hwtnok",
+    "title": "ハロー張りネズミのテーマ - THEME FROM HELLO HARINEZUMI",
+    "author": "SOIL & \"PIMP\" SESSIONS",
+    "authorId": "",
+    "duration": 182,
+    "durationStr": "3:02"
+  },
   "acH5dkZr4dI": {
     "id": "acH5dkZr4dI",
     "title": "Jai Maa Kali",
@@ -6482,6 +6586,14 @@
     "authorId": "UCBqkojCXby4zGkWX86FEY7Q",
     "duration": 249,
     "durationStr": "4:09"
+  },
+  "aehxcQ3iJEg": {
+    "id": "aehxcQ3iJEg",
+    "title": "中意他 - Liking Him",
+    "author": "Gigi Leung",
+    "authorId": "",
+    "duration": 173,
+    "durationStr": "2:53"
   },
   "aeiqJw93qqU": {
     "id": "aeiqJw93qqU",
@@ -7273,6 +7385,14 @@
     "duration": 195,
     "durationStr": "3:15"
   },
+  "aitY_5hyyRg": {
+    "id": "aitY_5hyyRg",
+    "title": "WE NEVER LOSE",
+    "author": "Pwyraz7 INC.",
+    "authorId": "",
+    "duration": 126,
+    "durationStr": "2:06"
+  },
   "aj0LXLdIubA": {
     "id": "aj0LXLdIubA",
     "title": "Left for Dead",
@@ -7304,6 +7424,14 @@
     "authorId": "UCitWOpLO-xKhp5d_i2qQsug",
     "duration": 213,
     "durationStr": "3:33"
+  },
+  "aj8KZqaq5tQ": {
+    "id": "aj8KZqaq5tQ",
+    "title": "10:35 [PAJANE Remix] (feat. Tate McRae)",
+    "author": "Tiësto",
+    "authorId": "UC8VSaPhuiHkjobAgNpRqLIA",
+    "duration": 129,
+    "durationStr": "2:09"
   },
   "aj9coPGuFkM": {
     "id": "aj9coPGuFkM",
@@ -7479,6 +7607,14 @@
     "duration": 188,
     "durationStr": "3:08"
   },
+  "ajwW8-7ldQ0": {
+    "id": "ajwW8-7ldQ0",
+    "title": "5 DA MANHÃ (Ao Vivo)",
+    "author": "Natanzinho Lima, Raí Saia Rodada",
+    "authorId": "UCJqd5Ejxi_fPcttEQ-E7hFw",
+    "duration": 187,
+    "durationStr": "3:07"
+  },
   "ajx-WLkiHnI": {
     "id": "ajx-WLkiHnI",
     "title": "Acıların Kadını",
@@ -7574,6 +7710,14 @@
     "authorId": "UCYVTs-FR7l2Td0GhLk1g35w",
     "duration": 221,
     "durationStr": "3:41"
+  },
+  "akHjxPS8FKg": {
+    "id": "akHjxPS8FKg",
+    "title": "Asi Eh (Remix) (feat. Darell)",
+    "author": "Tainy, Miky Woodz, Chencho",
+    "authorId": "UCeN6GRz4bN054slorYxms0w",
+    "duration": 235,
+    "durationStr": "3:55"
   },
   "akPbu6TOx2E": {
     "id": "akPbu6TOx2E",
@@ -9121,6 +9265,14 @@
     "duration": 258,
     "durationStr": "4:18"
   },
+  "atd_YqSsWFM": {
+    "id": "atd_YqSsWFM",
+    "title": "Lembrança Boa",
+    "author": "Traia Véia",
+    "authorId": "UC_e0Cslo6yZ9bfR8guoCzbQ",
+    "duration": 178,
+    "durationStr": "2:58"
+  },
   "ath-B3QolTY": {
     "id": "ath-B3QolTY",
     "title": "BB Mix",
@@ -9361,6 +9513,14 @@
     "duration": 141,
     "durationStr": "2:21"
   },
+  "auiAKIbVCxc": {
+    "id": "auiAKIbVCxc",
+    "title": "I Wasn't Meant To Feel This/Asleep At The Wheel",
+    "author": "Suicidal Tendencies",
+    "authorId": "UCy5VeNyBRswcYcutzhhZLEA",
+    "duration": 386,
+    "durationStr": "6:26"
+  },
   "aujESQwerhs": {
     "id": "aujESQwerhs",
     "title": "Child of Night",
@@ -9488,6 +9648,14 @@
     "authorId": "",
     "duration": 165,
     "durationStr": "2:45"
+  },
+  "avZ4uvYTZ70": {
+    "id": "avZ4uvYTZ70",
+    "title": "Razón Específica",
+    "author": "Los Ejemplares del Rancho",
+    "authorId": "UCL7Awu4ezIHosq5GQ9pHBQw",
+    "duration": 151,
+    "durationStr": "2:31"
   },
   "avarYXaqvHk": {
     "id": "avarYXaqvHk",
@@ -9678,6 +9846,14 @@
     "authorId": "UCXPGtdQ4Q-Fvhh8D_qSkclg",
     "duration": 177,
     "durationStr": "2:57"
+  },
+  "axPifqOSvm0": {
+    "id": "axPifqOSvm0",
+    "title": "Garden Grow",
+    "author": "Emily Ann Roberts",
+    "authorId": "UC_Hh7VtBWSkLcaDun3H49gw",
+    "duration": 211,
+    "durationStr": "3:31"
   },
   "axRAL0BXNvw": {
     "id": "axRAL0BXNvw",
@@ -10036,5 +10212,13 @@
     "authorId": "UCDuVF_nBrVBytI_QUzCiKNQ",
     "duration": 226,
     "durationStr": "3:46"
+  },
+  "azrf-sM4puo": {
+    "id": "azrf-sM4puo",
+    "title": "Amen",
+    "author": "Nick Sturms",
+    "authorId": "",
+    "duration": 275,
+    "durationStr": "4:35"
   }
 }

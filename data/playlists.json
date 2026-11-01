@@ -69259,6 +69259,9 @@
         "section": "Hip-hop energy"
       }
     ],
+    "genres": [
+      "hip_hop"
+    ],
     "thumbnailId": "kSZwnhOSYHQ4HfkYVrr-txJoT5IGJgiiRWAIxSQovuiJOenKf0F8cqGIBaEZlsi3jxPzCDUerQXtdA",
     "trackIds": [
       "hODwB72UKcA",
@@ -69329,9 +69332,6 @@
       "NUkNahFZ9UM",
       "NXZx2Cmc99o",
       "f2folm57T7o"
-    ],
-    "genres": [
-      "hip_hop"
     ]
   },
   "RDCLAK5uy_lSjjB36RBr3AGq48OJZhdJrFtFATKjLj0": {
@@ -178001,6 +178001,12 @@
   },
   "RDCLAK5uy_nptfYJyTBSGJ-QrXeHii_W9ixge6FffpI": {
     "title": "Japan Phonk",
+    "moods": [
+      {
+        "slug": "workout",
+        "section": "In the gym"
+      }
+    ],
     "genres": [
       "dance_and_electronic"
     ],
@@ -178084,12 +178090,6 @@
       "Q6XzjdyyPpE",
       "hLg4ekEE_HU",
       "8qeu9mreS2I"
-    ],
-    "moods": [
-      {
-        "slug": "workout",
-        "section": "In the gym"
-      }
     ]
   },
   "RDCLAK5uy_nq89n3hNAONAICX7hAg1mwqfaNnUcremI": {
