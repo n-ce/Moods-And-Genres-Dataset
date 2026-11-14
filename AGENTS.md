@@ -91,12 +91,12 @@ All files in `data/` must be deterministic, formatted with 2 spaces, and sorted 
 Moods-And-Genres-Dataset/
 └── data/
     ├── categories.json      # Taxonomy chips: moods { id, title } and genres { id, title, featuredSongs, featuredVideos }
-    ├── playlists.json       # Official Curated Playlists ONLY: { title, moods, genres, thumbnailId, trackIds }
-    ├── albums.json          # Albums Master: albumId -> { title, author, authorId, thumbnailId, year, trackIds }
+    ├── OLAK5uy_.json        # OLAK5uy albums: stripped albumId -> { title, author, authorId, thumbnailId, year, trackIds }
+    ├── MPREb_.json          # MPREb albums: stripped albumId -> { title, author, authorId, thumbnailId, year, trackIds }
+    ├── RDCLAK5uy_.json      # Official Curated Playlists (RDCLAK5uy_ prefix): stripped playlistId -> { title, moods, genres, thumbnailId, trackIds }
     ├── songs.json           # Consolidated ATVs: { id, title, author, authorId, albumId, duration, durationStr, thumbnailId }
     ├── videos.json          # Consolidated OMVs: { id, title, author, authorId, duration, durationStr }
-    ├── songs/               # 64 hex shards: {shard}.json (e.g. 2d.json, 30.json, 61.json)
-    ├── videos/              # 64 hex shards: {shard}.json
+    ├── tracks/               # 64 hex shards: {shard}.json — merged songs+videos (song precedence on ID collision)
     ├── trackIndex.json      # Inverted index: trackId -> [officialPlaylistIds]
     └── counterparts.json    # Planned addition (currently {})
 ```

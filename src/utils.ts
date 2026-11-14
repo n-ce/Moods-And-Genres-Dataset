@@ -24,12 +24,19 @@ export function sortKeys<T extends Record<string, any>>(obj: T): T {
 
 /**
  * Normalizes video/browse IDs by stripping prefixes like VL or MPED.
+ * If the raw ID is already a clean 11-character YouTube ID, it is returned as-is
+ * to avoid corrupting legitimate IDs that happen to start with "VL" or "MPED".
  */
 export function cleanId(rawId: string | undefined): string {
   if (!rawId) return "";
   let id = rawId.trim();
-  if (id.startsWith("VL")) id = id.substring(2);
-  if (id.startsWith("MPED")) id = id.substring(4);
+  if (/^[A-Za-z0-9_-]{11}$/.test(id)) return id;
+  if (id.startsWith("VL_")) id = id.substring(3);
+  else if (id.startsWith("VL-")) id = id.substring(3);
+  else if (id.startsWith("VL")) id = id.substring(2);
+  if (id.startsWith("MPED_")) id = id.substring(5);
+  else if (id.startsWith("MPED-")) id = id.substring(5);
+  else if (id.startsWith("MPED")) id = id.substring(4);
   return id;
 }
 
