@@ -6993,6 +6993,18 @@
       {
         "slug": "diwali",
         "section": "International festive grooves"
+      },
+      {
+        "slug": "energize",
+        "section": "Power boost"
+      },
+      {
+        "slug": "energize",
+        "section": "Motivation"
+      },
+      {
+        "slug": "workout",
+        "section": "In the gym"
       }
     ],
     "genres": [
@@ -12454,6 +12466,12 @@
   },
   "kG3nZ1Boo4N_xKIZZcyZESTnLlhBgD06k": {
     "title": "Sub Condiment",
+    "moods": [
+      {
+        "slug": "diwali",
+        "section": "Diwali szn 🧨🏵️"
+      }
+    ],
     "genres": [
       "indian_pop",
       "pop",
@@ -12561,12 +12579,6 @@
       "hKzJKRC8rvs",
       "BAdUIRZqTQM",
       "DTskE8wYpMg"
-    ],
-    "moods": [
-      {
-        "slug": "diwali",
-        "section": "Diwali szn 🧨🏵️"
-      }
     ]
   },
   "kGHYAi69KWgIEaGH9-sYOJKbvhuUovJUM": {
@@ -13531,6 +13543,12 @@
   },
   "kHSavu4ofFfVIOzsA_wa4SuMS3dc76TYQ": {
     "title": "Billion Views Club - EDM",
+    "moods": [
+      {
+        "slug": "diwali",
+        "section": "International festive grooves"
+      }
+    ],
     "genres": [
       "dance_and_electronic"
     ],
@@ -13579,12 +13597,6 @@
       "vMRxHpcKjEY",
       "5dbEhBKGOtY",
       "YxIiPLVR6NA"
-    ],
-    "moods": [
-      {
-        "slug": "diwali",
-        "section": "International festive grooves"
-      }
     ]
   },
   "kHiJYeN9KHADI5iV9WxeMU_hHtXn6o498": {
@@ -16825,6 +16837,10 @@
       {
         "slug": "commute",
         "section": "Today's hits"
+      },
+      {
+        "slug": "workout",
+        "section": "In the gym"
       }
     ],
     "genres": [
@@ -24004,6 +24020,12 @@
   },
   "kVSTOS9s3ujDERvOSfk0OOhs6VlETYVfg": {
     "title": "Today's R&B Christmas",
+    "moods": [
+      {
+        "slug": "christmas",
+        "section": "Featured playlists"
+      }
+    ],
     "genres": [
       "randb_and_soul"
     ],
@@ -24103,12 +24125,6 @@
       "LgdS-liNTlQ",
       "G7Y6Xl29I_4",
       "Kot_pw6pHAM"
-    ],
-    "moods": [
-      {
-        "slug": "christmas",
-        "section": "Featured playlists"
-      }
     ]
   },
   "kVUxfp5rqlymoz3otgDYSM5BYYCstq9EM": {
@@ -54198,6 +54214,81 @@
       "qQ2mrPmneZE"
     ]
   },
+  "l7H4q0R8IUIwZI2gnfpnzQzkVUnnHqH00": {
+    "title": "Modulation: Electronic Hits",
+    "genres": [
+      "dance_and_electronic"
+    ],
+    "thumbnailId": "CfSipeWMOfi60oBrPLFoelm8Ty5U36WPStTlg2-wGxlF8KDnaC_zv-bUYASVjp8qAuRL9QrjM4KJU8Y",
+    "trackIds": [
+      "-LO1PUGhaqg",
+      "kSDaN52-FN8",
+      "mXzNtTOlFdA",
+      "ecvCRrVvFYY",
+      "G86M5_vb-Fk",
+      "zGO142zWkIs",
+      "-UkuAG_ySZg",
+      "LsDFL27v5Ps",
+      "wqKagwr-CGs",
+      "AVu5p2DMIf8",
+      "QEGzoMaq9QE",
+      "t-bhiBIiUzI",
+      "G-cnC1IpWfQ",
+      "V_EC-itveJM",
+      "VUzg5liIjcs",
+      "sNbSU_mA7Wc",
+      "JPcVyq_BYjU",
+      "FkbkVbL6a6Y",
+      "fw0FLJ3dJ4c",
+      "DnTC2P9kxO8",
+      "YLwjH7VCmgw",
+      "L4cuHT3R8-I",
+      "e-QEGA2mTyc",
+      "ydRyOr3KYD0",
+      "xzxx3iW8DiQ",
+      "VJrLrstxYJk",
+      "oFD83Ufo1JQ",
+      "-hMjtL-FHG8",
+      "pAEERakiC6s",
+      "BSVOAD-Nyfc",
+      "ke6hDTz3OoY",
+      "o3ZUZz587nQ",
+      "OwmsHnzKfqU",
+      "9zbdYOkgcaE",
+      "MdCJbuJ34iU",
+      "gnwI3vbDYJ4",
+      "C7qoqS5CefM",
+      "WPyYoCzGYHU",
+      "_PUICvXxI1g",
+      "sQDEPiUuOH8",
+      "HitdH_FHzVs",
+      "p19UVI6eapI",
+      "YxwUik1KMMQ",
+      "FgD1l2kA21E",
+      "xt292VJWO9U",
+      "WDCCrpbE67k",
+      "WCBYmsOLRpw",
+      "d_DgGfnzwGk",
+      "aFUqsPHEXhA",
+      "METARwHltxE",
+      "_NZKKseG_oM",
+      "5imGcKeX-aU",
+      "xLlgCzu5NU8",
+      "kPH8Yg0ej7s",
+      "Djka3ieMJhw",
+      "kbVwrmk_jEA",
+      "CooCXGxlF2M",
+      "ZeYxbXgONWA",
+      "INF6PkCF5Jk",
+      "AtVUIS0KYuI",
+      "xvTqM6_uK8U",
+      "zbwCf95F9Kk",
+      "1_ljShOEFtw",
+      "Lhmbsb0jrH4",
+      "t_AC0uZHDvs",
+      "6d6wUhBV82U"
+    ]
+  },
   "l7K78k4EkjcFojhd1617rmUjY-aet6-t0": {
     "title": "K-Pop Party Hits",
     "moods": [
@@ -76337,6 +76428,12 @@
   },
   "laeibF1tuDcND2rwGeyrorAYvt13XpINU": {
     "title": "Hit Remix",
+    "moods": [
+      {
+        "slug": "diwali",
+        "section": "International festive grooves"
+      }
+    ],
     "genres": [
       "dance_and_electronic"
     ],
@@ -76442,12 +76539,6 @@
       "3SMHUqYt9Nk",
       "4uK8WfAgFBo",
       "aRk_nHqQTLQ"
-    ],
-    "moods": [
-      {
-        "slug": "diwali",
-        "section": "International festive grooves"
-      }
     ]
   },
   "lahGu6JbqItqnvE8Juv2Kh2CkvwSx5B_w": {
@@ -84051,6 +84142,24 @@
       "mgM3BJ1wZdY",
       "ix_3k_KM3nw",
       "ZEv9XKkpBIA"
+    ],
+    "moods": [
+      {
+        "slug": "energize",
+        "section": "Power boost"
+      },
+      {
+        "slug": "energize",
+        "section": "Motivation"
+      },
+      {
+        "slug": "energize",
+        "section": "Beast mode"
+      },
+      {
+        "slug": "workout",
+        "section": "In the gym"
+      }
     ]
   },
   "lk-XEQ33hlGUYXZ2A-e6H-mM0cBhcGv5A": {
@@ -84654,6 +84763,12 @@
   },
   "ll67UDSb-wmn6HUqSVLgFckTOXk4sOx08": {
     "title": "phonk house",
+    "moods": [
+      {
+        "slug": "diwali",
+        "section": "International festive grooves"
+      }
+    ],
     "genres": [
       "dance_and_electronic"
     ],
@@ -84735,12 +84850,6 @@
       "U4SbbHq_y1w",
       "SHHmO8o3GHQ",
       "o1ouOlwwGPc"
-    ],
-    "moods": [
-      {
-        "slug": "diwali",
-        "section": "International festive grooves"
-      }
     ]
   },
   "llM83Y-j8DfoxM_iJMHCU2NMM_UytLTT0": {
@@ -106638,6 +106747,51 @@
       "7h4UJJ9weA4",
       "D7vYa-bmisc",
       "vddSei9sdNk"
+    ]
+  },
+  "mDniPbr9LoWIKBzUVBIPMVAoLk9LKng8Q": {
+    "title": "Halo Series",
+    "moods": [
+      {
+        "slug": "gaming",
+        "section": "Gaming soundtracks"
+      }
+    ],
+    "thumbnailId": "tKMyzkTtz4iXQjhGAE_Eq7Ph_YW3OJWeRElMXILERkoMq-yU3BhU1Mb9NqdXgWkiKW7QCDdl5bX1FzqY",
+    "trackIds": [
+      "ePLDO68lcA4",
+      "m_D0-xV4xdQ",
+      "u2ukeNfHitE",
+      "6iieEf6fjt0",
+      "kjmu5bj5yBA",
+      "XRtsCXnUc5M",
+      "YMKf6j-AFIQ",
+      "g_OAjpbXRj4",
+      "zptzXFVU1eg",
+      "vDVDwgCQ6Qo",
+      "T8ny7e4DylU",
+      "Txraa3mELzw",
+      "CiDZ40LxTD4",
+      "O8RfyeSI_JQ",
+      "8MsxlQMyreM",
+      "P891n88xOCc",
+      "y0KZPLtsbSU",
+      "SCfl1swx5oM",
+      "gQ_8TeNfDl4",
+      "OpkSer8CNsA",
+      "v_lGYVlcx_I",
+      "yvm_JYmMU1g",
+      "DgGnpQDc5JM",
+      "Bzrnw4niuTA",
+      "otODiskcV8w",
+      "RugALElDJkg",
+      "SOqHUwYFGcE",
+      "346rm-hPLA4",
+      "zmKOKRjxAAo",
+      "8B2Cu-OWk_I",
+      "v-hc6Bxb0t4",
+      "zkE7Q1DAw4U",
+      "2Y6EX9gNLBk"
     ]
   },
   "mDr4Gy1V6eV55fj8oQ24KLSUrY9u2QKWA": {
@@ -133247,6 +133401,12 @@
   },
   "mmOxWtrtNxDL8Xa7tGkhIgoEIp3lsI75s": {
     "title": "Desi Hip Hop Floor Test",
+    "moods": [
+      {
+        "slug": "diwali",
+        "section": "Diwali szn 🧨🏵️"
+      }
+    ],
     "genres": [
       "desi_hip_hop",
       "hip_hop",
@@ -133354,12 +133514,6 @@
       "8b3YJ9yEwpg",
       "GOZLJCA2Ye0",
       "NWTf2uVzLyw"
-    ],
-    "moods": [
-      {
-        "slug": "diwali",
-        "section": "Diwali szn 🧨🏵️"
-      }
     ]
   },
   "mmbki5KAzdd4NFMn8dhIZSQOQTAaZ2Ikc": {
@@ -145761,6 +145915,10 @@
       {
         "slug": "energize",
         "section": "Dance club beats"
+      },
+      {
+        "slug": "energize",
+        "section": "Power boost"
       }
     ],
     "genres": [
@@ -148072,6 +148230,10 @@
       {
         "slug": "energize",
         "section": "Dance club beats"
+      },
+      {
+        "slug": "energize",
+        "section": "Beast mode"
       }
     ],
     "genres": [
@@ -159469,6 +159631,12 @@
   },
   "nMNuJpu8eZqf9NZm1dwow-64M-gg-bQ9s": {
     "title": "Classical Christmas",
+    "moods": [
+      {
+        "slug": "christmas",
+        "section": "Featured playlists"
+      }
+    ],
     "genres": [
       "classical"
     ],
@@ -159548,12 +159716,6 @@
       "jEYIO6FFvoY",
       "_9yszZ26eaM",
       "hIrlEtSDY8Y"
-    ],
-    "moods": [
-      {
-        "slug": "christmas",
-        "section": "Featured playlists"
-      }
     ]
   },
   "nMRqcKbbYRujfKKitokBwvLQSFHnsomls": {
