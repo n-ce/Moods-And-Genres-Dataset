@@ -38,7 +38,8 @@ This repository provides:
 3. **Pure Entity Separation**: Accurately distinguishes between official Audio Track Videos (ATVs / `songs.json`), Music Videos (OMVs / `videos.json`), Curated Playlists (`RDCLAK5uy_.json`), and Albums (`OLAK5uy_.json` / `MPREb_.json`).
 4. **Dual Serialization (Consolidated & Shards)**: Maintains monolithic master files (`songs.json`, `videos.json`) plus a merged `tracks/` shard directory (64 deterministic hex partitions) for fast incremental lookups without case-collision issues on Windows.
 5. **Clean ID Normalization**: Strips YouTube Music internal prefixes (`MPED`, `VL`) ensuring consistent 11-character video IDs and canonical browse IDs.
-6. **Zero-Dependency Bun Pipeline**: Natively runs TypeScript using Bun with no `node_modules` or `package.json`.
+6. **Multi-Artist Credits**: Optional `artists[]` array on song/video entries captures all credited artists (name + channel ID each) when multiple artists are present on a track, beyond the primary `author`/`authorId` pair.
+7. **Zero-Dependency Bun Pipeline**: Natively runs TypeScript using Bun with no `node_modules` or `package.json`.
 
 ---
 
@@ -145,6 +146,10 @@ Canonical Audio Track Videos (ATVs / `MUSIC_VIDEO_TYPE_ATV`):
     "title": "Kurai Onrum Illai - Ragamalika",
     "author": "M. S. Subbulakshmi, Radha Vishwanathan",
     "authorId": "UCfpe3O4lacV3Xe2krEARAdg",
+    "artists": [
+      { "name": "M. S. Subbulakshmi", "id": "UCfpe3O4lacV3Xe2krEARAdg" },
+      { "name": "Radha Vishwanathan", "id": "UC..." }
+    ],
     "albumId": "MPREb_HgIRjxZbCNR",
     "duration": 298,
     "durationStr": "4:58",
@@ -181,6 +186,10 @@ Merged songs + videos lookup shards (64 hex shards, `{shard}.json` keyed by the 
     "title": "Kurai Onrum Illai - Ragamalika",
     "author": "M. S. Subbulakshmi, Radha Vishwanathan",
     "authorId": "UCfpe3O4lacV3Xe2krEARAdg",
+    "artists": [
+      { "name": "M. S. Subbulakshmi", "id": "UCfpe3O4lacV3Xe2krEARAdg" },
+      { "name": "Radha Vishwanathan", "id": "UC..." }
+    ],
     "type": "song"
   },
   "someVideoId": {
