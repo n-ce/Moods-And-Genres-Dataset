@@ -1,4 +1,4 @@
-import type { PlaylistItem, TrackItem } from "./types";
+import type { ArtistCredit, PlaylistItem, TrackItem } from "./types";
 import { cleanId, extractThumbnailId, parseDuration } from "./utils";
 
 /**
@@ -7,6 +7,7 @@ import { cleanId, extractThumbnailId, parseDuration } from "./utils";
 export function extractArtistRuns(runs: any[] | undefined): {
   author: string;
   authorId: string | null;
+  artists?: ArtistCredit[];
 } {
   if (!Array.isArray(runs) || runs.length === 0) {
     return { author: "", authorId: null };
@@ -40,7 +41,26 @@ export function extractArtistRuns(runs: any[] | undefined): {
   const authorId =
     artistRuns[0]?.navigationEndpoint?.browseEndpoint?.browseId || null;
 
-  return { author, authorId };
+  const artists: ArtistCredit[] = artistRuns
+    .map((x: any) => ({
+      name: x.text?.trim() || "",
+      id: x.navigationEndpoint?.browseEndpoint?.browseId || undefined,
+    }))
+    .filter(
+      (x: any) =>
+        x.name &&
+        x.name !== "," &&
+        x.name !== "•" &&
+        x.name !== "&" &&
+        x.name !== "feat." &&
+        x.name !== "ft.",
+    );
+
+  return {
+    author,
+    authorId,
+    ...(artists.length > 1 ? { artists } : {}),
+  };
 }
 
 /**
@@ -114,7 +134,7 @@ export function extractPlaylistItem(item: any): PlaylistItem | null {
 
     const col1Runs =
       r.flexColumns?.[1]?.musicResponsiveListItemFlexColumnRenderer?.text?.runs;
-    const { author, authorId } = extractArtistRuns(col1Runs);
+    const { author, authorId, artists } = extractArtistRuns(col1Runs);
 
     if (name && id) {
       return { id, name, thumbnailId, ...(author ? { author, authorId } : {}) };
@@ -215,6 +235,7 @@ export function extractTrackItem(renderer: any): TrackItem | null {
     author,
     authorId,
     ...(albumId ? { albumId } : {}),
+    ...(artists && artists.length > 1 ? { artists } : {}),
   };
 
   if (isSong) {

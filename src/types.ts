@@ -1,3 +1,8 @@
+export interface ArtistCredit {
+  name: string;
+  id?: string;
+}
+
 export interface CategoryChip {
   id: string; // InnerTube browse params token
   title: string;
@@ -37,6 +42,7 @@ export interface SongEntry {
   title: string;
   author: string;
   authorId: string;
+  artists?: ArtistCredit[];
   albumId?: string;
   duration?: number;
   durationStr?: string;
@@ -61,6 +67,7 @@ export interface TrackItem {
   thumbnailId?: string;
   author: string;
   authorId: string | null;
+  artists?: ArtistCredit[];
   albumId?: string;
 }
 

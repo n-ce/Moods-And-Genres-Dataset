@@ -166,6 +166,7 @@ export async function scrapeDataset(
                 ? { duration: track.duration, durationStr: track.durationStr }
                 : {}),
               ...(track.thumbnailId ? { thumbnailId: track.thumbnailId } : {}),
+              ...(track.artists && track.artists.length > 1 ? { artists: track.artists } : {}),
             };
           } else if (playlistItem && !songs[id]) {
             songs[id] = {
@@ -362,6 +363,11 @@ export async function scrapeDataset(
               ...(t.thumbnailId || existing?.thumbnailId
                 ? { thumbnailId: t.thumbnailId || existing?.thumbnailId }
                 : {}),
+              ...(t.artists && t.artists.length > 1
+                ? { artists: t.artists }
+                : existing?.artists && existing.artists.length > 1
+                  ? { artists: existing.artists }
+                  : {}),
             };
           } else {
             const existing = videos[t.id];

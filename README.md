@@ -12,10 +12,12 @@ Built with [Bun](https://bun.sh) and TypeScript. Zero external dependencies.
 - [Consumer Integration: ytify `/featured` API](#consumer-integration-ytify-featured-api)
 - [Dataset Specifications (`data/`)](#dataset-specifications-data)
   - [`categories.json`](#categoriesjson)
-  - [`playlists.json`](#playlistsjson)
-  - [`albums.json`](#albumsjson)
-  - [`songs.json` and `songs/{shard}.json`](#songsjson-and-songsshardjson)
-  - [`videos.json` and `videos/{shard}.json`](#videosjson-and-videosshardjson)
+  - [`OLAK5uy_.json`](#olak5uyjson)
+  - [`MPREb_.json`](#mprebjson)
+  - [`RDCLAK5uy_.json`](#rdclak5uyjson)
+  - [`songs.json`](#songsjson)
+  - [`videos.json`](#videosjson)
+  - [`tracks/`](#tracks)
   - [`trackIndex.json`](#trackindexjson)
   - [`counterparts.json` (Planned Addition)](#counterpartsjson-planned-addition)
 - [Automated Scheduled Updates (GitHub Actions)](#automated-scheduled-updates-github-actions)
@@ -33,8 +35,8 @@ This repository provides:
 
 1. **Automated Scraping**: Reverse-engineers YouTube Music's InnerTube Web Remix API to scrape and normalize all moods, genres, playlists, and tracks without external libraries or authentication.
 2. **Deterministic Sorting**: Every JSON file in `data/` is strictly sorted alphabetically by key and formatted with 2 spaces for minimal git diffs and reproducible builds.
-3. **Pure Entity Separation**: Accurately distinguishes between official Audio Track Videos (ATVs / `songs.json`), Music Videos (OMVs / `videos.json`), Curated Playlists (`playlists.json`), and Albums (`albums.json`).
-4. **Dual Serialization (Consolidated & Shards)**: Maintains both monolithic master files (`songs.json`, `videos.json`) and 64 deterministic hex-partitioned shards (`songs/{shard}.json`, `videos/{shard}.json`) for optimal streaming, memory efficiency, and fast incremental lookups without case-collision issues on Windows.
+3. **Pure Entity Separation**: Accurately distinguishes between official Audio Track Videos (ATVs / `songs.json`), Music Videos (OMVs / `videos.json`), Curated Playlists (`RDCLAK5uy_.json`), and Albums (`OLAK5uy_.json` / `MPREb_.json`).
+4. **Dual Serialization (Consolidated & Shards)**: Maintains monolithic master files (`songs.json`, `videos.json`) plus a merged `tracks/` shard directory (64 deterministic hex partitions) for fast incremental lookups without case-collision issues on Windows.
 5. **Clean ID Normalization**: Strips YouTube Music internal prefixes (`MPED`, `VL`) ensuring consistent 11-character video IDs and canonical browse IDs.
 6. **Zero-Dependency Bun Pipeline**: Natively runs TypeScript using Bun with no `node_modules` or `package.json`.
 
@@ -77,13 +79,47 @@ Taxonomy chips for all moods and genres extracted from the landing page:
 }
 ```
 
-### `playlists.json`
+### `OLAK5uy_.json`
 
-Official Curated Playlists ONLY (no user community playlists, no albums, and no single video items):
+OLAK5uy albums (official album releases):
 
 ```json
 {
-  "RDCLAK5uy_k-1GcJ3HBnA0AnqKZNXCqP573RMFL9AFU": {
+  "k-4bifVXMTLRkSUgupITnpk56hyJAoRJ0": {
+    "title": "Album Title",
+    "author": "Artist Name",
+    "authorId": "UC...",
+    "thumbnailId": "...",
+    "year": "2024",
+    "trackIds": ["..."]
+  }
+}
+```
+
+### `MPREb_.json`
+
+MPREb albums (official album releases):
+
+```json
+{
+  "09qm5862SW4": {
+    "title": "Album Title",
+    "author": "Artist Name",
+    "authorId": "UC...",
+    "thumbnailId": "...",
+    "year": "2024",
+    "trackIds": ["..."]
+  }
+}
+```
+
+### `RDCLAK5uy_.json`
+
+Official Curated Playlists ONLY (no user community playlists, no albums, and no single video items). Keys are stripped playlist IDs (the `RDCLAK5uy_` prefix is implicit in the filename):
+
+```json
+{
+  "k-1GcJ3HBnA0AnqKZNXCqP573RMFL9AFU": {
     "title": "Dance club beats",
     "moods": [
       {
@@ -98,28 +134,9 @@ Official Curated Playlists ONLY (no user community playlists, no albums, and no 
 }
 ```
 
-### `albums.json`
-
-Curated albums discovered from category Albums / New Releases shelves with verified tracklists:
-
-```json
-{
-  "OLAK5uy_nBE4bLuBHUXWZrF59ZrkPEToKt8M_I3Vc": {
-    "title": "Album Title",
-    "author": "Artist Name",
-    "authorId": "UC...",
-    "thumbnailId": "...",
-    "year": "2024",
-    "trackIds": ["..."]
-  }
-}
-```
-
-### `songs.json` and `songs/{shard}.json`
+### `songs.json`
 
 Canonical Audio Track Videos (ATVs / `MUSIC_VIDEO_TYPE_ATV`):
-
-Available both as a consolidated file (`data/songs.json`) and partitioned into 64 shards (`data/songs/{shard}.json`) keyed by the 2-digit lowercase hex code of the track ID's first character (`id.charCodeAt(0).toString(16)`), avoiding file-system case collisions (`2d` for `-`, `30`-`39` for digits, `41`-`5a` for uppercase letters, `5f` for `_`, `61`-`7a` for lowercase letters):
 
 ```json
 {
@@ -136,11 +153,9 @@ Available both as a consolidated file (`data/songs.json`) and partitioned into 6
 }
 ```
 
-### `videos.json` and `videos/{shard}.json`
+### `videos.json`
 
 Canonical Official Music Videos (OMVs / `MUSIC_VIDEO_TYPE_OMV` / UGC):
-
-Available both as a consolidated file (`data/videos.json`) and partitioned into 64 shards (`data/videos/{shard}.json`):
 
 ```json
 {
@@ -151,6 +166,29 @@ Available both as a consolidated file (`data/videos.json`) and partitioned into 
     "authorId": "UC...",
     "duration": 245,
     "durationStr": "4:05"
+  }
+}
+```
+
+### `tracks/`
+
+Merged songs + videos lookup shards (64 hex shards, `{shard}.json` keyed by the first character of the track ID). Provides fast single-file lookups instead of checking both `songs.json` and `videos.json`. On ID collision between a song and video, the song entry takes precedence:
+
+```json
+{
+  "-0oagW-YqMk": {
+    "id": "-0oagW-YqMk",
+    "title": "Kurai Onrum Illai - Ragamalika",
+    "author": "M. S. Subbulakshmi, Radha Vishwanathan",
+    "authorId": "UCfpe3O4lacV3Xe2krEARAdg",
+    "type": "song"
+  },
+  "someVideoId": {
+    "id": "someVideoId",
+    "title": "Some Video",
+    "author": "Artist Name",
+    "authorId": "UC...",
+    "type": "video"
   }
 }
 ```
@@ -192,12 +230,12 @@ Moods-And-Genres-Dataset/
 │       └── update-data.yml    # Weekly automated scraper CI workflow
 ├── data/
 │   ├── categories.json        # Mood and genre category taxonomy
-│   ├── playlists.json         # Curated official playlists
-│   ├── albums.json            # Albums with complete tracklists
+│   ├── OLAK5uy_.json          # OLAK5uy albums (keys stripped of prefix)
+│   ├── MPREb_.json            # MPREb albums (keys stripped of prefix)
+│   ├── RDCLAK5uy_.json        # Curated official playlists (keys stripped of prefix)
 │   ├── songs.json             # Consolidated songs master (ATVs)
 │   ├── videos.json            # Consolidated music videos master (OMVs)
-│   ├── songs/                 # 64 hex shards: {shard}.json (e.g. 2d.json, 30.json, 61.json)
-│   ├── videos/                # 64 hex shards: {shard}.json
+│   ├── tracks/                # 64 hex shards: merged songs+videos (song precedence on collision)
 │   ├── trackIndex.json        # Inverted index (trackId -> playlistIds)
 │   └── counterparts.json      # Planned counterpart mapping
 ├── src/

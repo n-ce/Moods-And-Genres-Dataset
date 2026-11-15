@@ -94,7 +94,7 @@ Moods-And-Genres-Dataset/
     ├── OLAK5uy_.json        # OLAK5uy albums: stripped albumId -> { title, author, authorId, thumbnailId, year, trackIds }
     ├── MPREb_.json          # MPREb albums: stripped albumId -> { title, author, authorId, thumbnailId, year, trackIds }
     ├── RDCLAK5uy_.json      # Official Curated Playlists (RDCLAK5uy_ prefix): stripped playlistId -> { title, moods, genres, thumbnailId, trackIds }
-    ├── songs.json           # Consolidated ATVs: { id, title, author, authorId, albumId, duration, durationStr, thumbnailId }
+    ├── songs.json           # Consolidated ATVs: { id, title, author, authorId, artists?, albumId, duration, durationStr, thumbnailId }
     ├── videos.json          # Consolidated OMVs: { id, title, author, authorId, duration, durationStr }
     ├── tracks/               # 64 hex shards: {shard}.json — merged songs+videos (song precedence on ID collision)
     ├── trackIndex.json      # Inverted index: trackId -> [officialPlaylistIds]
